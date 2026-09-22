@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type FormEvent } from 'react';
 import { createUser, deleteUser, listUsers, updateUser, type User, type UserRole } from './mockUsersApi';
 
 type UserFormState = {
@@ -24,10 +24,11 @@ function UsersPage() {
   const [form, setForm] = useState<UserFormState>(emptyForm);
 
   useEffect(() => {
-    listUsers().then((data) => {
-      setUsers(data);
-      setLoading(false);
-    });
+    listUsers()
+      .then((data) => {
+        setUsers(data);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   const selectedUser = useMemo(() => users.find((user) => user.id === editingId) ?? null, [users, editingId]);
@@ -49,7 +50,7 @@ function UsersPage() {
     setForm(emptyForm);
   };
 
-  const handleSubmit = async (event: React.FormEvent) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (editingId) {
       const updated = await updateUser(editingId, form);
@@ -145,15 +146,15 @@ function UsersPage() {
 
           <form className="user-form" onSubmit={handleSubmit}>
             <label>
-              Name
+              <span>Name</span>
               <input value={form.name} onChange={(event) => setForm({ ...form, name: event.target.value })} />
             </label>
             <label>
-              Email
+              <span>Email</span>
               <input value={form.email} onChange={(event) => setForm({ ...form, email: event.target.value })} />
             </label>
             <label>
-              Role
+              <span>Role</span>
               <select value={form.role} onChange={(event) => setForm({ ...form, role: event.target.value as UserRole })}>
                 <option>Admin</option>
                 <option>Manager</option>
@@ -162,7 +163,7 @@ function UsersPage() {
               </select>
             </label>
             <label>
-              Status
+              <span>Status</span>
               <select
                 value={form.status}
                 onChange={(event) => setForm({ ...form, status: event.target.value as User['status'] })}
@@ -173,8 +174,11 @@ function UsersPage() {
               </select>
             </label>
             <label>
-              Last login
-              <input value={form.lastLogin} onChange={(event) => setForm({ ...form, lastLogin: event.target.value })} />
+              <span>Last login</span>
+              <input
+                value={form.lastLogin}
+                onChange={(event) => setForm({ ...form, lastLogin: event.target.value })}
+              />
             </label>
 
             <div className="form-actions">
