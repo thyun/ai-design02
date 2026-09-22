@@ -1,9 +1,12 @@
+import { useMemo, useState } from 'react';
+import UsersPage from './users';
+
 const menuItems = [
-  { label: 'Overview', meta: 'Home', active: true },
-  { label: 'Payments', meta: 'Billing', active: false },
-  { label: 'Customers', meta: 'CRM', active: false },
-  { label: 'Analytics', meta: 'Data', active: false },
-  { label: 'Developers', meta: 'API', active: false },
+  { label: 'Overview', meta: 'Home', key: 'overview' },
+  { label: 'Payments', meta: 'Billing', key: 'payments' },
+  { label: 'Customers', meta: 'CRM', key: 'customers' },
+  { label: 'Analytics', meta: 'Data', key: 'analytics' },
+  { label: 'Users', meta: 'Accounts', key: 'users' },
 ];
 
 const summaryCards = [
@@ -30,6 +33,90 @@ const bars = [
 ];
 
 function App() {
+  const [activeKey, setActiveKey] = useState('overview');
+
+  const currentPage = useMemo(() => {
+    if (activeKey === 'users') {
+      return <UsersPage />;
+    }
+
+    return (
+      <>
+        <header className="hero-card">
+          <div className="hero-copy">
+            <span className="soft-pill">Overview</span>
+            <h1>결제와 운영 상태를 한 화면에서 관리하세요</h1>
+            <p>
+              DESIGN.md의 Stripi 규칙에 맞춘 메인 대시보드입니다. 핵심 수치, 매출 추이,
+              운영 이벤트를 빠르게 파악할 수 있도록 구성했습니다.
+            </p>
+          </div>
+
+          <div className="hero-actions">
+            <button className="secondary-button">Docs</button>
+            <button className="primary-button">Download report</button>
+          </div>
+        </header>
+
+        <section className="stats-grid">
+          {summaryCards.map((card) => (
+            <article key={card.title} className="feature-card">
+              <span className="card-label">{card.title}</span>
+              <strong className="card-value tabular">{card.value}</strong>
+              <p className={`card-change ${card.tone}`}>{card.change} from last month</p>
+            </article>
+          ))}
+        </section>
+
+        <section className="main-grid">
+          <article className="mockup-card">
+            <div className="section-head">
+              <div>
+                <span className="eyebrow">Performance</span>
+                <h2>주간 거래액 추이</h2>
+              </div>
+              <span className="section-note tabular">Updated 5 min ago</span>
+            </div>
+
+            <div className="chart-area">
+              {bars.map((bar) => (
+                <div key={bar.label} className="bar-column">
+                  <span className="bar-value tabular">{bar.value}</span>
+                  <div className="bar-rail">
+                    <div className="bar-fill" style={{ height: `${bar.height}%` }} />
+                  </div>
+                  <span className="bar-label">{bar.label}</span>
+                </div>
+              ))}
+            </div>
+          </article>
+
+          <article className="cream-card">
+            <div className="section-head">
+              <div>
+                <span className="eyebrow">Live</span>
+                <h2>최근 활동</h2>
+              </div>
+            </div>
+
+            <div className="activity-list">
+              {activities.map((activity) => (
+                <div key={activity.title} className="activity-item">
+                  <div className="activity-badge" />
+                  <div className="activity-copy">
+                    <strong>{activity.title}</strong>
+                    <p>{activity.detail}</p>
+                  </div>
+                  <span className="activity-time tabular">{activity.time}</span>
+                </div>
+              ))}
+            </div>
+          </article>
+        </section>
+      </>
+    );
+  }, [activeKey]);
+
   return (
     <div className="page-shell">
       <div className="hero-mesh" aria-hidden="true">
@@ -52,7 +139,11 @@ function App() {
 
           <nav className="sidebar-nav">
             {menuItems.map((item) => (
-              <button key={item.label} className={`nav-item${item.active ? ' active' : ''}`}>
+              <button
+                key={item.key}
+                className={`nav-item${activeKey === item.key ? ' active' : ''}`}
+                onClick={() => setActiveKey(item.key)}
+              >
                 <span>{item.label}</span>
                 <small>{item.meta}</small>
               </button>
@@ -67,79 +158,7 @@ function App() {
           </article>
         </aside>
 
-        <main className="content">
-          <header className="hero-card">
-            <div className="hero-copy">
-              <span className="soft-pill">Overview</span>
-              <h1>결제와 운영 상태를 한 화면에서 관리하세요</h1>
-              <p>
-                DESIGN.md의 Stripi 규칙에 맞춘 메인 대시보드입니다. 핵심 수치, 매출 추이,
-                운영 이벤트를 빠르게 파악할 수 있도록 구성했습니다.
-              </p>
-            </div>
-
-            <div className="hero-actions">
-              <button className="secondary-button">Docs</button>
-              <button className="primary-button">Download report</button>
-            </div>
-          </header>
-
-          <section className="stats-grid">
-            {summaryCards.map((card) => (
-              <article key={card.title} className="feature-card">
-                <span className="card-label">{card.title}</span>
-                <strong className="card-value tabular">{card.value}</strong>
-                <p className={`card-change ${card.tone}`}>{card.change} from last month</p>
-              </article>
-            ))}
-          </section>
-
-          <section className="main-grid">
-            <article className="mockup-card">
-              <div className="section-head">
-                <div>
-                  <span className="eyebrow">Performance</span>
-                  <h2>주간 거래액 추이</h2>
-                </div>
-                <span className="section-note tabular">Updated 5 min ago</span>
-              </div>
-
-              <div className="chart-area">
-                {bars.map((bar) => (
-                  <div key={bar.label} className="bar-column">
-                    <span className="bar-value tabular">{bar.value}</span>
-                    <div className="bar-rail">
-                      <div className="bar-fill" style={{ height: `${bar.height}%` }} />
-                    </div>
-                    <span className="bar-label">{bar.label}</span>
-                  </div>
-                ))}
-              </div>
-            </article>
-
-            <article className="cream-card">
-              <div className="section-head">
-                <div>
-                  <span className="eyebrow">Live</span>
-                  <h2>최근 활동</h2>
-                </div>
-              </div>
-
-              <div className="activity-list">
-                {activities.map((activity) => (
-                  <div key={activity.title} className="activity-item">
-                    <div className="activity-badge" />
-                    <div className="activity-copy">
-                      <strong>{activity.title}</strong>
-                      <p>{activity.detail}</p>
-                    </div>
-                    <span className="activity-time tabular">{activity.time}</span>
-                  </div>
-                ))}
-              </div>
-            </article>
-          </section>
-        </main>
+        <main className="content">{currentPage}</main>
       </div>
     </div>
   );
