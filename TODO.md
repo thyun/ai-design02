@@ -42,6 +42,7 @@ throw new Error('Failed to load users');
 const data = await response.json();
 return data.map(mapUser);
 }
+
 function mapUser(apiUser: ApiUser): User {
 return {
 id: apiUser.id,

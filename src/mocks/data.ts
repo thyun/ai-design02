@@ -1,4 +1,4 @@
-import type { User } from '../mockUsersApi';
+import type { User } from '../api/usersApi';
 
 let users: User[] = [
   { id: 1, name: 'Olivia Kim', email: 'olivia@company.com', role: 'Admin', status: 'Active', lastLogin: '2 min ago' },

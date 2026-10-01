@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react';
-import { createUser, deleteUser, listUsers, updateUser, type User, type UserRole } from '../mockUsersApi';
+import { createUser, deleteUser, listUsers, updateUser, type User, type UserRole } from '../api/usersApi';
 import './users.css';
 
 type UserFormState = {
