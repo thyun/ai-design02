@@ -18,7 +18,8 @@
 
 ## Code style
 - Use React function components and TypeScript.
-- Keep styling in `src/styles.css` unless a task clearly benefits from splitting files.
+- Keep shared styling in `src/styles.css`.
+- When a feature has page-specific styles, colocate them with that feature in a dedicated directory under `src/` (for example `src/users/users.tsx` and `src/users/users.css`).
 - Use ASCII text unless the file already requires otherwise.
 
 ## Verification

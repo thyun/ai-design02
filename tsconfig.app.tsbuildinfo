@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/mockusersapi.ts","./src/users.tsx","./src/mocks/browser.ts","./src/mocks/data.ts","./src/mocks/handlers.ts","./src/mocks/index.ts"],"version":"5.9.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/mockusersapi.ts","./src/mocks/browser.ts","./src/mocks/data.ts","./src/mocks/handlers.ts","./src/mocks/index.ts","./src/users/users.tsx"],"version":"5.9.3"}

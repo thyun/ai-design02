@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import UsersPage from './users';
+import UsersPage from './users/users';
 
 const menuItems = [
   { label: 'Overview', meta: 'Home', key: 'overview' },
