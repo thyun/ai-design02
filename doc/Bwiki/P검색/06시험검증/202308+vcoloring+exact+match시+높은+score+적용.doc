@@ -1,0 +1,578 @@
+Date: Thu, 1 Oct 2026 18:03:41 +0900 (KST)
+Message-ID: <1003556214.29686.1790845421275@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29685_1029320347.1790845421270"
+
+------=_Part_29685_1029320347.1790845421270
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>202308 vcoloring exact match=EC=8B=9C =EB=86=92=EC=9D=80 score =
+=EC=A0=81=EC=9A=A9</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>202308 vcoloring exact match=EC=8B=9C =EB=86=92=EC=9D=80 score =EC=
+=A0=81=EC=9A=A9</h1>
+    <div class=3D"Section1">
+        <ul>
+<li class=3D"auto-cursor-target">BM25(TF-IDF) socre
+<ul>
+<li class=3D"auto-cursor-target">shard =EA=B0=AF=EC=88=98=3D1 =EC=9D=BC=EB=
+=95=8C pink =EA=B2=80=EC=83=89=EC=8B=9C name=EC=9D=B4 =EC=A7=A7=EC=9C=BC=EB=
+=A9=B4 score =EB=86=92=EC=9D=8C</li>
+<li class=3D"auto-cursor-target">shard =EA=B0=AF=EC=88=98&gt;1 =EC=9D=BC=EB=
+=95=8C name=EC=9D=B4 =EC=A7=A7=EC=95=84=EB=8F=84 =EA=BC=AD score=EA=B0=80 =
+=EB=86=92=EC=9D=80 =EA=B2=83=EC=9D=80 =EC=95=84=EB=8B=98</li>
+<li class=3D"auto-cursor-target">=3D&gt; BM25 socre =EC=82=AC=EC=9A=A9=EC=
+=8B=9C exact match=ED=95=98=EC=97=AC=EB=8F=84 =EA=BC=AD socre=EA=B0=80 =EB=
+=86=92=EA=B2=8C =EB=B3=B4=EC=9E=A5=EB=90=98=EB=8A=94 =EA=B2=83=EC=9D=80 =EC=
+=95=84=EB=8B=98</li>
+</ul></li>
+<li>exact match=EC=8B=9C =EB=86=92=EC=9D=80 score =EB=B6=80=EC=97=AC
+<ul>
+<li>name.keyword match=EC=8B=9C =EB=86=92=EC=9D=80 score =EB=B6=80=EC=97=AC=
+</li>
+<li>name.keyword_syn match=EC=8B=9C =EB=86=92=EC=9D=80 score =EB=B6=80=EC=
+=97=AC</li>
+</ul></li>
+<li>name.keyword_syn =ED=95=84=EB=93=9C
+<ul>
+<li>name=3Djennie=EC=9D=B8 =EA=B2=BD=EC=9A=B0 name.keyword_syn =ED=95=84=EB=
+=93=9C=EB=8A=94 =EC=BB=B4=EB=A7=88=EB=A1=9C =EB=B6=84=EB=A6=AC=ED=95=98=EC=
+=97=AC keyword array =EC=9D=98=EB=AF=B8=EB=A1=9C =EC=83=89=EC=9D=B8=EB=90=
+=A8</li>
+<li>keyword_syn =ED=95=84=EB=93=9C =EC=9C=A0=EC=82=AC=EC=96=B4=3D[jennie,=
+=EC=A0=9C=EB=8B=88,=EB=B8=94=EB=9E=99=ED=95=91=ED=81=AC,=EB=B8=94=ED=95=91=
+=EC=A0=9C=EB=8B=88,=EC=82=AC=EB=9E=91 =EC=A0=9C=EB=8B=88,=EB=9F=AC=EB=B8=8C=
+ =EC=A0=9C=EB=8B=88]
+<ul>
+<li>=EC=9D=B4 =EB=95=8C '=EC=82=AC=EB=9E=91 =EC=A0=9C=EB=8B=88'=EC=99=80 =
+=EA=B0=99=EC=9D=B4 =EA=B0=81 =ED=82=A4=EC=9B=8C=EB=93=9C=EB=A1=9C =EA=B2=80=
+=EC=83=89 =EA=B0=80=EB=8A=A5</li>
+</ul></li>
+</ul></li>
+</ul>
+<div id=3D"expander-1502611872" class=3D"expand-container">
+<div id=3D"expander-control-1502611872" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-1502611872" class=3D"expand-content">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># test-=
+vcoloring-creator
+DELETE /test-vcoloring-creator
+PUT /test-vcoloring-creator
+{
+    "mappings" : {
+      "properties" : {
+        "createDate" : {
+          "type" : "date"
+        },
+        "id" : {
+          "type" : "long"
+        },
+        "name" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "keyword_syn" : {
+              "type" : "text",
+              "analyzer" : "keyword_synonyms",
+              "search_analyzer" : "keyword"
+            },
+            "ngram" : {
+              "type" : "text",
+              "analyzer" : "ngram_analyzer",
+              "search_analyzer" : "standard"
+            },
+            "std" : {
+              "type" : "text"
+            },
+            "std_syn" : {
+              "type" : "text",
+              "analyzer" : "standard_synonyms",
+              "search_analyzer" : "standard"
+            },
+            "syn" : {
+              "type" : "text",
+              "analyzer" : "korean_synonyms",
+              "search_analyzer" : "korean_searcher"
+            }
+          },
+          "analyzer" : "korean_no_synonyms",
+          "search_analyzer" : "korean_searcher"
+        },
+        "priority" : {
+          "type" : "long"
+        },
+        "thumbnailUrl" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "type" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "uniqueValue" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        }
+      }
+    },
+    "settings" : {
+      "index" : {
+        "max_ngram_diff" : "3",
+        "search" : {
+          "slowlog" : {
+            "threshold" : {
+              "query" : {
+                "warn" : "3s"
+              }
+            }
+          }
+        },
+        "number_of_shards" : "1",
+        "analysis" : {
+          "filter" : {
+            "synonym_filter" : {
+              "type" : "synonym",
+              "synonyms": [
+                "BLACKPINK =3D&gt; BLACKPINK,=EB=B8=94=EB=9E=99=ED=95=91=ED=
+=81=AC",
+                "jennie =3D&gt; jennie,=EC=A0=9C=EB=8B=88,=EB=B8=94=EB=9E=
+=99=ED=95=91=ED=81=AC,=EB=B8=94=ED=95=91=EC=A0=9C=EB=8B=88,=EC=82=AC=EB=9E=
+=91 =EC=A0=9C=EB=8B=88,=EB=9F=AC=EB=B8=8C =EC=A0=9C=EB=8B=88"
+                ],
+              "lenient" : "true"
+            }
+          },
+          "analyzer" : {
+            "korean_no_synonyms" : {
+              "filter" : [ "lowercase", "stop" ],
+              "type" : "custom",
+              "tokenizer" : "seunjeon"
+            },
+            "korean_searcher" : {
+              "filter" : [ "lowercase", "stop" ],
+              "type" : "custom",
+              "tokenizer" : "seunjeon"
+            },
+            "ngram_analyzer" : {
+              "tokenizer" : "ngram"
+            },
+            "standard_synonyms" : {
+              "filter" : [ "lowercase", "synonym_filter" ],
+              "type" : "custom",
+              "tokenizer" : "standard"
+            },
+            "korean_synonyms" : {
+              "filter" : [ "lowercase", "stop", "synonym_filter" ],
+              "type" : "custom",
+              "tokenizer" : "seunjeon"
+            },
+            "keyword_synonyms" : {
+              "filter" : [ "lowercase", "synonym_filter" ],
+              "type" : "custom",
+              "tokenizer" : "keyword"
+            }
+          },
+          "tokenizer" : {
+            "seunjeon" : {
+              "index_poses" : [ "N", "SL", "SH", "SN", "XR", "V", "UNK", "I=
+", "J", "M" ],
+              "pos_tagging" : "false",
+              "user_dict_path" : "analyzers/F30092028",
+              "index_eojeol" : "false",
+              "decompound" : "true",
+              "type" : "seunjeon_tokenizer",
+              "deinflect" : "false"
+            },
+            "ngram" : {
+              "token_chars" : [ "letter", "digit" ],
+              "min_gram" : "2",
+              "type" : "ngram",
+              "max_gram" : "5"
+            }
+          }
+        },
+        "number_of_replicas" : "0"
+      }
+    }
+}
+GET test-vcoloring-creator/_analyze
+{
+  "analyzer": "keyword_synonyms",
+  "text": [
+    "jennie"
+  ]
+}
+
+POST /test-vcoloring-creator/_doc
+{
+          "id" : 9,
+          "name" : "BLACKPINK",
+          "type" : "CREATOR",
+          "thumbnailUrl" : "https://www-qa.vcoloring.com/resources/creator/=
+9.jpg?0",
+          "uniqueValue" : "@blackpink",
+          "createDate" : "2023-06-28T16:59:55+09:00",
+          "priority" : 1
+        }
+POST /test-vcoloring-creator/_doc
+{
+          "id" : 77,
+          "name" : "jennie",
+          "type" : "ARTIST_MGR",
+          "thumbnailUrl" : "https://www-qa.vcoloring.com/resources/artist/4=
+02956298_6323d175_s.jpg",
+          "createDate" : "2023-06-07T13:26:05+09:00",
+          "priority" : 2
+        }
+POST /test-vcoloring-creator/_doc
+{
+          "id" : 11,
+          "name" : "pink",
+          "type" : "CREATOR",
+          "thumbnailUrl" : "https://www-qa.vcoloring.com/resources/artist/4=
+03255379_6323d1a3_o.jpg",
+          "uniqueValue" : "@jennie",
+          "createDate" : "2023-06-28T18:15:57+09:00",
+          "priority" : 1
+        }
+POST /test-vcoloring-creator/_doc
+{
+          "id" : 203,
+          "cname": "=EC=86=94=EB=9D=BC",
+          "name" : "white pink",
+          "type" : "ARTIST_MGR",
+          "thumbnailUrl" : "https://www-qa.vcoloring.com/resources/artist/4=
+03169777_6424fd3a_s.jpg",
+          "createDate" : "2023-06-09T17:08:34+09:00",
+          "priority" : 2
+        }
+POST /test-vcoloring-creator/_doc     =20
+{
+          "id" : 120,
+          "cname": "=EB=A7=88=EB=A7=88=EB=AC=B4",
+          "name" : "white black pink",
+          "type" : "ARTIST_MGR",
+          "thumbnailUrl" : "https://www-qa.vcoloring.com/resources/artist/4=
+03169774_6344f776_s.jpg",
+          "createDate" : "2023-06-09T17:06:53+09:00",
+          "priority" : 2
+       =20
+      }
+POST /test-vcoloring-creator/_doc     =20
+{
+          "id" : 120,
+          "cname": "=EB=A7=88=EB=A7=88=EB=AC=B4",
+          "name" : "Our Story Being raised on a farm had a significant infl=
+uence on my life. As I grew up, I studied anthropology, history, and Africa=
+n pink",
+          "type" : "ARTIST_MGR",
+          "thumbnailUrl" : "https://www-qa.vcoloring.com/resources/artist/4=
+03169774_6344f776_s.jpg",
+          "createDate" : "2023-06-09T17:06:53+09:00",
+          "priority" : 2
+       =20
+      }
+     =20
+GET test-vcoloring-creator/_search
+{
+  "explain": true,
+  "from": 0,
+  "size": 10,
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "multi_match": {
+                "query": "pink",
+                "fields": [
+                  "name^1.0"
+                ],
+                "type": "cross_fields",
+                "operator": "AND"
+              }
+            }
+          ],
+          "adjust_pure_negative": true,
+          "boost": 1
+        }
+      }
+}
+GET test-vcoloring-creator/_search
+{
+  "explain": true,
+  "from": 0,
+  "size": 10,
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "multi_match": {
+                "query": "=EB=B8=94=ED=95=91=EC=A0=9C=EB=8B=88",
+                "fields": [
+                  "name.keyword_syn^10.0"
+                ],
+                "type": "cross_fields",
+                "operator": "AND"
+              }
+            }
+          ],
+          "adjust_pure_negative": true,
+          "boost": 1
+        }
+      }
+}</pre>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_29685_1029320347.1790845421270--

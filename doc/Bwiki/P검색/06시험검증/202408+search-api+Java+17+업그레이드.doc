@@ -1,0 +1,532 @@
+Date: Thu, 1 Oct 2026 18:03:46 +0900 (KST)
+Message-ID: <2012375807.29688.1790845426956@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29687_89495127.1790845426947"
+
+------=_Part_29687_89495127.1790845426947
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>202408 search-api Java 17 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>202408 search-api Java 17 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=
+=93=9C</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1790845426869 {padding: 0px;}
+div.rbtoc1790845426869 ul {margin-left: 0px;}
+div.rbtoc1790845426869 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1790845426869">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=
+=B4=EB=93=9C-search-apiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C=
+=EC=B0=B8=EC=A1=B0">search-api Java 11 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C =EC=B0=B8=EC=A1=B0</a></li>
+<li><a href=3D"#id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=
+=B4=EB=93=9C-search-api=EA=B8=B0=EC=A1=B4=EB=B2=84=EC=A0=84">search-api =EA=
+=B8=B0=EC=A1=B4 =EB=B2=84=EC=A0=84</a></li>
+<li><a href=3D"#id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=
+=B4=EB=93=9C-=EB=B0=9C=EC=83=9D=EB=AC=B8=EC=A0=9C">=EB=B0=9C=EC=83=9D =EB=
+=AC=B8=EC=A0=9C</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=
+=B4=EB=93=9C-Property'spring.profiles'shouldbereplacedwith'spring.config.ac=
+tivate.on-profile'">Property 'spring.profiles' should be replaced with 'spr=
+ing.config.activate.on-profile'</a></li>
+<li><a href=3D"#id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=
+=B4=EB=93=9C-Addingcacheablemethodthrowsjava.io.IOException">Adding cacheab=
+le method throws java.io.IOException</a></li>
+<li><a href=3D"#id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=
+=B4=EB=93=9C-TheJVMispreventingEhcachefromaccessingthesubgraphbeneath">The =
+JVM is preventing Ehcache from accessing the subgraph beneath</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<p><br></p>
+<h1 id=3D"id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=
+=93=9C-search-apiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C=EC=B0=
+=B8=EC=A1=B0">search-api Java 11 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=
+=9C =EC=B0=B8=EC=A1=B0</h1>
+<p><a href=3D"/pages/viewpage.action?pageId=3D531572204">202307 search-api =
+Java 11 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C</a></p>
+<h1 id=3D"id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=
+=93=9C-search-api=EA=B8=B0=EC=A1=B4=EB=B2=84=EC=A0=84">search-api =EA=B8=B0=
+=EC=A1=B4 =EB=B2=84=EC=A0=84</h1>
+<ul>
+<li>Java 11 + Spring boot 2.7.13</li>
+<li>Spring boot system requirements
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><a class=3D"external-link" href=3D"h=
+ttps://docs.spring.io/spring-boot/docs/2.7.13/reference/html/getting-starte=
+d.html#getting-started.system-requirements" rel=3D"nofollow">https://docs.s=
+pring.io/spring-boot/docs/2.7.13/reference/html/getting-started.html#gettin=
+g-started.system-requirements</a></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">Spring Boot 2.7.13 requires<span>&nbsp;</span></span><a class=3D"external=
+-link" href=3D"https://www.java.com/" style=3D"text-decoration: none;" rel=
+=3D"nofollow">Java 8</a><span style=3D"color: rgb(25,30,30);"><span>&nbsp;<=
+/span>and is compatible up to and including Java 20.<span>&nbsp;</span></sp=
+an><a href=3D"https://docs.spring.io/spring-framework/docs/5.3.28/reference=
+/html/" class=3D"external-link" style=3D"text-decoration: none;" rel=3D"nof=
+ollow">Spring Framework 5.3.28</a><span style=3D"color: rgb(25,30,30);"><sp=
+an>&nbsp;</span>or above is also required.</span></span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+"><a class=3D"external-link" href=3D"https://docs.spring.io/spring-boot/doc=
+s/3.0.13/reference/html/getting-started.html" rel=3D"nofollow">https://docs=
+.spring.io/spring-boot/docs/3.0.13/reference/html/getting-started.html</a><=
+/span></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">Spring Boot 3.0.13 requires<span>&nbsp;</span><a style=3D"text-decoration=
+: none;" href=3D"https://www.java.com/" class=3D"external-link" rel=3D"nofo=
+llow">Java 17</a><span>&nbsp;</span>and is compatible up to and including J=
+ava 21.<span>&nbsp;</span><a href=3D"https://docs.spring.io/spring-framewor=
+k/reference/6.0/" style=3D"text-decoration: none;" class=3D"external-link" =
+rel=3D"nofollow">Spring Framework 6.0.14</a><span>&nbsp;</span>or above is =
+also required.</span></span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">=3D&gt; Spring boot 3.0.13 =EC=A0=81=EC=9A=A9=EC=9D=84 =EC=9C=84=ED=95=B4=
+=EC=84=9C Java 17 =EC=82=AC=EC=9A=A9 =ED=95=84=EC=88=98</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">=3D&gt; =EB=8B=A8=EA=B3=84=EC=A0=81=EC=9C=BC=EB=A1=9C Java 17 =EB=A8=BC=
+=EC=A0=80 =EC=A0=81=EC=9A=A9=ED=9B=84 Spring boot 3.0.13 =EC=97=85=EA=B7=B8=
+=EB=A0=88=EC=9D=B4=EB=93=9C</span></span></li>
+</ul></li>
+</ul>
+<h1 id=3D"id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=
+=93=9C-=EB=B0=9C=EC=83=9D=EB=AC=B8=EC=A0=9C"><span style=3D"color: rgb(0,0,=
+0);"><span style=3D"color: rgb(25,30,30);">=EB=B0=9C=EC=83=9D =EB=AC=B8=EC=
+=A0=9C</span></span></h1>
+<h2 class=3D"p1" id=3D"id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=
+=EC=9D=B4=EB=93=9C-Property'spring.profiles'shouldbereplacedwith'spring.con=
+fig.activate.on-profile'"><span class=3D"s1">Property '<span class=3D"s2">s=
+pring.profiles</span>' should be replaced with 'spring.config.activate.on-p=
+rofile'</span></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">2024-08=
+-02 09:31:37.243 WARN&nbsp; [main] org.springframework.boot.context.config.=
+ConfigDataEnvironment [DeferredLog.java:258] - Property 'spring.profiles' i=
+mported from location 'class path resource [application.yml]' is invalid an=
+d should be replaced with 'spring.config.activate.on-profile' [origin: clas=
+s path resource [application.yml] - 86:13]</pre>
+</div>
+</div>
+<ul>
+<li>Fix =EC=99=84=EB=A3=8C</li>
+</ul>
+<h2 id=3D"id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=
+=93=9C-Addingcacheablemethodthrowsjava.io.IOException"><span class=3D"s1">A=
+dding cacheable method throws java.io.IOException</span></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">2024-08=
+-02 13:05:46.330 TRACE [main] org.springframework.cache.annotation.Annotati=
+onCacheOperationSource [AbstractFallbackCacheOperationSource.java:102] - Ad=
+ding cacheable method 'multisearchAll' with attribute: [Builder[public com.=
+skplanetx.srch.api.model.vcoloring.VcoloringTermResultResponse com.skplanet=
+x.srch.api.repository.VcoloringRepository.multisearchAll(com.skplanetx.srch=
+.api.dto.vcoloring.VcoloringTermDto$Request,java.lang.String,com.skplanetx.=
+srch.api.model.QuerySort) throws java.io.IOException] caches=3D[search_vcol=
+oring_keyword] | key=3D'' | keyGenerator=3D'customVcoloringCacheKeyGenerato=
+r' | cacheManager=3D'' | cacheResolver=3D'' | condition=3D'' | unless=3D'' =
+| sync=3D'false']</pre>
+</div>
+</div>
+<ul>
+<li class=3D"p1"><p>cacheable method=EB=A5=BC =EC=B6=94=EA=B0=80=ED=95=98=
+=EC=98=80=EB=8B=A4=EB=8A=94 =EC=A0=95=EC=83=81=EC=A0=81=EC=9D=B8 =EB=A1=9C=
+=EA=B7=B8=EB=A1=9C =EB=B3=B4=EC=9E=84</p></li>
+</ul>
+<h2 class=3D"p1" id=3D"id-202408searchapiJava17=EC=97=85=EA=B7=B8=EB=A0=88=
+=EC=9D=B4=EB=93=9C-TheJVMispreventingEhcachefromaccessingthesubgraphbeneath=
+">The JVM is preventing Ehcache from accessing the subgraph beneath</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">2024-09=
+-30 10:34:58.039 WARN  [http-nio-8080-exec-1] org.ehcache.sizeof.ObjectGrap=
+hWalker [ObjectGraphWalker.java:251] - The JVM is preventing Ehcache from a=
+ccessing the subgraph beneath 'private final byte[] java.lang.String.value'=
+ - cache sizes may be underestimated as a result
+java.lang.reflect.InaccessibleObjectException: Unable to make field private=
+ final byte[] java.lang.String.value accessible: module java.base does not =
+"opens java.lang" to unnamed module @303cf2ba=20
+    at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleO=
+bject.java:354) ~[?:?]
+    at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleO=
+bject.java:297) ~[?:?]
+    at java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[?:?]
+    at java.lang.reflect.Field.setAccessible(Field.java:172) ~[?:?]
+    at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.=
+java:245) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWa=
+lker.java:204) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159=
+) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.10.=
+0.jar:3.10.0]
+    at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultS=
+izeOfEngine.java:52) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePa=
+irs(OnHeapStore.java:983) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapSto=
+re.java:1528) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapSto=
+re.java:1515) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolde=
+r(OnHeapStore.java:1466) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeap=
+Store.java:347) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(Concu=
+rrentHashMap.java:1934) [ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBac=
+kend.java:101) [ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.jav=
+a:335) [ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) [ehcache-3.10.0.jar:=
+3.10.0]
+    at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) [ehcache-3.10=
+.0.jar:3.10.0]
+    at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) [ehcache-3.10=
+.0.jar:3.10.0]
+
+2024-09-27 13:24:10.840 WARN  [http-nio-8080-exec-1] org.ehcache.sizeof.Obj=
+ectGraphWalker [ObjectGraphWalker.java:251] - The JVM is preventing Ehcache=
+ from accessing the subgraph beneath 'transient java.lang.Object[] java.uti=
+l.ArrayList.elementData' - cache sizes may be underestimated as a result
+java.lang.reflect.InaccessibleObjectException: Unable to make field transie=
+nt java.lang.Object[] java.util.ArrayList.elementData accessible: module ja=
+va.base does not "opens java.util" to unnamed module @303cf2ba
+    at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleO=
+bject.java:354) ~[?:?]
+    at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleO=
+bject.java:297) ~[?:?]
+    at java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[?:?]
+    at java.lang.reflect.Field.setAccessible(Field.java:172) ~[?:?]
+    at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.=
+java:245) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWa=
+lker.java:204) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:159=
+) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:70) ~[ehcache-3.10.=
+0.jar:3.10.0]
+    at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultS=
+izeOfEngine.java:52) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePa=
+irs(OnHeapStore.java:983) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapSto=
+re.java:1528) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapSto=
+re.java:1515) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolde=
+r(OnHeapStore.java:1466) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeap=
+Store.java:347) ~[ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(Concu=
+rrentHashMap.java:1934) [ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBac=
+kend.java:101) [ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.jav=
+a:335) [ehcache-3.10.0.jar:3.10.0]
+    at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) [ehcache-3.10.0.jar:=
+3.10.0]
+    at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) [ehcache-3.10=
+.0.jar:3.10.0]
+    at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) [ehcache-3.10=
+.0.jar:3.10.0]</pre>
+</div>
+</div>
+<ul>
+<li>=EA=B2=80=EC=83=89 API =EC=9A=94=EC=B2=AD=EC=8B=9C =EC=B5=9C=EC=B4=88 1=
+=ED=9A=8C =EB=B0=9C=EC=83=9D</li>
+<li>=EC=B0=B8=EC=A1=B0 - Java 9 Illegal Reflective Access Warning - <a href=
+=3D"https://www.baeldung.com/java-illegal-reflective-access" class=3D"exter=
+nal-link" rel=3D"nofollow">https://www.baeldung.com/java-illegal-reflective=
+-access</a>
+<ul>
+<li>=EC=95=84=EC=A7=81 =ED=95=B4=EA=B2=B0=EB=90=98=EC=A7=80 =EC=95=8A=EC=9D=
+=80 =EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B3=B4=EC=9E=84
+<ul>
+<li><a class=3D"external-link" href=3D"https://github.com/ehcache/sizeof/is=
+sues/52" rel=3D"nofollow">https://github.com/ehcache/sizeof/issues/52</a></=
+li>
+<li><a class=3D"external-link" href=3D"https://github.com/ehcache/sizeof/pu=
+ll/64" rel=3D"nofollow">https://github.com/ehcache/sizeof/pull/64</a></li>
+<li><a href=3D"https://github.com/ehcache/sizeof/issues/73" class=3D"extern=
+al-link" rel=3D"nofollow">https://github.com/ehcache/sizeof/issues/73</a></=
+li>
+</ul></li>
+</ul></li>
+<li>=EC=B6=94=ED=9B=84 =EB=B3=B4=EC=99=84
+<ul>
+<li>Java =EC=88=98=ED=96=89=EC=8B=9C =EC=95=84=EB=9E=98 parameter =EC=B6=94=
+=EA=B0=80
+<ul>
+<li>--add-opens=3Djava.base/java.lang=3DALL-UNNAMED --add-opens=3Djava.base=
+/java.util=3DALL-UNNAMED</li>
+</ul></li>
+<li>EhCacheConfig =EC=84=A4=EC=A0=95 =EC=95=84=EB=9E=98=EC=99=80 =EA=B0=99=
+=EC=9D=B4 =EC=B6=94=EA=B0=80=EC=8B=9C <em>IllegalCallerException =EB=B0=9C=
+=EC=83=9D</em></li>
+</ul></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># EhCac=
+heConfig
+    private void initModule() {
+        Module baseModule =3D java.util.ArrayList.class.getModule();
+        Module ehcacheModule =3D org.ehcache.Cache.class.getModule();
+        baseModule.addOpens("java.util", ehcacheModule);
+        baseModule.addOpens("java.lang", ehcacheModule);
+    }</pre>
+</div>
+</div>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Spring cache alternative - <a href=3D"https://docs.spring.io/spring-boo=
+t/reference/io/caching.html" class=3D"external-link" rel=3D"nofollow">https=
+://docs.spring.io/spring-boot/reference/io/caching.html</a></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29687_89495127.1790845426947--

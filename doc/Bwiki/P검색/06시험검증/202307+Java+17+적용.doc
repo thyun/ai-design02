@@ -1,0 +1,419 @@
+Date: Thu, 1 Oct 2026 18:03:56 +0900 (KST)
+Message-ID: <1842136769.29690.1790845436846@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29689_1793808513.1790845436836"
+
+------=_Part_29689_1793808513.1790845436836
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>202307 Java 17 =EC=A0=81=EC=9A=A9</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>202307 Java 17 =EC=A0=81=EC=9A=A9</h1>
+    <div class=3D"Section1">
+        <p class=3D"auto-cursor-target"><style type=3D"text/css">/*<![CDATA=
+[*/
+div.rbtoc1790845436815 {padding: 0px;}
+div.rbtoc1790845436815 ul {margin-left: 0px;}
+div.rbtoc1790845436815 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1790845436815">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202307Java17=EC=A0=81=EC=9A=A9-Java17">Java 17</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202307Java17=EC=A0=81=EC=9A=A9-ehcacheerror">ehcache err=
+or</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<h1 class=3D"auto-cursor-target" id=3D"id-202307Java17=EC=A0=81=EC=9A=A9-Ja=
+va17">Java 17</h1>
+<h2 id=3D"id-202307Java17=EC=A0=81=EC=9A=A9-ehcacheerror">ehcache error</h2=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">2023-07=
+-04 16:01:13.611 INFO  [http-nio-8080-exec-4] org.ehcache.impl.internal.res=
+ilience.RobustResilienceStrategy [AbstractResilienceStrategy.java:116] - Eh=
+cache key SimpleKey [multisearchAll_true_0_E_E_E_E_E_E_E_E_E_E_E_10_=EB=A7=
+=88=EB=A7=88=EB=AC=B4_E_0_E_=EB=A7=88=EB=A7=88=EB=AC=B4] recovered from
+org.ehcache.spi.resilience.StoreAccessException: java.lang.reflect.Inaccess=
+ibleObjectException: Unable to make field transient java.lang.Object[] java=
+.util.ArrayList.elementData accessible: module java.base does not "opens ja=
+va.util" to unnamed module @130d63be
+    at org.ehcache.core.exceptions.StorePassThroughException.handleExceptio=
+n(StorePassThroughException.java:78) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3=
+f7157e878112c2afc0b6e3090fdd]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.jav=
+a:382) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fdd]
+    at org.ehcache.core.Ehcache.doPut(Ehcache.java:94) ~[ehcache-3.8.1.jar:=
+3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fdd]
+    at org.ehcache.core.EhcacheBase.put(EhcacheBase.java:189) [ehcache-3.8.=
+1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fdd]
+    at org.ehcache.jsr107.Eh107Cache.put(Eh107Cache.java:175) [ehcache-3.8.=
+1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fdd]
+    at org.springframework.cache.jcache.JCacheCache.put(JCacheCache.java:95=
+) [spring-context-support-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+    at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(Abs=
+tractCacheInvoker.java:87) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+    at org.springframework.cache.interceptor.CacheAspectSupport$CachePutReq=
+uest.apply(CacheAspectSupport.java:837) [spring-context-5.2.9.RELEASE.jar:5=
+.2.9.RELEASE]
+    at org.springframework.cache.interceptor.CacheAspectSupport.execute(Cac=
+heAspectSupport.java:430) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+    at org.springframework.cache.interceptor.CacheAspectSupport.execute(Cac=
+heAspectSupport.java:346) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+    at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheI=
+nterceptor.java:61) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+    at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed=
+(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.9.RELEASE.jar:5.2.9.R=
+ELEASE]
+    at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocatio=
+n.proceed(CglibAopProxy.java:749) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEA=
+SE]
+    at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterc=
+eptor.intercept(CglibAopProxy.java:691) [spring-aop-5.2.9.RELEASE.jar:5.2.9=
+.RELEASE]
+    at com.skplanetx.srch.api.repository.VcoloringRepository$$EnhancerBySpr=
+ingCGLIB$$11d807f3.multisearchAll(&lt;generated&gt;) [classes/:?]
+    at com.skplanetx.srch.api.service.VcoloringService.searchAll2(Vcoloring=
+Service.java:37) [classes/:?]
+    at com.skplanetx.srch.api.controller.VcoloringController.searchAll2(Vco=
+loringController.java:49) [classes/:?]
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)=
+ ~[?:?]
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAcc=
+essorImpl.java:77) ~[?:?]
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingM=
+ethodAccessorImpl.java:43) ~[?:?]
+    at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+    at org.springframework.web.method.support.InvocableHandlerMethod.doInvo=
+ke(InvocableHandlerMethod.java:190) [spring-web-5.2.9.RELEASE.jar:5.2.9.REL=
+EASE]
+    at org.springframework.web.method.support.InvocableHandlerMethod.invoke=
+ForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.9.RELEASE.jar:5=
+.2.9.RELEASE]
+...
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make fi=
+eld transient java.lang.Object[] java.util.ArrayList.elementData accessible=
+: module java.base does not "opens java.util" to unnamed module @130d63be
+    at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleO=
+bject.java:354) ~[?:?]
+    at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleO=
+bject.java:297) ~[?:?]
+    at java.lang.reflect.Field.checkCanSetAccessible(Field.java:178) ~[?:?]
+    at java.lang.reflect.Field.setAccessible(Field.java:172) ~[?:?]
+    at org.ehcache.sizeof.ObjectGraphWalker.getAllFields(ObjectGraphWalker.=
+java:275) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fd=
+d]
+    at org.ehcache.sizeof.ObjectGraphWalker.getFilteredFields(ObjectGraphWa=
+lker.java:234) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3=
+090fdd]
+    at org.ehcache.sizeof.ObjectGraphWalker.walk(ObjectGraphWalker.java:176=
+) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fdd]
+    at org.ehcache.sizeof.SizeOf.deepSizeOf(SizeOf.java:71) ~[ehcache-3.8.1=
+.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fdd]
+    at org.ehcache.impl.internal.sizeof.DefaultSizeOfEngine.sizeof(DefaultS=
+izeOfEngine.java:52) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2af=
+c0b6e3090fdd]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.getSizeOfKeyValuePa=
+irs(OnHeapStore.java:982) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e87811=
+2c2afc0b6e3090fdd]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapSto=
+re.java:1527) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e30=
+90fdd]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.makeValue(OnHeapSto=
+re.java:1514) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e30=
+90fdd]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.newCreateValueHolde=
+r(OnHeapStore.java:1465) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112=
+c2afc0b6e3090fdd]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.lambda$put$6(OnHeap=
+Store.java:346) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e=
+3090fdd]
+    at org.ehcache.impl.internal.concurrent.ConcurrentHashMap.compute(Concu=
+rrentHashMap.java:1934) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c=
+2afc0b6e3090fdd]
+    at org.ehcache.impl.internal.store.heap.SimpleBackend.compute(SimpleBac=
+kend.java:101) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3=
+090fdd]
+    at org.ehcache.impl.internal.store.heap.OnHeapStore.put(OnHeapStore.jav=
+a:334) ~[ehcache-3.8.1.jar:3.8.1 a19322e8d4b3f7157e878112c2afc0b6e3090fdd]
+    ... 61 more</pre>
+</div>
+</div>
+<ul>
+<li class=3D"auto-cursor-target">Java 8 to 17 migrate - <a href=3D"https://=
+www.baeldung.com/java-migrate-8-to-17" style=3D"letter-spacing: 0.0px;" cla=
+ss=3D"external-link" rel=3D"nofollow">https://www.baeldung.com/java-migrate=
+-8-to-17</a></li>
+<li class=3D"auto-cursor-target"><p class=3D"pw-post-title gp gq gr be gs g=
+t gu gv gw gx gy gz ha hb hc hd he hf hg hh hi hj hk hl hm hn ho hp hq hr b=
+j">=EC=9A=B0=EB=A6=AC=ED=8C=80=EC=9D=B4 JDK 17=EC=9D=84 =EB=8F=84=EC=9E=85=
+=ED=95=9C =EC=9D=B4=EC=9C=A0 - <a href=3D"https://techblog.gccompany.co.kr/=
+%EC%9A%B0%EB%A6%AC%ED%8C%80%EC%9D%B4-jdk-17%EC%9D%84-%EB%8F%84%EC%9E%85%ED%=
+95%9C-%EC%9D%B4%EC%9C%A0-ced2b754cd7" class=3D"external-link" style=3D"lett=
+er-spacing: 0.0px;" rel=3D"nofollow">https://techblog.gccompany.co.kr/%EC%9=
+A%B0%EB%A6%AC%ED%8C%80%EC%9D%B4-jdk-17%EC%9D%84-%EB%8F%84%EC%9E%85%ED%95%9C=
+-%EC%9D%B4%EC%9C%A0-ced2b754cd7</a></p></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">Spring boot cache</span></span>
+<ul>
+<li>Java Illegal Reflective Access Warning - <a href=3D"https://www.baeldun=
+g.com/java-illegal-reflective-access" class=3D"external-link" rel=3D"nofoll=
+ow">https://www.baeldung.com/java-illegal-reflective-access</a></li>
+<li class=3D"auto-cursor-target"><a href=3D"https://docs.spring.io/spring-b=
+oot/docs/2.1.6.RELEASE/reference/html/boot-features-caching.html" class=3D"=
+external-link" rel=3D"nofollow">https://docs.spring.io/spring-boot/docs/2.1=
+.6.RELEASE/reference/html/boot-features-caching.html</a></li>
+<li class=3D"auto-cursor-target"><a href=3D"https://www.javatpoint.com/spri=
+ng-boot-cache-provider" class=3D"external-link" rel=3D"nofollow">https://ww=
+w.javatpoint.com/spring-boot-cache-provider</a></li>
+<li class=3D"auto-cursor-target"><a href=3D"https://duooo-story.tistory.com=
+/69" class=3D"external-link" rel=3D"nofollow">https://duooo-story.tistory.c=
+om/69</a></li>
+<li class=3D"auto-cursor-target"><a href=3D"https://stackoverflow.com/quest=
+ions/41265266/how-to-solve-inaccessibleobjectexception-unable-to-make-membe=
+r-accessible-m" class=3D"external-link" rel=3D"nofollow">https://stackoverf=
+low.com/questions/41265266/how-to-solve-inaccessibleobjectexception-unable-=
+to-make-member-accessible-m</a></li>
+<li class=3D"auto-cursor-target"><a href=3D"https://github.com/micrometer-m=
+etrics/micrometer/issues/1543" class=3D"external-link" rel=3D"nofollow">htt=
+ps://github.com/micrometer-metrics/micrometer/issues/1543</a></li>
+<li class=3D"auto-cursor-target">maven =EC=84=A4=EC=A0=95 - <a href=3D"http=
+s://stackoverflow.com/questions/70756414/java-lang-reflect-inaccessibleobje=
+ctexception-unable-to-make-field-private-fina" class=3D"external-link" rel=
+=3D"nofollow">https://stackoverflow.com/questions/70756414/java-lang-reflec=
+t-inaccessibleobjectexception-unable-to-make-field-private-fina</a></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29689_1793808513.1790845436836--

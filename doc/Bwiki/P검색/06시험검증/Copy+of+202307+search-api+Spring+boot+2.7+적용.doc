@@ -1,0 +1,560 @@
+Date: Thu, 1 Oct 2026 18:04:13 +0900 (KST)
+Message-ID: <483514896.29694.1790845453928@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29693_901554718.1790845453921"
+
+------=_Part_29693_901554718.1790845453921
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Copy of 202307 search-api Spring boot 2.7 =EC=A0=81=EC=9A=A9</ti=
+tle>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Copy of 202307 search-api Spring boot 2.7 =EC=A0=81=EC=9A=A9</h1>
+    <div class=3D"Section1">
+        <p class=3D"auto-cursor-target"><style type=3D"text/css">/*<![CDATA=
+[*/
+div.rbtoc1790845453882 {padding: 0px;}
+div.rbtoc1790845453882 ul {margin-left: 0px;}
+div.rbtoc1790845453882 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1790845453882">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-Java11=
++Springbooot2.7.13">Java 11 + Spring booot 2.7.13</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-RedisC=
+onfigurationerror">RedisConfiguration error</a></li>
+<li><a href=3D"#Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-spring=
+fox,springactuatorNullPointerException">springfox, spring actuator NullPoin=
+terException</a></li>
+<li><a href=3D"#Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-HTTPER=
+ROR406">HTTP ERROR 406</a></li>
+<li><a href=3D"#Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-ehcach=
+ewarning">ehcache warning</a></li>
+<li><a href=3D"#Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-NoClas=
+sDefFoundError">NoClassDefFoundError</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-Java11+Sprin=
+gbooot2.7.13">Java 11 + Spring booot 2.7.13</h1>
+<h2 id=3D"Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-RedisConfigu=
+rationerror">RedisConfiguration error</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Error s=
+tarting ApplicationContext. To display the conditions report re-run your ap=
+plication with 'debug' enabled.
+2023-09-08 15:14:29.098 ERROR [main] org.springframework.boot.SpringApplica=
+tion [SpringApplication.java:821] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error cre=
+ating bean with name 'OCBAppController' defined in file [/Users/1001291/Des=
+ktop/workspace/search-api/app/target/classes/com/skplanetx/srch/api/control=
+ler/OCBAppController.class]: Unsatisfied dependency expressed through const=
+ructor parameter 1; nested exception is org.springframework.beans.factory.U=
+nsatisfiedDependencyException: Error creating bean with name 'OCBAppService=
+' defined in file [/Users/1001291/Desktop/workspace/search-api/app/target/c=
+lasses/com/skplanetx/srch/api/service/OCBAppService.class]: Unsatisfied dep=
+endency expressed through constructor parameter 1; nested exception is org.=
+springframework.beans.factory.UnsatisfiedDependencyException: Error creatin=
+g bean with name 'redisRepository' defined in file [/Users/1001291/Desktop/=
+workspace/search-api/app/target/classes/com/skplanetx/srch/api/repository/R=
+edisRepository.class]: Unsatisfied dependency expressed through constructor=
+ parameter 0; nested exception is org.springframework.beans.factory.BeanCre=
+ationException: Error creating bean with name 'stringRedisTemplate' defined=
+ in class path resource [com/skplanetx/srch/api/config/RedisConfiguration.c=
+lass]: Bean instantiation via factory method failed; nested exception is or=
+g.springframework.beans.BeanInstantiationException: Failed to instantiate [=
+org.springframework.data.redis.core.StringRedisTemplate]: Factory method 's=
+tringRedisTemplate' threw exception; nested exception is org.springframewor=
+k.beans.factory.BeanCreationException: Error creating bean with name 'redis=
+ConnectionFactory' defined in class path resource [com/skplanetx/srch/api/c=
+onfig/RedisConfiguration.class]: Invocation of init method failed; nested e=
+xception is java.lang.NoSuchFieldError: ZMSCORE
+    at org.springframework.beans.factory.support.ConstructorResolver.create=
+ArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.28.jar:5.3.2=
+8]
+    at org.springframework.beans.factory.support.ConstructorResolver.autowi=
+reConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.28.jar:5.3.2=
+8]
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) =
+~[spring-beans-5.3.28.jar:5.3.28]
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~=
+[spring-beans-5.3.28.jar:5.3.28]
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring=
+-beans-5.3.28.jar:5.3.28]
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-b=
+eans-5.3.28.jar:5.3.28]
+    at org.springframework.beans.factory.support.AbstractBeanFactory.lambda=
+$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.28.jar:5.3.28=
+]
+    at org.springframework.beans.factory.support.DefaultSingletonBeanRegist=
+ry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.2=
+8.jar:5.3.28]
+    at org.springframework.beans.factory.support.AbstractBeanFactory.doGetB=
+ean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.28.jar:5.3.28]
+    at org.springframework.beans.factory.support.AbstractBeanFactory.getBea=
+n(AbstractBeanFactory.java:208) ~[spring-beans-5.3.28.jar:5.3.28]
+    at org.springframework.beans.factory.support.DefaultListableBeanFactory=
+.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-bea=
+ns-5.3.28.jar:5.3.28]
+    at org.springframework.context.support.AbstractApplicationContext.finis=
+hBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-co=
+ntext-5.3.28.jar:5.3.28]
+    at org.springframework.context.support.AbstractApplicationContext.refre=
+sh(AbstractApplicationContext.java:583) ~[spring-context-5.3.28.jar:5.3.28]
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplica=
+tionContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-b=
+oot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.refresh(SpringApplication=
+.java:731) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.refreshContext(SpringAppl=
+ication.java:408) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:307) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:1303) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:1292) [spring-boot-2.7.13.jar:2.7.13]
+    at com.skplanetx.srch.api.SearchApiApplication.main(SearchApiApplicatio=
+n.java:12) [classes/:?]</pre>
+</div>
+</div>
+<h2 id=3D"Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-springfox,sp=
+ringactuatorNullPointerException">springfox, spring actuator NullPointerExc=
+eption</h2>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">Swagger 2 to OpenAPI migration =ED=95=84=EC=9A=94</span></span>
+<ul>
+<li>Swagger &amp; Open API - <a class=3D"external-link" href=3D"https://gru=
+uuuu.github.io/programming/openapi/" rel=3D"nofollow">https://gruuuuu.githu=
+b.io/programming/openapi/</a></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">migration =EA=B0=80=EC=9D=B4=EB=93=9C - <a href=3D"https://dev.to/erwanlt=
+/migration-from-swagger-2-to-openapi-3-1060" class=3D"external-link" rel=3D=
+"nofollow">https://dev.to/erwanlt/migration-from-swagger-2-to-openapi-3-106=
+0</a></span></span></li>
+</ul></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">2023-09=
+-08 15:24:32.380 ERROR [main] org.springframework.boot.SpringApplication [S=
+pringApplication.java:821] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start be=
+an 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPo=
+interException
+    at org.springframework.context.support.DefaultLifecycleProcessor.doStar=
+t(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.28.jar:5.3.28]
+    at org.springframework.context.support.DefaultLifecycleProcessor.access=
+$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.28.jar:5.3.28]
+    at org.springframework.context.support.DefaultLifecycleProcessor$Lifecy=
+cleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.28.=
+jar:5.3.28]
+    at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+    at org.springframework.context.support.DefaultLifecycleProcessor.startB=
+eans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.28.jar:5.3.28=
+]
+    at org.springframework.context.support.DefaultLifecycleProcessor.onRefr=
+esh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.28.jar:5.3.28]
+    at org.springframework.context.support.AbstractApplicationContext.finis=
+hRefresh(AbstractApplicationContext.java:937) ~[spring-context-5.3.28.jar:5=
+.3.28]
+    at org.springframework.context.support.AbstractApplicationContext.refre=
+sh(AbstractApplicationContext.java:586) ~[spring-context-5.3.28.jar:5.3.28]
+    at org.springframework.boot.web.servlet.context.ServletWebServerApplica=
+tionContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-b=
+oot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.refresh(SpringApplication=
+.java:731) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.refreshContext(SpringAppl=
+ication.java:408) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:307) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:1303) [spring-boot-2.7.13.jar:2.7.13]
+    at org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:1292) [spring-boot-2.7.13.jar:2.7.13]
+    at com.skplanetx.srch.api.SearchApiApplication.main(SearchApiApplicatio=
+n.java:12) [classes/:?]
+Caused by: java.lang.NullPointerException
+    at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWra=
+pper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox=
+-spring-webmvc-3.0.0.jar:3.0.0]
+    at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.ja=
+va:113) ~[springfox-core-3.0.0.jar:3.0.0]
+    at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatt=
+ernsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+    at java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469=
+) ~[?:?]
+    at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[?:?]
+    at java.util.TimSort.sort(TimSort.java:234) ~[?:?]
+    at java.util.Arrays.sort(Arrays.java:1515) ~[?:?]
+    at java.util.ArrayList.sort(ArrayList.java:1750) ~[?:?]
+    at java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[=
+?:?]
+    at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+    at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+    at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+    at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+    at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485=
+) ~[?:?]
+    at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.j=
+ava:474) ~[?:?]
+    at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.jav=
+a:913) ~[?:?]
+    at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234=
+) ~[?:?]
+    at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:57=
+8) ~[?:?]</pre>
+</div>
+</div>
+<h2 id=3D"Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-HTTPERROR406=
+"><span style=3D"color: rgb(95,99,104);">HTTP ERROR 406</span></h2>
+<h2 id=3D"Copyof202307searchapiSpringboot2.7=EC=A0=81=EC=9A=A9-ehcachewarni=
+ng">ehcache warning</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># local=
+ =ED=99=98=EA=B2=BD standard output=EC=9C=BC=EB=A1=9C =EC=B6=9C=EB=A0=A5
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.ehcache.sizeof.ObjectGraphWalker =
+(file:/Users/1001291/.m2/repository/org/ehcache/ehcache/3.8.1/ehcache-3.8.1=
+.jar) to field java.util.ArrayList.elementData
+WARNING: Please consider reporting this to the maintainers of org.ehcache.s=
+izeof.ObjectGraphWalker
+WARNING: Use --illegal-access=3Dwarn to enable warnings of further illegal =
+reflective access operations
+WARNING: All illegal access operations will be denied in a future release</=
+pre>
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"Copyof202307searchapiSpringboot2.7=
+=EC=A0=81=EC=9A=A9-NoClassDefFoundError">NoClassDefFoundError</h2>
+<ul>
+<li class=3D"auto-cursor-target">java.lang.NoClassDefFoundError: org/spring=
+framework/boot/configurationprocessor/json/JSONException</li>
+<li class=3D"auto-cursor-target">=EB=A1=9C=EC=BB=AC =ED=85=8C=EC=8A=A4=ED=
+=8A=B8=EC=8B=9C =EB=AF=B8=EB=B0=9C=EC=83=9D. =EA=B0=9C=EB=B0=9C=ED=99=98=EA=
+=B2=BD=EC=97=90=EC=84=9C =EA=B8=B0=EB=8F=99=EC=8B=9C =EB=B0=9C=EC=83=9D.</l=
+i>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{"times=
+tamp":"2023-09-26 14:54:11","thread_name":"main","level":"ERROR","message":=
+"Application run failed","source_host":"dev-search-api-9df585679-h55wt","ex=
+ception":{"exception_class":"org.springframework.beans.factory.BeanCreation=
+Exception","exception_message":"Error creating bean with name 'statsLogger'=
+: Lookup method resolution failed; nested exception is java.lang.IllegalSta=
+teException: Failed to introspect Class [com.skplanetx.srch.api.common.log.=
+StatsLogger] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoa=
+der@4ec4f3a0]","stacktrace":"org.springframework.beans.factory.BeanCreation=
+Exception: Error creating bean with name 'statsLogger': Lookup method resol=
+ution failed; nested exception is java.lang.IllegalStateException: Failed t=
+o introspect Class [com.skplanetx.srch.api.common.log.StatsLogger] from Cla=
+ssLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@4ec4f3a0]
+\n\tat org.springframework.beans.factory.annotation.AutowiredAnnotationBean=
+PostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostPro=
+cessor.java:289)
+\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapabl=
+eBeanFactory.java:1302)
+\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBea=
+nFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.lambda=
+$doGetBean$0(AbstractBeanFactory.java:335)
+\n\tat org.springframework.beans.factory.support.DefaultSingletonBeanRegist=
+ry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.doGetB=
+ean(AbstractBeanFactory.java:333)
+\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.getBea=
+n(AbstractBeanFactory.java:208)
+\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory=
+.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+\n\tat org.springframework.context.support.AbstractApplicationContext.finis=
+hBeanFactoryInitialization(AbstractApplicationContext.java:920)
+\n\tat org.springframework.context.support.AbstractApplicationContext.refre=
+sh(AbstractApplicationContext.java:583)
+\n\tat org.springframework.boot.web.servlet.context.ServletWebServerApplica=
+tionContext.refresh(ServletWebServerApplicationContext.java:147)
+\n\tat org.springframework.boot.SpringApplication.refresh(SpringApplication=
+.java:731)
+\n\tat org.springframework.boot.SpringApplication.refreshContext(SpringAppl=
+ication.java:408)
+\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:307)
+\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:1303)
+\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.jav=
+a:1292)
+\n\tat com.skplanetx.srch.api.SearchApiApplication.main(SearchApiApplicatio=
+n.java:12)\nCaused by: java.lang.IllegalStateException: Failed to introspec=
+t Class [com.skplanetx.srch.api.common.log.StatsLogger] from ClassLoader [j=
+dk.internal.loader.ClassLoaders$AppClassLoader@4ec4f3a0]
+\n\tat org.springframework.util.ReflectionUtils.getDeclaredMethods(Reflecti=
+onUtils.java:485)
+\n\tat org.springframework.util.ReflectionUtils.doWithLocalMethods(Reflecti=
+onUtils.java:321)
+\n\tat org.springframework.beans.factory.annotation.AutowiredAnnotationBean=
+PostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostPro=
+cessor.java:267)
+\n\t... 18 more\nCaused by: java.lang.NoClassDefFoundError: org/springframe=
+work/boot/configurationprocessor/json/JSONException
+\n\tat java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+\n\tat java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+\n\tat java.base/java.lang.Class.getDeclaredMethods(Unknown Source)
+\n\tat org.springframework.util.ReflectionUtils.getDeclaredMethods(Reflecti=
+onUtils.java:467)
+\n\t... 20 more\nCaused by: java.lang.ClassNotFoundException: org.springfra=
+mework.boot.configurationprocessor.json.JSONException
+\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown S=
+ource)
+\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(=
+Unknown Source)
+\n\tat java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+\n\t... 24 more\n"}}</pre>
+</div>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29693_901554718.1790845453921--

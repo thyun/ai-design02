@@ -1,0 +1,427 @@
+Date: Thu, 1 Oct 2026 17:51:57 +0900 (KST)
+Message-ID: <667385323.29668.1790844717838@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29667_1633799614.1790844717833"
+
+------=_Part_29667_1633799614.1790844717833
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>01 Spring boot test</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>01 Spring boot test</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-01Springboottest-Component=EB=B3=84=ED=85=8C=EC=8A=A4=
+=ED=8A=B8">Component=EB=B3=84 =ED=85=8C=EC=8A=A4=ED=8A=B8</h1>
+<ul>
+<li>Controller - integration test</li>
+<li>Service - unit test</li>
+<li>Repository - integration test</li>
+</ul>
+<h1 id=3D"id-01Springboottest-=EC=B0=B8=EA=B3=A0=EC=82=AC=ED=95=AD">=EC=B0=
+=B8=EA=B3=A0 =EC=82=AC=ED=95=AD</h1>
+<ul>
+<li><a class=3D"external-link" href=3D"https://www.baeldung.com/spring-boot=
+-testing" rel=3D"nofollow">https://www.baeldung.com/spring-boot-testing</a>
+<ul>
+<li>Controller
+<ul>
+<li>Integration testing with @SpringBootTest
+<ul>
+<li><p>As we=E2=80=99ve seen in the previous section, a test annotated with=
+<span>&nbsp;</span><em>@SpringBootTest</em><span>&nbsp;</span>will bootstra=
+p the full application context, which means we can<span>&nbsp;</span><em>@A=
+utowire</em><span>&nbsp;</span>any bean that=E2=80=99s picked up by compone=
+nt scanning into our test:</p></li>
+<li><span style=3D"color: rgb(0,0,0);">However, we might want to avoid boot=
+strapping the real application context but use a special test configuration=
+. We can achieve this with the&nbsp;</span><em>@TestConfiguration</em><span=
+ style=3D"color: rgb(0,0,0);"><span>&nbsp;</span>annotation.<span>&nbsp;</s=
+pan></span></li>
+</ul></li>
+<li>Controller unit test - Unit testing with @WebMvcTest</li>
+</ul></li>
+<li><p>Service - unit test - Mocking with @MockBean</p></li>
+<li>Repository - integration test - Integration testing with @DataJpaTest</=
+li>
+<li>Test seperation -&nbsp;<strong>Ideally, we should keep the integration =
+tests separated from the unit tests and should not run along with the unit =
+tests.</strong><span style=3D"color: rgb(0,0,0);"><span>&nbsp;</span>We can=
+ do this by using a different profile to only run the integration tests</sp=
+an></li>
+</ul></li>
+<li><a class=3D"external-link" href=3D"https://courses.baeldung.com/courses=
+/1295711/lectures/30127904" rel=3D"nofollow">https://courses.baeldung.com/c=
+ourses/1295711/lectures/30127904</a>
+<ul>
+<li><p><span style=3D"color: rgb(0,0,0);">Let=E2=80=99s quickly analyze the=
+ kinds of tests we can perform in order to check the correct behavior of th=
+e repositories=E2=80=99 methods.</span></p><p><span style=3D"color: rgb(0,0=
+,0);">If we want to create Unit Tests, then we have to mock several JPA com=
+ponents that Spring loads. Naturally, this would affect the functionality o=
+f the repository. Therefore, Unit Tests don't make much sense in this case.=
+</span></p><p><span style=3D"color: rgb(0,0,0);">On the other hand, when we=
+ test Spring Data repositories, we usually want to verify that our queries =
+retrieve the expected data from a database when running a SELECT operation.=
+ When executing UPDATE, DELETE, and INSERT operations, we want to verify th=
+at our queries get executed successfully, maintaining the consistent state =
+of our database.</span></p><p><span style=3D"color: rgb(0,0,0);">Consequent=
+ly,<span>&nbsp;</span></span><strong>we need integration tests,</strong></p=
+></li>
+</ul></li>
+<li>unit test -&nbsp;<a href=3D"https://www.arhohuttunen.com/spring-boot-un=
+it-testing/" class=3D"external-link" rel=3D"nofollow">https://www.arhohuttu=
+nen.com/spring-boot-unit-testing/</a></li>
+<li>junit5 -&nbsp;<a class=3D"external-link" href=3D"https://blogs.oracle.c=
+om/javamagazine/migrating-from-junit-4-to-junit-5-important-differences-and=
+-benefits" rel=3D"nofollow">https://blogs.oracle.com/javamagazine/migrating=
+-from-junit-4-to-junit-5-important-differences-and-benefits</a></li>
+<li><a href=3D"https://dzone.com/articles/unit-and-integration-tests-in-spr=
+ing-boot-2" class=3D"external-link" rel=3D"nofollow">https://dzone.com/arti=
+cles/unit-and-integration-tests-in-spring-boot-2</a>
+<ul>
+<li><p>Then, we have a little further problem=E2=80=A6The controller part i=
+s the part of the system that manages HttpRequest, so we need a system to s=
+imulate this behavior without starting a full HTTP server.<br><em>MockMvc</=
+em><span>&nbsp;</span>is the Spring class that does that. It can be set up =
+in different ways:</p>
+<ol>
+<li>Using Standalone Context</li>
+<li>Using WebApplication Context</li>
+<li>Let Spring autoconfigure it by loading all context by using these annot=
+ations on test class @SpringBootTest @AutoConfigureMockMvc</li>
+<li>Let Spring autoconfigure it by loading just the web layer context by us=
+ing these annotations on the test class @WebMvcTest</li>
+</ol></li>
+</ul></li>
+<li><a href=3D"https://github.com/HomoEfficio/dev-tips/blob/master/Spring-B=
+oot-%EB%A0%88%EC%9D%B4%EC%96%B4%EB%B3%84-%ED%85%8C%EC%8A%A4%ED%8A%B8.md" cl=
+ass=3D"external-link" rel=3D"nofollow">https://github.com/HomoEfficio/dev-t=
+ips/blob/master/Spring-Boot-%EB%A0%88%EC%9D%B4%EC%96%B4%EB%B3%84-%ED%85%8C%=
+EC%8A%A4%ED%8A%B8.md</a>
+<ul>
+<li><p>=EC=BB=A8=ED=8A=B8=EB=A1=A4=EB=9F=AC=EB=8A=94 =EB=84=93=EA=B2=8C =EB=
+=B3=B4=EB=A9=B4 =EC=82=AC=EC=9A=A9=EC=9E=90=EA=B0=80 =EB=B3=B4=EB=82=B8 =EC=
+=9A=94=EC=B2=AD=EC=9D=84 =EC=84=9C=EB=B9=84=EC=8A=A4=EC=97=90 =EC=A0=84=EB=
+=8B=AC=ED=95=98=EA=B8=B0=EA=B9=8C=EC=A7=80 =EB=AA=A8=EB=93=A0 =EA=B3=BC=EC=
+=A0=95=EC=9D=84 =ED=8F=AC=EA=B4=84=ED=95=9C=EB=8B=A4=EA=B3=A0 =EB=B3=BC =EC=
+=88=98 =EC=9E=88=EC=A7=80=EB=A7=8C, =ED=95=84=ED=84=B0, =EC=9D=B8=ED=84=B0=
+=EC=85=89=ED=84=B0, =EC=9A=94=EC=B2=AD =EB=9D=BC=EC=9A=B0=ED=8C=85, =EB=B3=
+=B4=EC=95=88(=EC=9D=B8=EC=A6=9D, =EC=9D=B8=EA=B0=80), =EB=8D=B0=EC=9D=B4=ED=
+=84=B0 validation, =EB=8D=B0=EC=9D=B4=ED=84=B0 =EB=B0=94=EC=9D=B8=EB=94=A9 =
+=EB=93=B1=EC=9D=80 =EC=8A=A4=ED=94=84=EB=A7=81 =ED=94=84=EB=A0=88=EC=9E=84=
+=EC=9B=8C=ED=81=AC=EC=97=90=EC=84=9C =EB=8B=B4=EB=8B=B9=ED=95=B4=EC=A3=BC=
+=EB=AF=80=EB=A1=9C =EC=BB=A8=ED=8A=B8=EB=A1=A4=EB=9F=AC=EA=B0=80 =EC=8B=A4=
+=EC=A0=9C=EB=A1=9C =EB=8B=B4=EB=8B=B9=ED=95=98=EB=8A=94 =EB=B6=80=EB=B6=84=
+=EC=9D=80 =EC=9D=B4=EB=A5=BC =EB=AA=A8=EB=91=90 =ED=86=B5=EA=B3=BC=ED=95=9C=
+ =ED=9B=84=EC=9D=98 =EC=9A=94=EC=B2=AD =EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC=
+ =EC=84=9C=EB=B9=84=EC=8A=A4=EC=97=90 =EC=A0=84=EB=8B=AC=ED=95=B4=EC=A3=BC=
+=EA=B3=A0, =EC=84=9C=EB=B9=84=EC=8A=A4=EA=B0=80 =EB=B0=98=ED=99=98=ED=95=98=
+=EB=8A=94 =EA=B2=B0=EA=B3=BC=EB=A5=BC =ED=81=B4=EB=9D=BC=EC=9D=B4=EC=96=B8=
+=ED=8A=B8=EC=97=90=EA=B2=8C =EB=B0=98=ED=99=98=ED=95=98=EB=8A=94 =EB=B6=80=
+=EB=B6=84=EC=9D=B4=EB=8B=A4.</p></li>
+<li><p>=EB=94=B0=EB=9D=BC=EC=84=9C =EC=BB=A8=ED=8A=B8=EB=A1=A4=EB=9F=AC=EC=
+=9D=98 =EB=A1=9C=EC=A7=81=EC=9D=B4 =EB=A7=8E=EC=A7=80 =EC=95=8A=EC=9D=80 =
+=EA=B2=BD=EC=9A=B0 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC Mock =ED=95=B4=EC=
+=84=9C =EC=BB=A8=ED=8A=B8=EB=A1=A4=EB=9F=AC =EB=A0=88=EC=9D=B4=EC=96=B4=EB=
+=A7=8C=EC=9D=84 =EB=8B=A8=EC=9C=84 =ED=85=8C=EC=8A=A4=ED=8A=B8=ED=95=98=EB=
+=8A=94 =EA=B2=83=EC=9D=80 =ED=9A=A8=EC=9A=A9=EC=9D=B4 =ED=81=AC=EC=A7=80 =
+=EC=95=8A=EC=9D=84 =EC=88=98 =EC=9E=88=EC=9C=BC=EB=AF=80=EB=A1=9C, =EC=BB=
+=A8=ED=8A=B8=EB=A1=A4=EB=9F=AC =ED=85=8C=EC=8A=A4=ED=8A=B8=EB=8A=94 =EB=B3=
+=B4=ED=86=B5 Mock =EB=8C=80=EC=8B=A0 =EC=8B=A4=EC=A0=9C =EC=84=9C=EB=B9=84=
+=EC=8A=A4 =EB=B0=8F =EB=8F=84=EB=A9=94=EC=9D=B8 =EA=B3=84=EC=B8=B5=EC=9D=84=
+ =EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C =ED=86=B5=ED=95=A9 =ED=85=8C=EC=8A=A4=
+=ED=8A=B8=EB=A1=9C =EC=9E=91=EC=84=B1=ED=95=98=EB=8A=94 =ED=8E=B8=EC=9D=B4 =
+=EB=82=AB=EB=8B=A4.</p></li>
+</ul></li>
+<li><a href=3D"https://velog.io/@devsh/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%8=
+0%ED%8A%B8-1-Spring-Boot-Repository-and-Service-Layer-Testing" class=3D"ext=
+ernal-link" rel=3D"nofollow">https://velog.io/@devsh/%EC%8A%A4%ED%94%84%EB%=
+A7%81-%EB%B6%80%ED%8A%B8-1-Spring-Boot-Repository-and-Service-Layer-Testing=
+</a></li>
+<li><a href=3D"https://jiminidaddy.github.io/dev/2021/05/20/dev-spring-%EB%=
+8B%A8%EC%9C%84%ED%85%8C%EC%8A%A4%ED%8A%B8-Repository/" class=3D"external-li=
+nk" rel=3D"nofollow">https://jiminidaddy.github.io/dev/2021/05/20/dev-sprin=
+g-%EB%8B%A8%EC%9C%84%ED%85%8C%EC%8A%A4%ED%8A%B8-Repository/</a></li>
+<li>SpringBootTest vs WebMvcTest -&nbsp;<a href=3D"http://blog.devenjoy.com=
+/?p=3D524" class=3D"external-link" rel=3D"nofollow">http://blog.devenjoy.co=
+m/?p=3D524</a></li>
+<li>Lombok builder =ED=85=8C=EC=8A=A4=ED=8A=B8
+<ul>
+<li><span style=3D"color: rgb(119,119,119);"><a href=3D"https://projectlomb=
+ok.org/features/Builder" class=3D"external-link" rel=3D"nofollow">https://p=
+rojectlombok.org/features/Builder</a></span>
+<ul>
+<li><span style=3D"color: rgb(119,119,119);">If a certain field/parameter i=
+s never set during a build session, then it always gets 0 /<span>&nbsp;</sp=
+an></span><code>null</code><span style=3D"color: rgb(119,119,119);"><span>&=
+nbsp;</span>/ false.</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(119,119,119);"><a href=3D"https://www.baeldun=
+g.com/lombok-builder-default-value" class=3D"external-link" rel=3D"nofollow=
+">https://www.baeldung.com/lombok-builder-default-value</a></span></li>
+</ul></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Reque=
+st =ED=81=B4=EB=9E=98=EC=8A=A4
+public class VcoloringTermDto {
+    @Builder
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Request {
+        @NotBlank
+        private String q;
+        ...
+        private String sort =3D "";
+        ...
+}
+
+# Request =EA=B0=9D=EC=B2=B4 =EC=83=9D=EC=84=B1
+=09=09VcoloringTermDto.Request request1 =3D new VcoloringTermDto.Request();
+        VcoloringTermDto.Request request2 =3D VcoloringTermDto.Request.buil=
+der()
+                .q("=EC=BB=A4=ED=94=BC")
+                .call_id("1000")
+                .sort("")  // If a certain field/parameter is never set dur=
+ing a build session, then it always gets 0 / null / false
+                .build();
+
+# constructor=EB=A1=9C =EA=B0=9D=EC=B2=B4 =EC=83=9D=EC=84=B1=ED=95=98=EB=8A=
+=94 =EA=B2=BD=EC=9A=B0 -&nbsp;request1 =EA=B0=9D=EC=B2=B4=EC=9D=98 sort =EA=
+=B0=92 ""=EB=A1=9C =EC=B4=88=EA=B8=B0=ED=99=94=EB=90=A8
+# builder()=EB=A1=9C =EA=B0=9D=EC=B2=B4 =EC=83=9D=EC=84=B1=ED=95=98=EB=8A=
+=94 =EA=B2=BD=EC=9A=B0 - request2 =EA=B0=9D=EC=B2=B4=EC=9D=98 sort =EA=B0=
+=92 =EB=AA=85=EC=8B=9C=EC=A0=81=EC=9C=BC=EB=A1=9C =EC=84=A4=EC=A0=95=ED=95=
+=B4=EC=A3=BC=EC=A7=80 =EC=95=8A=EC=9C=BC=EB=A9=B4 null =EB=B0=98=ED=99=98</=
+pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_29667_1633799614.1790844717833--

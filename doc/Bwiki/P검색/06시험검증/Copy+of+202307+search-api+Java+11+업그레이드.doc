@@ -1,0 +1,488 @@
+Date: Thu, 1 Oct 2026 18:04:05 +0900 (KST)
+Message-ID: <1028191048.29692.1790845445769@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29691_2103935426.1790845445760"
+
+------=_Part_29691_2103935426.1790845445760
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Copy of 202307 search-api Java 11 =EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Copy of 202307 search-api Java 11 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=
+=B4=EB=93=9C</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1790845445703 {padding: 0px;}
+div.rbtoc1790845445703 ul {margin-left: 0px;}
+div.rbtoc1790845445703 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1790845445703">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C-search-api=EA=B8=B0=EC=A1=B4=EB=B2=84=EC=A0=84">search-api =
+=EA=B8=B0=EC=A1=B4 =EB=B2=84=EC=A0=84</a></li>
+<li><a href=3D"#Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C-search-api=EA=B8=B0=EC=A1=B4=EB=B2=84=EC=A0=84OpenSearch2.5=
+=EC=97=B0=EB=8F=99">search-api =EA=B8=B0=EC=A1=B4 =EB=B2=84=EC=A0=84 OpenSe=
+arch 2.5 =EC=97=B0=EB=8F=99</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C-ElasticsearchStatusException">ElasticsearchStatusException<=
+/a></li>
+</ul></li>
+<li><a href=3D"#Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C-search-apiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=
+=9C">search-api Java 11 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C-Addingcacheablemethodthrowsjava.io.IOException">Adding cach=
+eable method throws java.io.IOException</a></li>
+<li><a href=3D"#Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C-Anillegalreflectiveaccessoperationhasoccurred">An illegal r=
+eflective access operation has occurred</a></li>
+</ul></li>
+<li><a href=3D"#Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=
+=9D=B4=EB=93=9C-=EC=B0=B8=EC=A1=B0">=EC=B0=B8=EC=A1=B0</a></li>
+</ul>
+</div>
+<p></p>
+<p><br></p>
+<h1 id=3D"Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C-search-api=EA=B8=B0=EC=A1=B4=EB=B2=84=EC=A0=84">search-api =EA=B8=
+=B0=EC=A1=B4 =EB=B2=84=EC=A0=84</h1>
+<ul>
+<li>Java 8 + Spring boot 2.3.4 + Elasticsearch 7.10.2 library</li>
+<li>Spring boot system requirements
+<ul>
+<li><a href=3D"https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/refere=
+nce/html/getting-started.html#getting-started-system-requirements" class=3D=
+"external-link" rel=3D"nofollow">https://docs.spring.io/spring-boot/docs/2.=
+3.4.RELEASE/reference/html/getting-started.html#getting-started-system-requ=
+irements</a>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);">Spring Boot 2.3.4.RELEASE requires<s=
+pan>&nbsp;</span></span><a style=3D"text-decoration: none;" href=3D"https:/=
+/www.java.com/" class=3D"external-link" rel=3D"nofollow">Java 8</a><span st=
+yle=3D"color: rgb(0,0,0);"><span>&nbsp;</span>and is compatible up to Java =
+14 (included).<span>&nbsp;</span></span><a href=3D"https://docs.spring.io/s=
+pring/docs/5.2.9.RELEASE/spring-framework-reference/" style=3D"text-decorat=
+ion: none;" class=3D"external-link" rel=3D"nofollow">Spring Framework 5.2.9=
+.RELEASE</a><span style=3D"color: rgb(0,0,0);"><span>&nbsp;</span>or above =
+is also required.</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);"><a href=3D"https://docs.spring.io/sp=
+ring-boot/docs/2.7.13/reference/html/getting-started.html#getting-started.s=
+ystem-requirements" class=3D"external-link" rel=3D"nofollow">https://docs.s=
+pring.io/spring-boot/docs/2.7.13/reference/html/getting-started.html#gettin=
+g-started.system-requirements</a></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">Spring Boot 2.7.13 requires<span>&nbsp;</span></span><a href=3D"https://w=
+ww.java.com/" style=3D"text-decoration: none;" class=3D"external-link" rel=
+=3D"nofollow">Java 8</a><span style=3D"color: rgb(25,30,30);"><span>&nbsp;<=
+/span>and is compatible up to and including Java 20.<span>&nbsp;</span></sp=
+an><a href=3D"https://docs.spring.io/spring-framework/docs/5.3.28/reference=
+/html/" style=3D"text-decoration: none;" class=3D"external-link" rel=3D"nof=
+ollow">Spring Framework 5.3.28</a><span style=3D"color: rgb(25,30,30);"><sp=
+an>&nbsp;</span>or above is also required.</span></span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+"><a class=3D"external-link" href=3D"https://docs.spring.io/spring-boot/doc=
+s/3.0.x/reference/htmlsingle/" rel=3D"nofollow">https://docs.spring.io/spri=
+ng-boot/docs/3.0.x/reference/htmlsingle/</a></span></span>
+<ul>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">Spring Boot 3.0.13 requires<span>&nbsp;</span><a href=3D"https://www.java=
+.com/" style=3D"text-decoration: none;" class=3D"external-link" rel=3D"nofo=
+llow">Java 17</a><span>&nbsp;</span>and is compatible up to and including J=
+ava 21.<span>&nbsp;</span><a style=3D"text-decoration: none;" href=3D"https=
+://docs.spring.io/spring-framework/reference/6.0/" class=3D"external-link" =
+rel=3D"nofollow">Spring Framework 6.0.14</a><span>&nbsp;</span>or above is =
+also required.</span></span></li>
+</ul></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">=3D&gt; Spring boot 2.3.4=EB=8A=94 Java 11 =EC=A0=81=EC=9A=A9 =EA=B0=80=
+=EB=8A=A5=ED=95=98=EB=82=98 Java 17=EC=9D=80 =ED=98=B8=ED=99=98=EC=84=B1 =
+=EA=B2=80=EC=A6=9D =EC=95=88=EB=90=A8</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">=3D&gt; Java 17 =EC=A0=81=EC=9A=A9=EC=9D=84 =EC=9C=84=ED=95=B4=EC=84=9C=
+=EB=8A=94 Spring boot 2.7.13=EC=9C=BC=EB=A1=9C =EC=97=85=EA=B7=B8=EB=A0=88=
+=EC=9D=B4=EB=93=9C =ED=95=84=EC=9A=94</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(25,30,30);=
+">=3D&gt; Java 11=EC=9D=84 =EC=9A=B0=EC=84=A0 =EC=A0=81=EC=9A=A9=ED=95=98=
+=EA=B3=A0&nbsp;=EC=B6=94=ED=9B=84 Spring boot 2.7.13 + Java 17 =EC=97=85=EA=
+=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C =EC=A7=84=ED=96=89</span></span></li>
+</ul></li>
+</ul>
+<h1 id=3D"Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C-search-api=EA=B8=B0=EC=A1=B4=EB=B2=84=EC=A0=84OpenSearch2.5=EC=97=
+=B0=EB=8F=99">search-api =EA=B8=B0=EC=A1=B4 =EB=B2=84=EC=A0=84 OpenSearch 2=
+.5 =EC=97=B0=EB=8F=99</h1>
+<h2 id=3D"Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C-ElasticsearchStatusException">ElasticsearchStatusException</h2>
+<ul>
+<li>=EC=95=84=EB=9E=98 Exception =EB=B0=9C=EC=83=9D</li>
+<li>OpenSearch client library =EC=A0=81=EC=9A=A9 =ED=95=84=EC=9A=94</li>
+<li>OpenSearch client library=EC=9D=98 =EA=B2=BD=EC=9A=B0 Java 11 =EC=82=AC=
+=EC=9A=A9 =ED=95=84=EC=9A=94</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">2023-07=
+-17 13:56:16.957 ERROR [http-nio-8080-exec-2] com.skplanetx.srch.api.common=
+.handler.CustomResponseEntityExceptionHandler [CustomResponseEntityExceptio=
+nHandler.java:103] - [ElasticsearchStatusException]:
+org.elasticsearch.ElasticsearchStatusException: Elasticsearch exception [ty=
+pe=3Dillegal_argument_exception, reason=3Dkey [types] is not supported in t=
+he metadata section]
+    at org.elasticsearch.rest.BytesRestResponse.errorFromXContent(BytesRest=
+Response.java:176) ~[elasticsearch-7.13.4.jar:7.13.4]
+    at org.elasticsearch.client.RestHighLevelClient.parseEntity(RestHighLev=
+elClient.java:1933) ~[elasticsearch-rest-high-level-client-7.13.4.jar:7.13.=
+4]
+    at org.elasticsearch.client.RestHighLevelClient.parseResponseException(=
+RestHighLevelClient.java:1910) ~[elasticsearch-rest-high-level-client-7.13.=
+4.jar:7.13.4]
+    at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(=
+RestHighLevelClient.java:1667) ~[elasticsearch-rest-high-level-client-7.13.=
+4.jar:7.13.4]
+    at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHigh=
+LevelClient.java:1624) ~[elasticsearch-rest-high-level-client-7.13.4.jar:7.=
+13.4]
+    at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseE=
+ntity(RestHighLevelClient.java:1594) ~[elasticsearch-rest-high-level-client=
+-7.13.4.jar:7.13.4]
+    at org.elasticsearch.client.RestHighLevelClient.msearch(RestHighLevelCl=
+ient.java:1159) ~[elasticsearch-rest-high-level-client-7.13.4.jar:7.13.4]
+    at com.skplanetx.srch.api.repository.VcoloringRepository.multisearchAll=
+(VcoloringRepository.java:62) ~[classes/:?]
+...
+    Suppressed: org.elasticsearch.client.ResponseException: method [POST], =
+host [https://vpc-dev-search-es-250-crdyurhlzxphmrjdfmtz7m23nu.ap-northeast=
+-2.es.amazonaws.com], URI [/_msearch?typed_keys=3Dtrue], status line [HTTP/=
+1.1 400 Bad Request]
+{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"key =
+[types] is not supported in the metadata section"}],"type":"illegal_argumen=
+t_exception","reason":"key [types] is not supported in the metadata section=
+"},"status":400}
+        at org.elasticsearch.client.RestClient.convertResponse(RestClient.j=
+ava:326) ~[elasticsearch-rest-client-7.13.4.jar:7.13.4]
+        at org.elasticsearch.client.RestClient.performRequest(RestClient.ja=
+va:296) ~[elasticsearch-rest-client-7.13.4.jar:7.13.4]
+        at org.elasticsearch.client.RestClient.performRequest(RestClient.ja=
+va:270) ~[elasticsearch-rest-client-7.13.4.jar:7.13.4]
+        at org.elasticsearch.client.RestHighLevelClient.internalPerformRequ=
+est(RestHighLevelClient.java:1654) ~[elasticsearch-rest-high-level-client-7=
+.13.4.jar:7.13.4]
+        at org.elasticsearch.client.RestHighLevelClient.performRequest(Rest=
+HighLevelClient.java:1624) ~[elasticsearch-rest-high-level-client-7.13.4.ja=
+r:7.13.4]
+        at org.elasticsearch.client.RestHighLevelClient.performRequestAndPa=
+rseEntity(RestHighLevelClient.java:1594) ~[elasticsearch-rest-high-level-cl=
+ient-7.13.4.jar:7.13.4]
+        at org.elasticsearch.client.RestHighLevelClient.msearch(RestHighLev=
+elClient.java:1159) ~[elasticsearch-rest-high-level-client-7.13.4.jar:7.13.=
+4]
+...</pre>
+</div>
+</div>
+<h1 id=3D"Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C-search-apiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C">se=
+arch-api Java 11 =EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C</h1>
+<ul>
+<li>=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=EB=93=9C =EB=82=B4=EC=9A=A9
+<ul>
+<li>Java 11 =EC=A0=81=EC=9A=A9</li>
+<li>OpenSearch 2.5 client library =EC=A0=81=EC=9A=A9</li>
+</ul></li>
+</ul>
+<h2 class=3D"p1" id=3D"Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=
+=88=EC=9D=B4=EB=93=9C-Addingcacheablemethodthrowsjava.io.IOException"><span=
+ class=3D"s1">Adding cacheable method throws <a href=3D"http://java.io" cla=
+ss=3D"external-link" rel=3D"nofollow">java.io</a>.IOException</span></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{"times=
+tamp":"2024-08-02 15:22:27","thread_name":"main","level":"TRACE","message":=
+"Adding cacheable method 'multisearchAll' with attribute: [Builder[public c=
+om.skplanetx.srch.api.model.vcoloring.VcoloringTermResultResponse com.skpla=
+netx.srch.api.repository.VcoloringRepository.multisearchAll(com.skplanetx.s=
+rch.api.dto.vcoloring.VcoloringTermDto$Request,java.lang.String,com.skplane=
+tx.srch.api.model.QuerySort) throws java.io.IOException] caches=3D[search_v=
+coloring_keyword] | key=3D'' | keyGenerator=3D'customVcoloringCacheKeyGener=
+ator' | cacheManager=3D'' | cacheResolver=3D'' | condition=3D'' | unless=3D=
+'' | sync=3D'false']","source_host":"dev-search-api-77485cfdd4-pgqnw"}</pre=
+>
+</div>
+</div>
+<h2 id=3D"Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C-Anillegalreflectiveaccessoperationhasoccurred"><span class=3D"s1"=
+>An illegal reflective access operation has occurred</span></h2>
+<p class=3D"p1"><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">WARNING=
+: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.ehcache.sizeof.ObjectGraphWalker =
+(file:/app/lib/ehcache-3.10.0.jar) to field java.lang.String.value
+WARNING: Please consider reporting this to the maintainers of org.ehcache.s=
+izeof.ObjectGraphWalker
+WARNING: Use --illegal-access=3Dwarn to enable warnings of further illegal =
+reflective access operations
+WARNING: All illegal access operations will be denied in a future release</=
+pre>
+</div>
+</div>
+<p class=3D"p1"><br></p>
+<h1 id=3D"Copyof202307searchapiJava11=EC=97=85=EA=B7=B8=EB=A0=88=EC=9D=B4=
+=EB=93=9C-=EC=B0=B8=EC=A1=B0">=EC=B0=B8=EC=A1=B0</h1>
+<ul>
+<li>Java 11 new features - <a href=3D"https://www.baeldung.com/java-11-new-=
+features" class=3D"external-link" rel=3D"nofollow">https://www.baeldung.com=
+/java-11-new-features</a></li>
+<li>Opensearch client compatibility - <a href=3D"https://opensearch.org/doc=
+s/1.0/clients/index/" class=3D"external-link" rel=3D"nofollow">https://open=
+search.org/docs/1.0/clients/index/</a></li>
+<li>Opensearch create pit - <a href=3D"https://opensearch.org/docs/latest/s=
+earch-plugins/point-in-time-api/#create-a-pit" class=3D"external-link" rel=
+=3D"nofollow">https://opensearch.org/docs/latest/search-plugins/point-in-ti=
+me-api/#create-a-pit</a>
+<ul>
+<li><span style=3D"color: rgb(0,42,58);">search.max_open_pit_context =3D 30=
+0</span></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29691_2103935426.1790845445760--

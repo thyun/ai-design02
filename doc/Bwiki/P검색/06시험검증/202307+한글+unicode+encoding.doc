@@ -1,0 +1,363 @@
+Date: Thu, 1 Oct 2026 18:02:56 +0900 (KST)
+Message-ID: <79060956.29684.1790845376976@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29683_1368921189.1790845376964"
+
+------=_Part_29683_1368921189.1790845376964
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>202307 =ED=95=9C=EA=B8=80 unicode encoding</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>202307 =ED=95=9C=EA=B8=80 unicode encoding</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1790845376955 {padding: 0px;}
+div.rbtoc1790845376955 ul {margin-left: 0px;}
+div.rbtoc1790845376955 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1790845376955">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202307=ED=95=9C=EA=B8=80unicodeencoding-=EB=8D=B0=EC=9D=
+=B4=ED=84=B0encoding">=EB=8D=B0=EC=9D=B4=ED=84=B0 encoding</a></li>
+<li><a href=3D"#id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicode&amp;utf-=
+8encoding">unicode &amp; utf-8 encoding</a></li>
+<li><a href=3D"#id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicode=ED=95=9C=
+=EA=B8=80(AC00-D7A3)">unicode =ED=95=9C=EA=B8=80 (AC00 - D7A3)</a></li>
+<li><a href=3D"#id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicode=ED=95=9C=
+=EA=B8=80=EC=9E=90=EB=AA=A8">unicode =ED=95=9C=EA=B8=80 =EC=9E=90=EB=AA=A8<=
+/a></li>
+<li><a href=3D"#id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicodeencoder/d=
+ecoder">unicode encoder/decoder</a></li>
+<li><a href=3D"#id-202307=ED=95=9C=EA=B8=80unicodeencoding-vimhexaview">vim=
+ hexa view</a></li>
+<li><a href=3D"#id-202307=ED=95=9C=EA=B8=80unicodeencoding-sourcecode">sour=
+ce code</a></li>
+</ul>
+</div>
+<p></p>
+<p><br></p>
+<h1 id=3D"id-202307=ED=95=9C=EA=B8=80unicodeencoding-=EB=8D=B0=EC=9D=B4=ED=
+=84=B0encoding">=EB=8D=B0=EC=9D=B4=ED=84=B0 encoding</h1>
+<ul>
+<li>=E3=84=B2=E3=85=97=E3=85=8A - e18481 e185a9 e186be =3D&gt; \u1101\u1169=
+\u11BE</li>
+<li>=EA=BD=83 - eabd83 =3D&gt; \uaf43</li>
+<li>=E3=84=B2 - e18481 =3D&gt; \u1101</li>
+<li>=E3=84=B2 - e384b2 =3D&gt; \u3132 (=ED=84=B0=EB=AF=B8=EB=84=90=EC=97=90=
+=EC=84=9C =EC=9E=85=EB=A0=A5=ED=95=9C =EA=B2=BD=EC=9A=B0)</li>
+</ul>
+<h1 id=3D"id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicode&amp;utf-8encod=
+ing">unicode &amp; utf-8 encoding</h1>
+<ul>
+<li><span style=3D"color: rgb(36,36,36);"><a href=3D"https://jeongdowon.med=
+ium.com/unicode%EC%99%80-utf-8-%EA%B0%84%EB%8B%A8%ED%9E%88-%EC%9D%B4%ED%95%=
+B4%ED%95%98%EA%B8%B0-b6aa3f7edf96" class=3D"external-link" rel=3D"nofollow"=
+>https://jeongdowon.medium.com/unicode%EC%99%80-utf-8-%EA%B0%84%EB%8B%A8%ED=
+%9E%88-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-b6aa3f7edf96</a></span>
+<ul>
+<li><span style=3D"color: rgb(36,36,36);">=EC=9C=A0=EB=8B=88=EC=BD=94=EB=93=
+=9C=EB=8A=94 =EA=B8=80=EC=9E=90=EC=99=80 =EC=BD=94=EB=93=9C=EA=B0=80 1:1=EB=
+=A7=A4=ED=95=91=EB=90=98=EC=96=B4 =EC=9E=88=EB=8A=94 =E2=80=98=EC=BD=94=EB=
+=93=9C=ED=91=9C'=EC=9D=B4=EB=8B=A4. (</span><a style=3D"text-decoration: un=
+derline;" class=3D"external-link" href=3D"https://ko.wikipedia.org/wiki/%EC=
+%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%EC%98%81%EC%97%AD" rel=3D"nofollow">=EC=
+=BD=94=EB=93=9C=ED=91=9C</a><span style=3D"color: rgb(36,36,36);">)</span><=
+/li>
+<li><span style=3D"color: rgb(36,36,36);">UTF-8=EC=9D=80 =EC=9C=A0=EB=8B=88=
+=EC=BD=94=EB=93=9C=EB=A5=BC =EC=9D=B8=EC=BD=94=EB=94=A9(encoding)=ED=95=98=
+=EB=8A=94 =EB=B0=A9=EC=8B=9D=EC=9D=B4=EB=8B=A4</span></li>
+</ul></li>
+<li><a href=3D"https://theoryof0.tistory.com/101" class=3D"external-link" r=
+el=3D"nofollow">https://theoryof0.tistory.com/101</a></li>
+</ul>
+<h1 id=3D"id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicode=ED=95=9C=EA=B8=
+=80(AC00-D7A3)">unicode =ED=95=9C=EA=B8=80 (AC00 - D7A3)</h1>
+<ul>
+<li><a href=3D"https://namu.wiki/w/%ED%98%84%EB%8C%80%20%ED%95%9C%EA%B8%80%=
+EC%9D%98%20%EB%AA%A8%EB%93%A0%20%EA%B8%80%EC%9E%90/%EC%9C%A0%EB%8B%88%EC%BD=
+%94%EB%93%9C" class=3D"external-link" rel=3D"nofollow">https://namu.wiki/w/=
+%ED%98%84%EB%8C%80%20%ED%95%9C%EA%B8%80%EC%9D%98%20%EB%AA%A8%EB%93%A0%20%EA=
+%B8%80%EC%9E%90/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C</a><br>
+<ul>
+<li>=EA=B0=80 \uac00 =3D&gt; eab080</li>
+</ul></li>
+</ul>
+<h1 id=3D"id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicode=ED=95=9C=EA=B8=
+=80=EC=9E=90=EB=AA=A8">unicode =ED=95=9C=EA=B8=80 =EC=9E=90=EB=AA=A8 &nbsp;=
+</h1>
+<ul>
+<li><a href=3D"https://gilchris.tistory.com/23" class=3D"external-link" rel=
+=3D"nofollow">https://gilchris.tistory.com/23</a></li>
+<li><a href=3D"https://www.elex.pe.kr/entry/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%=
+93%9C%EC%97%90%EC%84%9C%EC%9D%98-%ED%95%9C%EA%B8%80" class=3D"external-link=
+" rel=3D"nofollow">https://www.elex.pe.kr/entry/%EC%9C%A0%EB%8B%88%EC%BD%94=
+%EB%93%9C%EC%97%90%EC%84%9C%EC%9D%98-%ED%95%9C%EA%B8%80</a>
+<ul>
+<li>=ED=95=9C=EA=B8=80=EC=9D=98 =EC=9E=90=EC=9D=8C =EB=98=90=EB=8A=94 =EB=
+=AA=A8=EC=9D=8C=EC=9D=84 =EB=82=B1=EC=9E=90=EB=A1=9C =EC=82=AC=EC=9A=A9=ED=
+=95=98=EB=8A=94 =EA=B2=BD=EC=9A=B0(=EC=98=88=EB=A5=BC=EB=93=A4=EC=96=B4, '=
+=E3=84=B1' =EB=93=B1)=EC=97=90=EB=8A=94 =EC=9C=84=EC=9D=98 '=ED=95=9C=EA=B8=
+=80 =EC=9E=90=EB=AA=A8' =EB=AC=B8=EC=9E=90 =EC=BD=94=EB=93=9C =EB=8C=80=EC=
+=8B=A0 '=ED=95=9C=EA=B8=80 =ED=98=B8=ED=99=98 =EC=9E=90=EB=AA=A8' =EB=AC=B8=
+=EC=9E=90 =EC=BD=94=EB=93=9C=EA=B0=80 =EC=82=AC=EC=9A=A9=EB=90=9C=EB=8B=A4<=
+/li>
+</ul></li>
+</ul>
+<h1 id=3D"id-202307=ED=95=9C=EA=B8=80unicodeencoding-unicodeencoder/decoder=
+">unicode encoder/decoder</h1>
+<ul>
+<li><a href=3D"https://r12a.github.io/app-conversion/" class=3D"external-li=
+nk" rel=3D"nofollow">https://r12a.github.io/app-conversion/</a>&nbsp;<br>
+&nbsp; UTF-8 code units=EC=97=90 ea bd 83 =EC=9E=85=EB=A0=A5=ED=9B=84 conve=
+rt =EC=88=98=ED=96=89 -&gt; af43 =EA=B0=92 =EC=95=8C =EC=88=98 =EC=9E=88=EC=
+=9D=8C</li>
+<li><a href=3D"https://dencode.com/string" class=3D"external-link" rel=3D"n=
+ofollow">https://dencode.com/string</a></li>
+</ul>
+<h1 id=3D"id-202307=ED=95=9C=EA=B8=80unicodeencoding-vimhexaview">vim hexa =
+view</h1>
+<p>:%!xxd<br>
+:%!xxd -r</p>
+<h1 id=3D"id-202307=ED=95=9C=EA=B8=80unicodeencoding-sourcecode">source cod=
+e</h1>
+<ul>
+<li>java - <a href=3D"https://warpgate3.tistory.com/entry/Unicode-%EC%99%80=
+-UTF8-%EC%97%90-%EC%B0%A8%EC%9D%B4%EC%A0%90" class=3D"external-link" rel=3D=
+"nofollow">https://warpgate3.tistory.com/entry/Unicode-%EC%99%80-UTF8-%EC%9=
+7%90-%EC%B0%A8%EC%9D%B4%EC%A0%90</a></li>
+<li>go - <a href=3D"https://jeongdowon.medium.com/unicode%EC%99%80-utf-8-%E=
+A%B0%84%EB%8B%A8%ED%9E%88-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-b6aa3f7edf96=
+" class=3D"external-link" rel=3D"nofollow">https://jeongdowon.medium.com/un=
+icode%EC%99%80-utf-8-%EA%B0%84%EB%8B%A8%ED%9E%88-%EC%9D%B4%ED%95%B4%ED%95%9=
+8%EA%B8%B0-b6aa3f7edf96</a></li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29683_1368921189.1790845376964--

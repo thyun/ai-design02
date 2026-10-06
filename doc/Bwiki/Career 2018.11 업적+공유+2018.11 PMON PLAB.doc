@@ -1,0 +1,812 @@
+Date: Thu, 1 Oct 2026 18:07:36 +0900 (KST)
+Message-ID: <662522647.29698.1790845656545@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29697_629070497.1790845656535"
+
+------=_Part_29697_629070497.1790845656535
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=EC=97=85=EC=A0=81 =EA=B3=B5=EC=9C=A0 2018.11</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=EC=97=85=EC=A0=81 =EA=B3=B5=EC=9C=A0 2018.11</h1>
+    <div class=3D"Section1">
+        <p class=3D"p1">2018<span class=3D"s1">=EB=85=84</span> <span class=
+=3D"s1">=EC=83=81=EB=B0=98=EA=B8=B0</span></p>
+<ul class=3D"ul1">
+<li class=3D"li1">PMON (1=EC=9B=94~3=EC=9B=94)</li>
+<ul class=3D"ul1">
+<li class=3D"li1"><span class=3D"s1">Canary =EB=8C=80=EC=8B=9C=EB=B3=B4=EB=
+=93=9C -&nbsp;<u><span style=3D"color: rgb(0,0,0);">Canary=EC=99=80<span cl=
+ass=3D"apple-converted-space">&nbsp;</span>Baseline<span class=3D"apple-con=
+verted-space">&nbsp;</span>=EA=B0=84 =ED=8A=B8=EB=9E=98=ED=94=BD =EC=B0=A8=
+=EC=9D=B4=EB=A5=BC =EB=B0=98=EC=98=81=ED=95=98=EC=97=AC =EB=B3=B4=EC=A0=95=
+=ED=95=9C&nbsp;<span class=3D"apple-converted-space">E</span>xception Count=
+ =EC=B0=A8=ED=8A=B8 =EA=B0=9C=EB=B0=9C</span></u></span></li>
+<li><u><span style=3D"color: rgb(0,0,0);">=EC=95=8C=EB=9E=8C =EB=B2=84=EC=
+=A0=84 2 =EA=B0=9C=EB=B0=9C - System/Pattern/Health =EC=95=8C=EB=9E=8C API =
+=EB=B2=84=EC=A0=84 2 =EA=B0=9C=EB=B0=9C (=EC=95=8C=EB=9E=8C API DB Query =
+=EC=84=B1=EB=8A=A5 =EA=B0=9C=EC=84=A0, Response Size =EC=B6=95=EC=86=8C) -&=
+nbsp;<a href=3D"/pages/viewpage.action?pageId=3D139269595">[2018.01] =EC=95=
+=8C=EB=9E=8C API V2 (=EB=A6=AC=ED=8C=A9=ED=86=A0=EB=A7=81)</a></span></u><b=
+r>
+<ul class=3D"ul1">
+<li><u><u>=EC=95=8C=EB=9E=8C API =EB=B2=84=EC=A0=84 1,2 =EC=A0=95=ED=95=A9=
+=EC=84=B1 =EA=B2=80=EC=A6=9D<span style=3D"color: rgb(0,0,0);">&nbsp;</span=
+><span style=3D"color: rgb(0,0,0);">(~2/23)</span></u><br></u></li>
+<li><u><span style=3D"color: rgb(0,0,0);">=EC=95=8C=EB=9E=8C API V2 Fronten=
+d &amp; Backend =EC=83=81=EC=9A=A9 =EC=A0=81=EC=9A=A9 =EB=B0=8F =EB=AA=A8=
+=EB=8B=88=ED=84=B0=EB=A7=81 - System Alarm API =EC=9D=91=EB=8B=B5 Size=EA=
+=B0=80 38.3M =E2=86=92 2.8M=EB=A1=9C 1/10 =EC=9D=B4=ED=95=98=EB=A1=9C =EB=
+=8C=80=ED=8F=AD =EC=B6=95=EC=86=8C (2/26) (=EC=99=84=EB=A3=8C)</span></u><u=
+><u><span style=3D"color: rgb(0,0,0);"><br></span></u></u></li>
+</ul></li>
+<li class=3D"li1">Agent - Collectd, Cnxlog
+<ul class=3D"ul1">
+<li><u>=EB=A1=9C=EA=B7=B8 =EC=88=98=EC=A7=91=EC=8B=9C EUC-KR =EB=93=B1 UTF-=
+8 =EC=9D=B4=EC=99=B8 =EB=A1=9C=EA=B7=B8 =EC=88=98=EC=A7=91 =EA=B8=B0=EB=8A=
+=A5 =EA=B0=9C=EB=B0=9C - Log Agent(cnxlog)=EC=97=90=EC=84=9C =EB=A1=9C=EA=
+=B7=B8 =ED=8C=8C=EC=9D=BC encoding =EC=84=A4=EC=A0=95 =EA=B8=B0=EB=8A=A5 =
+=EB=B0=8F UI config =EC=97=B0=EB=8F=99 =EA=B8=B0=EB=8A=A5 =EA=B0=9C=EB=B0=
+=9C (&nbsp;<a href=3D"http://jira.skplanet.com/browse/MONI-1394" class=3D"e=
+xternal-link" rel=3D"nofollow"><span class=3D"confluence-embedded-file-wrap=
+per"><img class=3D"confluence-embedded-image icon confluence-external-resou=
+rce" draggable=3D"false" src=3D"http://jira.skplanet.com/secure/viewavatar?=
+size=3Dxsmall&amp;avatarId=3D11518&amp;avatarType=3Dissuetype" data-image-s=
+rc=3D"http://jira.skplanet.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=
+=3D11518&amp;avatarType=3Dissuetype"></span>MONI-1394</a>&nbsp;-&nbsp;<span=
+ class=3D"summary">cnxlog config API encoding =EC=84=A4=EC=A0=95 =EC=B6=94=
+=EA=B0=80</span>&nbsp;<span class=3D"aui-lozenge aui-lozenge-subtle aui-loz=
+enge-success jira-macro-single-issue-export-pdf">CLOSE</span>)</u></li>
+</ul></li>
+<li><u>=EA=B8=B0=EB=8A=A5 =EA=B0=9C=EC=84=A0</u>
+<ul class=3D"ul1">
+<li><u>=ED=8C=A8=ED=84=B4 =EC=95=8C=EB=9E=8C =EB=A9=94=EC=8B=9C=EC=A7=80 =
+=EC=A0=84=EC=86=A1=EC=8B=9C LMON Link =EC=A0=84=EB=8B=AC =EA=B8=B0=EB=8A=A5=
+ - =EC=95=8C=EB=9E=8C =EC=84=9C=EB=B2=84 LMON Link =EC=83=9D=EC=84=B1 =EA=
+=B8=B0=EB=8A=A5 =EA=B0=9C=EB=B0=9C<br></u></li>
+<li><u>Disk =EC=95=8C=EB=9E=8C =EA=B8=B0=EB=8A=A5 =EA=B0=9C=EC=84=A0 -&nbsp=
+;=EC=A0=95=ED=95=B4=EC=A7=84 =EB=94=94=EB=A0=89=ED=86=A0=EB=A6=AC=EB=A7=8C =
+=EC=95=8C=EB=9E=8C =EC=84=A4=EC=A0=95 =EA=B0=80=EB=8A=A5=ED=95=98=EC=98=80=
+=EC=9C=BC=EB=82=98&nbsp;=EB=94=94=EB=A0=89=ED=86=A0=EB=A6=AC=EB=AA=85=EC=9D=
+=84 =EC=9E=85=EB=A0=A5 =EB=B0=9B=EC=9D=84 =EC=88=98 =EC=9E=88=EB=8F=84=EB=
+=A1=9D =EA=B8=B0=EB=8A=A5 =EA=B0=9C=EC=84=A0</u></li>
+</ul></li>
+</ul>
+<li class=3D"li1">PLAB (3=EC=9B=94~6=EC=9B=94)
+<ul class=3D"ul1">
+<li class=3D"li1">WAS SDK (Java) =EC=9D=B8=EC=88=98=EC=9D=B8=EA=B3=84
+<ul class=3D"ul1">
+<li class=3D"li1"><u>11=EB=B2=88=EA=B0=80 WAS SDK =EC=A0=81=EC=9A=A9 =EC=A7=
+=80=EC=9B=90 - WAS SDK NoClassDefFoundError =EB=B0=9C=EC=83=9D =EC=9B=90=EC=
+=9D=B8 =EB=B6=84=EC=84=9D =EB=B0=8F =EC=A1=B0=EC=B9=98&nbsp;</u><u>(&nbsp;<=
+a href=3D"http://jira.skplanet.com/browse/ABTEST-305" class=3D"external-lin=
+k" rel=3D"nofollow"><span class=3D"confluence-embedded-file-wrapper"><img c=
+lass=3D"confluence-embedded-image icon confluence-external-resource" dragga=
+ble=3D"false" src=3D"http://jira.skplanet.com/secure/viewavatar?size=3Dxsma=
+ll&amp;avatarId=3D11518&amp;avatarType=3Dissuetype" data-image-src=3D"http:=
+//jira.skplanet.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D11518&am=
+p;avatarType=3Dissuetype"></span>ABTEST-305</a>&nbsp;-&nbsp;<span class=3D"=
+summary">[PLAB] WAS SDK java.lang.NoClassDefFoundError =EB=B0=9C=EC=83=9D =
+=EC=A1=B0=EC=B9=98</span><span class=3D"aui-lozenge aui-lozenge-subtle aui-=
+lozenge-success jira-macro-single-issue-export-pdf">CLOSED</span>) - WAS SD=
+K 0.3.3 =EB=A6=B4=EB=A6=AC=EC=A6=88</u></li>
+<li><u>WAS SDK (Java) =EA=B8=B0=EB=8A=A5 =EC=B6=94=EA=B0=80 =EA=B0=9C=EB=B0=
+=9C, BugFix,&nbsp;<u>=EB=82=B4=EB=B6=80 =EA=B5=AC=EC=A1=B0 =EA=B0=9C=EC=84=
+=A0 =EC=9E=91=EC=97=85&nbsp;</u>- =EA=B8=88=EC=A3=BC 0.5.0 =EB=A6=B4=EB=A6=
+=AC=EC=A6=88 =EC=98=88=EC=A0=95 (&nbsp;<a class=3D"external-link" href=3D"h=
+ttp://jira.skplanet.com/browse/ABTEST-294" rel=3D"nofollow"><span class=3D"=
+confluence-embedded-file-wrapper"><img class=3D"confluence-embedded-image i=
+con confluence-external-resource" draggable=3D"false" src=3D"http://jira.sk=
+planet.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D11518&amp;avatarT=
+ype=3Dissuetype" data-image-src=3D"http://jira.skplanet.com/secure/viewavat=
+ar?size=3Dxsmall&amp;avatarId=3D11518&amp;avatarType=3Dissuetype"></span>AB=
+TEST-294</a>&nbsp;-&nbsp;<span class=3D"summary">WAS SDK =EC=97=90=EC=84=9C=
+ =EC=8B=A4=ED=97=98=EB=A9=94=ED=83=80=EC=A0=95=EB=B3=B4 =EB=A6=AC=ED=84=B4<=
+/span>&nbsp;<span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-succe=
+ss jira-macro-single-issue-export-pdf">CLOSED</span>)</u>
+<ul>
+<li>=EA=B8=B0=EB=8A=A5 =EC=B6=94=EA=B0=80 - Variation meta =EC=A1=B0=ED=9A=
+=8C method =EC=B6=94=EA=B0=80, PageKey=EB=A1=9C getVariation=ED=95=98=EB=8A=
+=94 method =EC=B6=94=EA=B0=80)</li>
+<li>BugFix - draft =EC=8B=A4=ED=97=98 =EC=B0=B8=EA=B0=80 =EC=98=A4=EB=A5=98=
+, winner =EC=A0=81=EC=9A=A9 =EC=95=88=EB=90=98=EB=8A=94 =EC=98=A4=EB=A5=98 =
+=EC=88=98=EC=A0=95</li>
+<li>=EB=82=B4=EB=B6=80 =EA=B5=AC=EC=A1=B0 =EA=B0=9C=EC=84=A0 - Model =ED=81=
+=B4=EB=9E=98=EC=8A=A4 =EC=A0=81=EC=9A=A9, Plab Singleton =ED=81=B4=EB=9E=98=
+=EC=8A=A4 =EC=A0=81=EC=9A=A9, =EB=B6=88=ED=95=84=EC=9A=94 =ED=81=B4=EB=9E=
+=98=EC=8A=A4 =EC=82=AD=EC=A0=9C</li>
+</ul></li>
+</ul></li>
+<li class=3D"li1">Web SDK =EA=B0=9C=EB=B0=9C =EC=A7=80=EC=9B=90
+<ul class=3D"ul1">
+<li class=3D"li1">Web SDK =EA=B0=9C=EB=B0=9C - EUC-KR =ED=8E=98=EC=9D=B4=EC=
+=A7=80 =ED=95=9C=EA=B8=80 =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=84=EC=86=A1 =
+=EB=AC=B8=EC=A0=9C =EA=B2=80=EC=A6=9D=EC=A4=91</li>
+<li><u>Web A/B =ED=85=8C=EC=8A=A4=ED=8A=B8 =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=
+=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=9D =EC=8B=A4=ED=97=98 =EC=A7=80=EC=
+=9B=90 - DataHub =EC=88=98=EC=A7=91 =EC=B0=A8=EB=8B=A8, PLAB &amp; Log2.0 =
+=EB=8D=B0=EC=9D=B4=ED=84=B0 =EB=B9=84=EA=B5=90 =EB=B6=84=EC=84=9D =EB=93=B1=
+</u></li>
+<li><u>Web A/B =ED=85=8C=EC=8A=A4=ED=8A=B8 =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=
+=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=9D =EC=8B=A4=ED=97=98 =EC=A7=84=ED=
+=96=89: 1~4=EC=B0=A8 =EC=8B=A4=ED=97=98 =EC=A7=84=ED=96=89, Variation A, B =
+Visit Mismatch =ED=98=84=EC=83=81 =EC=9B=90=EC=9D=B8 =EB=B6=84=EC=84=9D, Sa=
+mpling =EB=A1=9C=EC=A7=81 =EC=9E=AC=ED=85=8C=EC=8A=A4=ED=8A=B8, Visit =EC=
+=A0=84=EC=86=A1 =EB=A1=9C=EC=A7=81 =EC=88=98=EC=A0=95, add_to_cart =EC=A7=
+=91=EA=B3=84=EC=8B=9C =EC=9E=A5=EB=B0=94=EA=B5=AC=EB=8B=88 =EB=B3=B4=EA=B8=
+=B0 =EC=A0=9C=EC=99=B8 =EB=93=B1 =EB=B3=B4=EC=99=84 =EC=9E=91=EC=97=85=ED=
+=9B=84 Web SDK 0.8.3 =EB=A6=B4=EB=A6=AC=EC=A6=88&nbsp;</u>(<a class=3D"exte=
+rnal-link" href=3D"http://pdwiki.skplanet.com/pages/viewpage.action?pageId=
+=3D42140302" rel=3D"nofollow">http://pdwiki.skplanet.com/pages/viewpage.act=
+ion?pageId=3D42140302</a>)&nbsp;(=EA=B3=84=EC=86=8D)</li>
+<li>Web A/B =ED=85=8C=EC=8A=A4=ED=8A=B8 SDK 0.8.3 =EC=A0=81=EC=9A=A9=ED=9B=
+=84 =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=
+=9D 5=EC=B0=A8 =EC=8B=A4=ED=97=98 =EC=A7=84=ED=96=89: Variation A Visit=EC=
+=9D=B4 B/C/D =EB=8C=80=EB=B9=84 =EB=86=92=EC=9D=80 =ED=98=84=EC=83=81 =EA=
+=B3=84=EC=86=8D =EB=B0=9C=EC=83=9D, Variation A redirect =EC=A1=B0=EC=B9=98=
+ &amp; =EC=83=81=EC=9A=A9 =EC=A0=81=EC=9A=A9=ED=9B=84 =EC=9E=AC=EA=B2=80=EC=
+=A6=9D<a href=3D"http://pdwiki.skplanet.com/pages/viewpage.action?pageId=3D=
+42140302" class=3D"external-link" rel=3D"nofollow">http://pdwiki.skplanet.c=
+om/pages/viewpage.action?pageId=3D42140302</a>)</li>
+</ul></li>
+</ul></li>
+</ul>
+<p class=3D"p1">2018<span class=3D"s1">=EB=85=84</span> <span class=3D"s1">=
+=ED=95=98=EB=B0=98=EA=B8=B0</span></p>
+<ul class=3D"ul1">
+<li class=3D"li1">PLAB (6=EC=9B=94, 8~9=EC=9B=94)</li>
+<ul class=3D"ul1">
+<li class=3D"li2"><span class=3D"s3">Segment </span>=EB=B6=84=EC=84=9D<span=
+ class=3D"s3"> </span>=EA=B8=B0=EB=8A=A5 =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=
+=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=9D</li>
+<li class=3D"li1">Unique Event Count <span class=3D"s1">=EC=83=81=EC=9A=A9<=
+/span> <span class=3D"s1">=EB=8D=B0=EC=9D=B4=ED=84=B0</span> <span class=3D=
+"s1">=EC=A0=95=ED=95=A9=EC=84=B1</span> <span class=3D"s1">=EA=B2=80=EC=A6=
+=9D</span></li>
+<li class=3D"li3"><span class=3D"s5">Multivariate A/B </span><span class=3D=
+"s6">=ED=85=8C=EC=8A=A4=ED=8A=B8</span><span class=3D"s5"> </span><span cla=
+ss=3D"s6">=EC=B2=98=EB=A6=AC</span><span class=3D"s5"> </span><span class=
+=3D"s6">=ED=94=8C=EB=A1=9C=EC=9A=B0</span><span class=3D"s5"> </span><span =
+class=3D"s6">=EC=84=A4=EA=B3=84 &amp; =EA=B0=9C=EB=B0=9C (<a href=3D"http:/=
+/pdwiki.skplanet.com/pages/viewpage.action?pageId=3D43385902" class=3D"exte=
+rnal-link" rel=3D"nofollow"><span class=3D"s7">http://pdwiki.skplanet.com/p=
+ages/viewpage.action?pageId=3D43385902</span></a>)</span></li>
+<li class=3D"li4"><span class=3D"s8">Open API -&gt; Public API =EC=A0=84=ED=
+=99=98 - =EC=82=AC=EC=A0=84 =EC=84=B1=EB=8A=A5 =EA=B2=80=EC=A6=9D =EC=B2=A0=
+=EC=A0=80=ED=9E=88 =EC=A7=84=ED=96=89 </span><span class=3D"s6">(<a href=3D=
+"http://pdwiki.skplanet.com/pages/viewpage.action?pageId=3D44992160" class=
+=3D"external-link" rel=3D"nofollow"><span class=3D"s9">http://pdwiki.skplan=
+et.com/pages/viewpage.action?pageId=3D44992160</span></a>)</span></li>
+<li class=3D"li1"><span class=3D"s10">11</span><span class=3D"s11">=EB=B2=
+=88=EA=B0=80</span><span class=3D"s10"> Android SDK </span><span class=3D"s=
+11">=EB=AC=B8=EC=9D=98</span><span class=3D"s10"> </span><span class=3D"s11=
+">=ED=99=95=EC=9D=B8=EC=A4=91</span><span class=3D"s10"> - 11</span><span c=
+lass=3D"s11">=EB=B2=88=EA=B0=80</span><span class=3D"s10"> </span><span cla=
+ss=3D"s11">=EC=95=B1=EB=82=B4</span><span class=3D"s10"> PLAB resource </sp=
+an><span class=3D"s11">=ED=8C=8C=EC=9D=BC</span><span class=3D"s10"> </span=
+><span class=3D"s11">=EC=A4=91=EB=B3=B5</span><span class=3D"s10"> </span><=
+span class=3D"s11">=EC=82=AC=EC=9A=A9</span><span class=3D"s10"> </span><sp=
+an class=3D"s11">=EC=9B=90=EC=9D=B8</span><span class=3D"s10"> (<a href=3D"=
+http://jira.skplanet.com/browse/MPINNER-6893" class=3D"external-link" rel=
+=3D"nofollow"><span class=3D"s12">MPINNER-6893</span></a>&nbsp;-&nbsp;Andro=
+id - ABTest SDK 1.2.2 </span><span class=3D"s11">=EC=97=85=EB=8D=B0=EC=9D=
+=B4=ED=8A=B8</span><span class=3D"s10"> </span><span class=3D"s11">=EC=A0=
+=81=EC=9A=A9</span><span class=3D"s10">&nbsp;<strong>FIXED</strong>)</span>=
+</li>
+<li class=3D"li1">11<span class=3D"s1">=EB=B2=88=EA=B0=80</span> <span clas=
+s=3D"s1">=EA=B0=9C=EB=B0=9C=EC=A1=B4</span> <span class=3D"s1">=EC=8B=A4=ED=
+=97=98</span> <span class=3D"s1">=EB=AA=A9=EB=A1=9D</span> <span class=3D"s=
+1">=EB=AF=B8=ED=91=9C=EC=8B=9C</span> <span class=3D"s1">=EC=9B=90=EC=9D=B8=
+</span> <span class=3D"s1">=EB=B6=84=EC=84=9D</span> <span class=3D"s1">=EB=
+=B0=8F</span> <span class=3D"s1">=EC=A1=B0=EC=B9=98</span> - <span class=3D=
+"s1">=EA=B0=9C=EB=B0=9C=EC=A1=B4=EC=9D=80</span> <span class=3D"s1">=EB=8B=
+=A8=EB=A7=90</span> =E2=86=92 API <span class=3D"s1">=EC=84=9C=EB=B2=84</sp=
+an> <span class=3D"s1">=EC=A7=81=EC=A0=91</span> <span class=3D"s1">=EC=97=
+=B0=EB=8F=99</span> <span class=3D"s1">=EB=B0=A9=EC=8B=9D</span> <span clas=
+s=3D"s1">=EC=82=AC=EC=9A=A9=ED=95=98=EB=82=98</span>&nbsp;<a href=3D"http:/=
+/api.plab-dev.11st.co.kr/" class=3D"external-link" rel=3D"nofollow"><span c=
+lass=3D"s7">api.plab-dev.11st.co.kr</span></a><span class=3D"s1">=EC=9D=80<=
+/span> <span class=3D"s1">=EC=82=AC=EC=84=A4</span> IP <span class=3D"s1">=
+=EC=82=AC=EC=9A=A9</span>&nbsp;(&nbsp;<a href=3D"http://jira.skplanet.com/b=
+rowse/ABTEST-335" class=3D"external-link" rel=3D"nofollow"><span class=3D"s=
+13">ABTEST-335</span></a>&nbsp;-&nbsp;11<span class=3D"s1">=EB=B2=88=EA=B0=
+=80</span> Android <span class=3D"s1">=EC=95=B1</span> <span class=3D"s1">=
+=EA=B0=9C=EB=B0=9C=EC=A1=B4=EC=97=90=EC=84=9C</span> <span class=3D"s1">=EC=
+=8B=A4=ED=97=98</span> <span class=3D"s1">=EB=AA=A9=EB=A1=9D</span> <span c=
+lass=3D"s1">=ED=91=9C=EC=8B=9C</span> <span class=3D"s1">=EC=95=88=EB=90=98=
+=EB=8A=94</span> <span class=3D"s1">=EC=A6=9D=EC=83=81</span>&nbsp;<strong>=
+CLOSED</strong>) (<span class=3D"s1">=EC=99=84=EB=A3=8C</span>)</li>
+<li class=3D"li1">Android SDK, WAS SDK <span class=3D"s1">=EC=9D=B8=EC=88=
+=98=EC=9D=B8=EA=B3=84=ED=9B=84</span> <span class=3D"s1">=EA=B4=80=EB=A6=AC=
+</span></li>
+</ul>
+<li class=3D"li1">PMON (7=EC=9B=94)</li>
+<ul class=3D"ul1">
+<li class=3D"li1"><span class=3D"s10">ServiceMon </span><span class=3D"s11"=
+>=EA=B0=9C=EB=B0=9C=EC=A1=B4</span><span class=3D"s10"> </span><span class=
+=3D"s11">=EC=84=B1=EB=8A=A5</span><span class=3D"s10"> </span><span class=
+=3D"s11">=EC=8B=9C=ED=97=98</span><span class=3D"s10"> &amp; </span><span c=
+lass=3D"s11">=EC=8B=A4=ED=99=98=EA=B2=BD</span><span class=3D"s10"> </span>=
+<span class=3D"s11">=EC=84=B1=EB=8A=A5</span><span class=3D"s10"> </span><s=
+pan class=3D"s11">=EA=B0=9C=EC=84=A0</span><span class=3D"s10"> </span><spa=
+n class=3D"s11">=EA=B2=B0=EA=B3=BC</span><span class=3D"s10"> </span><span =
+class=3D"s11">=EC=9E=91=EC=84=B1</span>&nbsp;- <span class=3D"s1">=ED=8A=B8=
+=EB=9E=98=ED=94=BD=EC=9D=B4</span> 2~3<span class=3D"s1">=EB=B0=B0</span> <=
+span class=3D"s1">=EA=B8=89=EC=A6=9D=ED=95=98=EB=A9=B4</span> <span class=
+=3D"s1">=EC=B2=98=EB=A6=AC</span> <span class=3D"s1">=EC=A7=80=EC=97=B0</sp=
+an>,&nbsp;<a href=3D"http://wiki.skplanet.com/pages/viewpage.action?pageId=
+=3D176239805" class=3D"external-link" rel=3D"nofollow"><span class=3D"s7">[=
+2018.07] ServiceMon </span><span class=3D"s14">=EC=8B=A4=ED=99=98=EA=B2=BD<=
+/span><span class=3D"s7"> </span><span class=3D"s14">=EC=B2=98=EB=A6=AC</sp=
+an><span class=3D"s7"> </span><span class=3D"s14">=EC=84=B1=EB=8A=A5</span>=
+<span class=3D"s7"> </span><span class=3D"s14">=EA=B0=9C=EC=84=A0</span><sp=
+an class=3D"s7"> </span><span class=3D"s14">=EB=93=B1</span></a> (6/11<span=
+ class=3D"s1">=EC=9D=BC</span> <span class=3D"s1">=EB=AC=B8=EC=A0=9C</span>=
+ <span class=3D"s1">=EB=B0=9C=EC=83=9D</span>, 7<span class=3D"s1">=EC=9B=
+=94</span> <span class=3D"s1">=EA=B0=9C=EB=B0=9C=EB=A1=9C</span> <span clas=
+s=3D"s1">=EC=84=A0=EC=A0=9C</span> <span class=3D"s1">=EB=8C=80=EC=9D=91</s=
+pan>)</li>
+<li class=3D"li1"><span class=3D"s1">=EB=B6=84=EC=82=AC=ED=9B=84</span> <sp=
+an class=3D"s1">=EC=9D=B8=EC=A6=9D</span> <span class=3D"s1">=EC=B2=B4=EA=
+=B3=84</span> <span class=3D"s1">=EB=B3=80=EA=B2=BD=EC=97=90</span> <span c=
+lass=3D"s1">=EB=94=B0=EB=A5=B8</span> <span class=3D"s1">=EC=98=81=ED=96=A5=
+</span> <span class=3D"s1">=EA=B2=80=ED=86=A0</span> (<a href=3D"http://wik=
+i.skplanet.com/pages/viewpage.action?pageId=3D179788599" class=3D"external-=
+link" rel=3D"nofollow"><span class=3D"s7">[2018.08] </span><span class=3D"s=
+14">=EB=B6=84=EC=82=AC</span><span class=3D"s7"> </span><span class=3D"s14"=
+>=EB=8C=80=EC=9D=91</span></a>) <span class=3D"s1">=EB=B0=8F</span> 11<span=
+ class=3D"s1">=EB=B2=88=EA=B0=80=EC=9A=A9</span> Web/WAS <span class=3D"s1"=
+>=EA=B5=AC=EC=B6=95</span> (9/3<span class=3D"s1">=EC=9D=BC</span> <span cl=
+ass=3D"s1">=EC=9E=A5=EB=B9=84</span> <span class=3D"s1">=EB=B0=9C=EA=B8=89<=
+/span>, 9/17 <span class=3D"s1">=EC=98=A4=ED=94=88</span>) - <a href=3D"htt=
+p://jira.skplanet.com/browse/MONI-1427" class=3D"external-link" rel=3D"nofo=
+llow"><span class=3D"s7">http://jira.skplanet.com/browse/MONI-1427</span></=
+a></li>
+<li class=3D"li2">=EB=B3=B4=EB=9D=BC=EB=A7=A4=EC=84=BC=ED=84=B0<span class=
+=3D"s3"> 11</span>=EC=A0=88<span class=3D"s3"> </span>=EB=8C=80=EC=9D=91</l=
+i>
+</ul>
+</ul>
+<h1 id=3D"id-=EC=97=85=EC=A0=81=EA=B3=B5=EC=9C=A02018.11-=EC=84=B1=EB=AA=85=
+:=EC=9C=A4=ED=83=9C=ED=98=95">=EC=84=B1=EB=AA=85: =EC=9C=A4=ED=83=9C=ED=98=
+=95</h1>
+<p>&lt;=EC=97=85=EB=AC=B4&gt;</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable" style=3D"width: 100.0%;">
+<colgroup>
+<col style=3D"width: 5.25465%;">
+<col style=3D"width: 41.0671%;">
+<col style=3D"width: 10.2668%;">
+<col style=3D"width: 40.6629%;">
+<col style=3D"width: 2.74859%;">
+</colgroup>
+<thead>
+<tr>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=EA=B5=AC=EB=B6=
+=84</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=EB=AA=A9=ED=91=
+=9C</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=EA=B0=80=EC=A4=
+=91=EC=B9=98</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=EC=9E=90=EA=B8=
+=B0 =ED=8F=89=EA=B0=80</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=EC=9B=90=EC=9D=
+=B8 =EB=B6=84=EC=84=9D</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">=EC=9D=BC=EC=83=81=EC=A0=81 =EC=98=81=EC=97=AD</=
+td>
+<td class=3D"confluenceTd">
+<ul>
+<li>PLAB
+<ul>
+<li>=EC=A3=BC=EC=9A=94 =EA=B8=B0=EB=8A=A5=EB=93=A4=EC=97=90 =EB=8C=80=ED=95=
+=9C =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=
+=9D
+<ul>
+<li>Web SDK - Web A/B =ED=85=8C=EC=8A=A4=ED=8A=B8 =EB=8D=B0=EC=9D=B4=ED=84=
+=B0 =EC=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=9D (Variation A Visit=EC=9D=
+=B4 B/C/D =EB=8C=80=EB=B9=84 =EB=86=92=EC=9D=80 =ED=98=84=EC=83=81)</li>
+<li>Segment=EB=B3=84 =EB=B6=84=EC=84=9D =EA=B8=B0=EB=8A=A5 =EB=8D=B0=EC=9D=
+=B4=ED=84=B0 =EC=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=9D</li>
+<li>Unique Event Count =EB=B6=84=EC=84=9D =EA=B8=B0=EB=8A=A5 =EB=8D=B0=EC=
+=9D=B4=ED=84=B0 =EC=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=A6=9D</li>
+</ul></li>
+<li>Multivariate A/B =ED=85=8C=EC=8A=A4=ED=8A=B8 =EC=A0=84=EC=B2=B4 =EC=B2=
+=98=EB=A6=AC =ED=94=8C=EB=A1=9C=EC=9A=B0 =EC=84=A4=EA=B3=84 =EB=B0=8F Andro=
+id SDK =EA=B0=9C=EB=B0=9C (<a href=3D"http://pdwiki.skplanet.com/pages/view=
+page.action?pageId=3D43385902" class=3D"external-link" rel=3D"nofollow"><sp=
+an class=3D"s7">http://pdwiki.skplanet.com/pages/viewpage.action?pageId=3D4=
+3385902</span></a>)</li>
+</ul></li>
+<li>PMON
+<ul>
+<li class=3D"li1"><span class=3D"s1">Canary =EB=8C=80=EC=8B=9C=EB=B3=B4=EB=
+=93=9C -&nbsp;Baseline=EA=B3=BC <span style=3D"color: rgb(0,0,0);">Canary=
+=EA=B0=84 =EC=A7=80=ED=91=9C =EB=B9=84=EA=B5=90 (Netflix =EC=82=AC=EB=A1=80=
+)</span></span></li>
+<li><span style=3D"color: rgb(0,0,0);">=EC=95=8C=EB=9E=8C =EB=B2=84=EC=A0=
+=84 2 =EA=B0=9C=EB=B0=9C - System/Pattern/Health =EC=95=8C=EB=9E=8C API =EB=
+=B2=84=EC=A0=84 2 =EA=B0=9C=EB=B0=9C (=EC=95=8C=EB=9E=8C API DB Query =EC=
+=84=B1=EB=8A=A5 =EA=B0=9C=EC=84=A0, Response Size =EC=B6=95=EC=86=8C) -&nbs=
+p;<a href=3D"/pages/viewpage.action?pageId=3D139269595">[2018.01] =EC=95=8C=
+=EB=9E=8C API V2 (=EB=A6=AC=ED=8C=A9=ED=86=A0=EB=A7=81)</a></span><br>
+<ul class=3D"ul1">
+<li>=EC=95=8C=EB=9E=8C API =EB=B2=84=EC=A0=84 1,2 =EC=A0=95=ED=95=A9=EC=84=
+=B1 =EA=B2=80=EC=A6=9D<span style=3D"color: rgb(0,0,0);">&nbsp;</span><span=
+ style=3D"color: rgb(0,0,0);">(~2/23)</span></li>
+<li><span style=3D"color: rgb(0,0,0);">=EC=95=8C=EB=9E=8C API V2 Frontend &=
+amp; Backend =EC=83=81=EC=9A=A9 =EC=A0=81=EC=9A=A9 =EB=B0=8F =EB=AA=A8=EB=
+=8B=88=ED=84=B0=EB=A7=81 - System Alarm API =EC=9D=91=EB=8B=B5 Size=EA=B0=
+=80 38.3M =E2=86=92 2.8M=EB=A1=9C 1/10 =EC=9D=B4=ED=95=98=EB=A1=9C =EB=8C=
+=80=ED=8F=AD =EC=B6=95=EC=86=8C (2/26) (=EC=99=84=EB=A3=8C)</span></li>
+</ul></li>
+<li><span class=3D"s10">ServiceMon&nbsp;</span><span class=3D"s11">=EA=B0=
+=9C=EB=B0=9C=EC=A1=B4</span><span class=3D"s10">&nbsp;</span><span class=3D=
+"s11">=EC=84=B1=EB=8A=A5</span><span class=3D"s10">&nbsp;</span><span class=
+=3D"s11">=EC=8B=9C=ED=97=98</span><span class=3D"s10">&nbsp;&amp;&nbsp;</sp=
+an><span class=3D"s11">=EC=8B=A4=ED=99=98=EA=B2=BD</span><span class=3D"s10=
+">&nbsp;</span><span class=3D"s11">=EC=84=B1=EB=8A=A5</span><span class=3D"=
+s10">&nbsp;</span><span class=3D"s11">=EA=B0=9C=EC=84=A0</span><span class=
+=3D"s10">&nbsp;</span><span class=3D"s11">=EA=B2=B0=EA=B3=BC</span><span cl=
+ass=3D"s10">&nbsp;</span><span class=3D"s11">=EC=9E=91=EC=84=B1</span>&nbsp=
+;-&nbsp;<span class=3D"s1">=ED=8A=B8=EB=9E=98=ED=94=BD=EC=9D=B4</span>&nbsp=
+;2~3<span class=3D"s1">=EB=B0=B0</span>&nbsp;<span class=3D"s1">=EA=B8=89=
+=EC=A6=9D=ED=95=98=EB=A9=B4</span>&nbsp;<span class=3D"s1">=EC=B2=98=EB=A6=
+=AC</span>&nbsp;<span class=3D"s1">=EC=A7=80=EC=97=B0, <span>(6/11</span><s=
+pan class=3D"s1">=EC=9D=BC</span><span>&nbsp;</span><span class=3D"s1">=EB=
+=AC=B8=EC=A0=9C</span><span>&nbsp;</span><span class=3D"s1">=EB=B0=9C=EC=83=
+=9D</span><span>, 7</span><span class=3D"s1">=EC=9B=94</span><span>&nbsp;</=
+span><span class=3D"s1">=EA=B0=9C=EB=B0=9C=EB=A1=9C</span><span>&nbsp;</spa=
+n><span class=3D"s1">=EC=84=A0=EC=A0=9C</span><span>&nbsp;</span><span clas=
+s=3D"s1">=EB=8C=80=EC=9D=91</span><span>) </span><a href=3D"http://wiki.skp=
+lanet.com/pages/viewpage.action?pageId=3D176239805" class=3D"external-link"=
+ rel=3D"nofollow"><span class=3D"s7">[2018.07] ServiceMon&nbsp;</span><span=
+ class=3D"s14">=EC=8B=A4=ED=99=98=EA=B2=BD</span><span class=3D"s7">&nbsp;<=
+/span><span class=3D"s14">=EC=B2=98=EB=A6=AC</span><span class=3D"s7">&nbsp=
+;</span><span class=3D"s14">=EC=84=B1=EB=8A=A5</span><span class=3D"s7">&nb=
+sp;</span><span class=3D"s14">=EA=B0=9C=EC=84=A0</span><span class=3D"s7">&=
+nbsp;</span><span class=3D"s14">=EB=93=B1</span></a></span></li>
+<li>=EB=B3=B4=EB=9D=BC=EB=A7=A4=EC=84=BC=ED=84=B0 11=EC=A0=88 =EB=8C=80=EC=
+=9D=91</li>
+</ul></li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>PLAB: 60</li>
+<li>PMON/LMON: 30</li>
+</ul></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>PLAB
+<ul>
+<li>=EC=A3=BC=EC=9A=94 =EA=B8=B0=EB=8A=A5=EB=93=A4 =EA=B0=9C=EB=B0=9C=EC=8B=
+=9C =ED=98=91=EC=97=85=EC=9C=BC=EB=A1=9C =EA=B5=AC=ED=98=84 =EB=B0=A9=EC=95=
+=88=EC=97=90 =EB=8C=80=ED=95=B4=EC=84=9C =EB=85=BC=EC=9D=98=ED=95=98=EA=B3=
+=A0 =EC=95=84=EC=9D=B4=EB=94=94=EC=96=B4=EB=A5=BC =EA=B3=B5=EC=9C=A0. =EA=
+=B0=9C=EB=B0=9C=EB=90=9C =EA=B8=B0=EB=8A=A5=EB=93=A4=EC=97=90 =EB=8C=80=ED=
+=95=9C =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=A0=95=ED=95=A9=EC=84=B1 =EA=B2=80=EC=
+=A6=9D=EC=9C=BC=EB=A1=9C =ED=94=8C=EB=9E=AB=ED=8F=BC=EC=9D=98 =EC=95=88=EC=
+=A0=95=EC=84=B1=EA=B3=BC =ED=92=88=EC=A7=88=EC=9D=84 =EB=86=92=EC=9E=84</li=
+>
+<li>Multivariate A/B =ED=85=8C=EC=8A=A4=ED=8A=B8 =EA=B8=B0=EB=8A=A5=EC=97=
+=90 =EB=8C=80=ED=95=B4 =EC=A0=84=EC=B2=B4 =EC=B2=98=EB=A6=AC =ED=94=8C=EB=
+=A1=9C=EC=9A=B0 =EC=84=A4=EA=B3=84 =EB=93=B1 =EC=A3=BC=EB=8F=84=EC=A0=81=EC=
+=9C=BC=EB=A1=9C =EA=B0=9C=EB=B0=9C=EC=9D=84 =EC=A7=84=ED=96=89=ED=95=98=EA=
+=B3=A0 Android SDK=EC=97=90 =ED=95=B4=EB=8B=B9 =EA=B8=B0=EB=8A=A5 =EC=B6=94=
+=EA=B0=80 =EA=B0=9C=EB=B0=9C=ED=95=98=EC=98=80=EC=9D=8C.</li>
+</ul></li>
+<li>PMON
+<ul>
+<li>Netflix Canary =EC=8B=9C=EC=8A=A4=ED=85=9C=EC=97=90 =EB=8C=80=ED=95=9C =
+=EC=9A=94=EA=B5=AC =EC=82=AC=ED=95=AD=EC=9D=B4 =EC=A0=91=EC=88=98=EB=90=98=
+=EC=96=B4 Canary =EB=8C=80=EC=8B=9C=EB=B3=B4=EB=93=9C =EC=A0=84=EC=B2=B4 =
+=EA=B8=B0=EB=8A=A5=EC=9D=84 =EC=84=A4=EA=B3=84=ED=95=98=EA=B3=A0 =EA=B0=9C=
+=EB=B0=9C =EC=A7=84=ED=96=89=ED=95=98=EC=97=AC PMON=EB=82=B4 =EC=B6=94=EA=
+=B0=80</li>
+<li>=EC=95=8C=EB=9E=8C =EB=B2=84=EC=A0=84 V2 =EC=84=A4=EA=B3=84=ED=95=98=EA=
+=B3=A0 =EC=A0=81=EC=9A=A9=ED=95=98=EC=97=AC =EA=B8=B0=EC=A1=B4 =EC=84=B1=EB=
+=8A=A5 =EB=8C=80=ED=8F=AD =ED=96=A5=EC=83=81</li>
+<li>ServiceMon Access =EB=A1=9C=EA=B7=B8 =EC=B2=98=EB=A6=AC =EC=84=B1=EB=8A=
+=A5 =EA=B2=80=EC=A6=9D</li>
+<li>=EB=B3=B4=EB=9D=BC=EB=A7=A4=EC=84=BC=ED=84=B0 11=EC=A0=88 =EB=AC=B4=EC=
+=9E=A5=EC=95=A0 =EB=8C=80=EC=9D=91</li>
+</ul></li>
+</ul></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EB=AC=B8=EC=A0=9C=ED=95=B4=EA=B2=B0 =EC=98=81=
+=EC=97=AD</td>
+<td class=3D"confluenceTd">
+<ul>
+<li>PLAB
+<ul>
+<li class=3D"li1"><span class=3D"s10">11</span><span class=3D"s11">=EB=B2=
+=88=EA=B0=80</span><span class=3D"s10">&nbsp;Android SDK&nbsp;</span><span =
+class=3D"s11">=EB=AC=B8=EC=9D=98</span><span class=3D"s10">&nbsp;</span><sp=
+an class=3D"s11">=ED=99=95=EC=9D=B8=EC=A4=91</span><span class=3D"s10">&nbs=
+p;- 11</span><span class=3D"s11">=EB=B2=88=EA=B0=80</span><span class=3D"s1=
+0">&nbsp;</span><span class=3D"s11">=EC=95=B1=EB=82=B4</span><span class=3D=
+"s10">&nbsp;PLAB resource&nbsp;</span><span class=3D"s11">=ED=8C=8C=EC=9D=
+=BC</span><span class=3D"s10">&nbsp;</span><span class=3D"s11">=EC=A4=91=EB=
+=B3=B5</span><span class=3D"s10">&nbsp;</span><span class=3D"s11">=EC=82=AC=
+=EC=9A=A9</span><span class=3D"s10">&nbsp;</span><span class=3D"s11">=EC=9B=
+=90=EC=9D=B8</span><span class=3D"s10">&nbsp;(<a href=3D"http://jira.skplan=
+et.com/browse/MPINNER-6893" class=3D"external-link" rel=3D"nofollow"><span =
+class=3D"s12">MPINNER-6893</span></a>&nbsp;-&nbsp;Android - ABTest SDK 1.2.=
+2&nbsp;</span><span class=3D"s11">=EC=97=85=EB=8D=B0=EC=9D=B4=ED=8A=B8</spa=
+n><span class=3D"s10">&nbsp;</span><span class=3D"s11">=EC=A0=81=EC=9A=A9</=
+span><span class=3D"s10">&nbsp;<strong>FIXED</strong>)</span></li>
+<li><span class=3D"s11">11<span class=3D"s1">=EB=B2=88=EA=B0=80</span>&nbsp=
+;<span class=3D"s1">=EA=B0=9C=EB=B0=9C=EC=A1=B4</span>&nbsp;<span class=3D"=
+s1">=EC=8B=A4=ED=97=98</span>&nbsp;<span class=3D"s1">=EB=AA=A9=EB=A1=9D</s=
+pan>&nbsp;<span class=3D"s1">=EB=AF=B8=ED=91=9C=EC=8B=9C</span>&nbsp;<span =
+class=3D"s1">=EC=9B=90=EC=9D=B8</span>&nbsp;<span class=3D"s1">=EB=B6=84=EC=
+=84=9D</span>&nbsp;<span class=3D"s1">=EB=B0=8F</span>&nbsp;<span class=3D"=
+s1">=EC=A1=B0=EC=B9=98 - <span class=3D"s1">=EA=B0=9C=EB=B0=9C=EC=A1=B4=EC=
+=9D=80</span>&nbsp;<span class=3D"s1">=EB=8B=A8=EB=A7=90</span>&nbsp;=E2=86=
+=92 API&nbsp;<span class=3D"s1">=EC=84=9C=EB=B2=84</span>&nbsp;<span class=
+=3D"s1">=EC=A7=81=EC=A0=91</span>&nbsp;<span class=3D"s1">=EC=97=B0=EB=8F=
+=99</span>&nbsp;<span class=3D"s1">=EB=B0=A9=EC=8B=9D</span>&nbsp;<span cla=
+ss=3D"s1">=EC=82=AC=EC=9A=A9=ED=95=98=EB=82=98</span>&nbsp;<a href=3D"http:=
+//api.plab-dev.11st.co.kr/" class=3D"external-link" rel=3D"nofollow"><span =
+class=3D"s7">api.plab-dev.11st.co.kr</span></a><span class=3D"s1">=EC=9D=80=
+</span>&nbsp;<span class=3D"s1">=EC=82=AC=EC=84=A4</span>&nbsp;IP&nbsp;<spa=
+n class=3D"s1">=EC=82=AC=EC=9A=A9</span></span><br></span></li>
+</ul></li>
+</ul></td>
+<td class=3D"confluenceTd">=EC=83=81=EB=8F=99</td>
+<td class=3D"confluenceTd">
+<ul>
+<li>=EB=AC=B8=EC=A0=9C =ED=95=B4=EA=B2=B0=EC=9D=84 =EC=9C=84=ED=95=B4 =EC=
+=A0=81=EA=B7=B9=EC=A0=81=EC=9C=BC=EB=A1=9C 11=EB=B2=88=EA=B0=80 App =EC=86=
+=8C=EC=8A=A4=EA=B9=8C=EC=A7=80 =EC=A7=81=EC=A0=91 =ED=99=95=EC=9D=B8=ED=95=
+=98=EC=97=AC =EC=9B=90=EC=9D=B8 =EB=B6=84=EC=84=9D=ED=95=98=EC=97=AC =EC=A1=
+=B0=EC=B9=98=ED=95=98=EC=98=80=EC=9D=8C</li>
+</ul></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">=EC=B0=BD=EC=9D=98,=ED=98=81=EC=8B=A0 =EC=98=81=
+=EC=97=AD</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>KPI =EC=99=B8 =EC=88=98=ED=96=89 =EC=97=85=EB=
+=AC=B4</p><p>(=EB=8F=8C=EB=B0=9C =EC=97=85=EB=AC=B4 =EB=93=B1)</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>PLAB
+<ul>
+<li class=3D"li4"><span class=3D"s8">Open API -&gt; Public API =EC=A0=84=ED=
+=99=98 - =EC=82=AC=EC=A0=84 =EC=84=B1=EB=8A=A5 =EA=B2=80=EC=A6=9D =EC=B2=A0=
+=EC=A0=80=ED=9E=88 =EC=A7=84=ED=96=89&nbsp;</span><span class=3D"s6">(<a hr=
+ef=3D"http://pdwiki.skplanet.com/pages/viewpage.action?pageId=3D44992160" c=
+lass=3D"external-link" rel=3D"nofollow"><span class=3D"s9">http://pdwiki.sk=
+planet.com/pages/viewpage.action?pageId=3D44992160</span></a>)</span></li>
+</ul></li>
+<li>PMON<br>
+<ul>
+<li><span class=3D"s1"><span class=3D"s1">=EB=B6=84=EC=82=AC=ED=9B=84</span=
+>&nbsp;<span class=3D"s1">=EC=9D=B8=EC=A6=9D</span>&nbsp;<span class=3D"s1"=
+>=EC=B2=B4=EA=B3=84</span>&nbsp;<span class=3D"s1">=EB=B3=80=EA=B2=BD=EC=97=
+=90</span>&nbsp;<span class=3D"s1">=EB=94=B0=EB=A5=B8</span>&nbsp;<span cla=
+ss=3D"s1">=EC=98=81=ED=96=A5</span>&nbsp;<span class=3D"s1">=EA=B2=80=ED=86=
+=A0</span>&nbsp;(<a href=3D"http://wiki.skplanet.com/pages/viewpage.action?=
+pageId=3D179788599" class=3D"external-link" rel=3D"nofollow"><span class=3D=
+"s7">[2018.08]&nbsp;</span><span class=3D"s14">=EB=B6=84=EC=82=AC</span><sp=
+an class=3D"s7">&nbsp;</span><span class=3D"s14">=EB=8C=80=EC=9D=91</span><=
+/a>)&nbsp;<span class=3D"s1">=EB=B0=8F</span>&nbsp;11<span class=3D"s1">=EB=
+=B2=88=EA=B0=80=EC=9A=A9</span>&nbsp;Web/WAS&nbsp;<span class=3D"s1">=EA=B5=
+=AC=EC=B6=95</span>&nbsp;(9/3<span class=3D"s1">=EC=9D=BC</span>&nbsp;<span=
+ class=3D"s1">=EC=9E=A5=EB=B9=84</span>&nbsp;<span class=3D"s1">=EB=B0=9C=
+=EA=B8=89</span>, 9/17&nbsp;<span class=3D"s1">=EC=98=A4=ED=94=88</span>)<b=
+r></span></li>
+</ul></li>
+</ul></td>
+<td class=3D"confluenceTd">=EC=83=81=EB=8F=99</td>
+<td class=3D"confluenceTd">
+<ul>
+<li>PLAB Open API =E2=86=92 =EC=9E=90=EC=B2=B4 API =EC=84=9C=EB=B2=84 =EC=
+=A0=84=ED=99=98=EC=9D=84 =EC=9C=84=ED=95=B4 =EC=82=AC=EC=A0=84 =EC=84=B1=EB=
+=8A=A5 =EA=B2=80=EC=A6=9D=EC=9D=84 =EC=B2=A0=EC=A0=80=ED=9E=88 =EC=A7=84=ED=
+=96=89=ED=95=98=EC=98=80=EA=B8=B0 =EB=95=8C=EB=AC=B8=EC=97=90 =EC=83=81=EC=
+=9A=A9 =EC=98=A4=ED=94=88=ED=9B=84 =EB=AC=B8=EC=A0=9C =EB=B0=9C=EC=83=9D=EC=
+=9D=84 =EB=B0=A9=EC=A7=80=ED=95=A0 =EC=88=98 =EC=9E=88=EC=97=88=EC=9D=8C</l=
+i>
+<li>11=EB=B2=88=EA=B0=80 =EB=B6=84=EC=82=AC=EC=97=90 =EB=94=B0=EB=A5=B8 PMO=
+N =EC=8B=9C=EC=8A=A4=ED=85=9C =EB=B6=84=EB=A6=AC =EC=A0=81=EC=8B=9C =EB=8C=
+=80=EC=9D=91</li>
+</ul></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&lt;=EC=97=AD=EB=9F=89&gt;</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table confluenceTable" style=3D"width: 68.6591%;">
+<colgroup>
+<col style=3D"width: 10.1296%;">
+<col style=3D"width: 89.8704%;">
+</colgroup>
+<thead>
+<tr>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=EA=B5=AC=EB=B6=
+=84</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>=EC=97=AD=EB=9F=
+=89 =ED=96=A5=EC=83=81 =EA=B3=BC=EC=A0=95 =EB=82=B4=EC=9A=A9 =EB=B0=8F =EA=
+=B2=B0=EA=B3=BC</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">Knowledge</td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Java Lambda Expression, Java Stream, NIO =EB=93=B1 Java 8,9 =EC=B5=9C=
+=EC=8B=A0 =EA=B8=B0=EC=88=A0 =EC=8B=A4=EB=AC=B4 =EC=A0=81=EC=9A=A9 =EC=97=
+=AD=EB=9F=89&nbsp;- [=EC=A7=91=ED=95=A9]&nbsp;Java 8,9 =EC=B5=9C=EC=8B=A0 =
+=EA=B8=B0=EC=88=A0 =ED=94=84=EB=A1=9C=EA=B7=B8=EB=9E=98=EB=B0=8D</li>
+<li>Machine Learning =EA=B8=B0=EB=B3=B8 =EC=8B=A4=EB=AC=B4 =EC=A0=81=EC=9A=
+=A9 =EC=97=AD=EB=9F=89 - <span class=3D"pointorange" style=3D"color: rgb(0,=
+0,0);"><span style=3D"color: rgb(78,78,78);">[</span></span><span class=3D"=
+pointorange" style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(78,78,7=
+8);">=EC=A7=91=ED=95=A9<span>]</span></span></span><span style=3D"color: rg=
+b(78,78,78);">&nbsp;</span><span style=3D"color: rgb(78,78,78);">=EB=A8=B8=
+=EC=8B=A0=EB=9F=AC=EB=8B=9D =ED=95=B5=EC=8B=AC=EC=9D=B4=EB=A1=A0 =EB=B0=8F =
+=EA=B8=B0=EB=B3=B8=EA=B5=AC=ED=98=84<span>(Basic Master)</span></span></li>
+<li><span>Java Design Pattern =EC=A0=81=EC=9A=A9 =EC=97=AD=EB=9F=89 : Facto=
+ry, Builder, Decorator, Strategy =EB=93=B1 =EC=A3=BC=EC=9A=94 =ED=8C=A8=ED=
+=84=B4 =EC=A0=81=EC=9A=A9 =ED=95=99=EC=8A=B5</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Skill</td>
+<td class=3D"confluenceTd">
+<ul>
+<li>PLAB Android SDK =EA=B0=9C=EB=B0=9C=EC=9D=84 =ED=86=B5=ED=95=9C Android=
+ =EA=B0=9C=EB=B0=9C =EC=97=AD=EB=9F=89 - 2017=EB=85=84 =EB=A7=90 =EC=9D=B8=
+=EC=88=98=EC=9D=B8=EA=B3=84=ED=9B=84 SDK =EC=9C=A0=EC=A7=80=EB=B3=B4=EC=88=
+=98</li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Attitude</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_29697_629070497.1790845656535--

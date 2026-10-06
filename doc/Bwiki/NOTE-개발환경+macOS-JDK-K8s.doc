@@ -1,0 +1,417 @@
+Date: Thu, 1 Oct 2026 17:08:29 +0900 (KST)
+Message-ID: <1358402970.29634.1790842109731@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29633_2087614634.1790842109722"
+
+------=_Part_29633_2087614634.1790842109722
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>NOTE-=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BD macOS-JDK-K8s</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>NOTE-=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BD macOS-JDK-K8s</h1>
+    <div class=3D"Section1">
+        <p class=3D"auto-cursor-target"><style type=3D"text/css">/*<![CDATA=
+[*/
+div.rbtoc1790842109599 {padding: 0px;}
+div.rbtoc1790842109599 ul {margin-left: 0px;}
+div.rbtoc1790842109599 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1790842109599">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BDmacOSJDKK8s-JDK">JD=
+K</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BDmacOSJDKK8s-ListJDK=
+">List JDK</a></li>
+<li><a href=3D"#NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BDmacOSJDKK8s-Install=
+JDK17">Install JDK 17</a></li>
+<li><a href=3D"#NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BDmacOSJDKK8s-SwitchJ=
+DK">Switch JDK</a></li>
+</ul></li>
+<li><a href=3D"#NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BDmacOSJDKK8s-Helm">H=
+elm</a></li>
+</ul>
+</div>
+<p></p>
+<h1 class=3D"auto-cursor-target" id=3D"NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=
+=B2=BDmacOSJDKK8s-JDK">JDK</h1>
+<h2 class=3D"auto-cursor-target" id=3D"NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=
+=B2=BDmacOSJDKK8s-ListJDK">List JDK</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">$ /usr/=
+libexec/java_home -V
+Matching Java Virtual Machines (3):
+    11.0.11 (x86_64) "AdoptOpenJDK" - "AdoptOpenJDK 11" /Library/Java/JavaV=
+irtualMachines/adoptopenjdk-11.jdk/Contents/Home
+    1.8.201.09 (x86_64) "Oracle Corporation" - "Java" /Library/Internet Plu=
+g-Ins/JavaAppletPlugin.plugin/Contents/Home
+    1.8.0_201 (x86_64) "Oracle Corporation" - "Java SE 8" /Library/Java/Jav=
+aVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+
+$ jenv versions
+* system (set by /Users/1001291/.jenv/version)
+  1.8
+  1.8.0.201
+$ ls -al .jenv/versions
+total 0
+0 drwxr-xr-x  4 1001291  629569319  128 11 18 10:31 ./
+0 drwxr-xr-x  7 1001291  629569319  224 11 18 10:29 ../
+0 lrwxr-xr-x  1 1001291  629569319   64  6 11  2020 1.8@ -&gt; /Library/Jav=
+a/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+0 lrwxr-xr-x  1 1001291  629569319   64  6 11  2020 1.8.0.201@ -&gt; /Libra=
+ry/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+
+$ ls -al /usr/local/opt/openjdk*
+0 lrwxr-xr-x  1 1001291  admin  24 11 18 10:42 /usr/local/opt/openjdk@ -&gt=
+; ../Cellar/openjdk/19.0.1
+0 lrwxr-xr-x  1 1001291  admin  24 11 18 10:42 /usr/local/opt/openjdk@19@ -=
+&gt; ../Cellar/openjdk/19.0.1</pre>
+</div>
+</div>
+<p><br></p>
+<h2 id=3D"NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=B2=BDmacOSJDKK8s-InstallJDK17"=
+>Install JDK 17</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># cask =
+=EC=84=A4=EC=B9=98 =EB=B0=A9=EC=8B=9D=EC=9D=80 old?
+$ brew search java
+=3D=3D&gt; Formulae
+app-engine-java                         java =E2=9C=94                     =
+             java11                                  javarepl              =
+                  libreadline-java
+google-java-format                      java-service-wrapper               =
+     javacc                                  jslint4java                   =
+          pdftk-java
+
+=3D=3D&gt; Casks
+charles-applejava                eclipse-java                     eclipse-j=
+avascript               java-beta                        java6             =
+               oracle-jdk-javadoc
+
+If you meant "java" specifically:
+It was migrated from homebrew/cask to homebrew/core.
+
+# =EC=95=84=EB=9E=98=EA=B0=80 =EC=84=A4=EC=B9=98 =EB=B0=A9=EB=B2=95 =EC=82=
+=AC=EC=9A=A9=ED=95=98=EC=A7=80 =EB=A7=90=EA=B2=83 - IntelliJ=EC=97=90=EC=84=
+=9C JDK =EC=B6=94=EA=B0=80 =EC=95=88=EB=90=A8
+$ brew install openjdk@17
+
+# IntelliJ=EC=97=90=EC=84=9C =EC=84=A4=EC=B9=98
+File =EB=A9=94=EB=89=B4 -&gt; Project Structure -&gt; SDKs -&gt; Add JDK...=
+</pre>
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=
+=B2=BDmacOSJDKK8s-SwitchJDK">Switch JDK</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># .bash=
+_profile =EB=82=B4=EC=9A=A9
+export JAVA_HOME=3D$(/usr/libexec/java_home -v 1.8.0)
+export JAVA_8_HOME=3D$(/usr/libexec/java_home -v 1.8.0)
+export JAVA_11_HOME=3D$(/usr/libexec/java_home -v 11)
+alias java8=3D'export JAVA_HOME=3D$JAVA_8_HOME'
+alias java11=3D'export JAVA_HOME=3D$JAVA_11_HOME'</pre>
+</div>
+</div>
+<h1 class=3D"auto-cursor-target" id=3D"NOTE=EA=B0=9C=EB=B0=9C=ED=99=98=EA=
+=B2=BDmacOSJDKK8s-Helm">Helm</h1>
+<ul>
+<li>Kubernetes package manager</li>
+<li>Kubernetes 1.22 - helm 3.10.2 =EC=82=AC=EC=9A=A9=EC=8B=9C =EC=97=90=EB=
+=9F=AC =E2=86=92 helm 3.8.2=EB=A1=9C downgrade</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">$ helm =
+list
+Error: Kubernetes cluster unreachable: exec plugin: invalid apiVersion "cli=
+ent.authentication.k8s.io/v1alpha1"
+
+$ brew search helm
+=3D=3D&gt; Formulae
+helm                            helm@2                          helmfile   =
+                     helmify                         helmsman              =
+          elm
+
+=3D=3D&gt; Casks
+helo
+$ brew info helm
+=3D=3D&gt; helm: stable 3.10.2 (bottled), HEAD
+Kubernetes package manager
+https://helm.sh/
+/usr/local/Cellar/helm/3.10.2 (64 files, 48.8MB) *
+  Poured from bottle on 2022-11-18 at 10:47:05
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/helm.rb
+License: Apache-2.0
+=3D=3D&gt; Dependencies
+Build: go =E2=9C=98
+=3D=3D&gt; Options
+--HEAD
+=09Install HEAD version
+=3D=3D&gt; Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+=3D=3D&gt; Analytics
+install: 66,389 (30 days), 201,277 (90 days), 690,256 (365 days)
+install-on-request: 64,858 (30 days), 196,422 (90 days), 673,877 (365 days)
+build-error: 5 (30 days)
+
+$ brew uninstall helm
+Uninstalling /usr/local/Cellar/helm/3.10.2... (64 files, 48.8MB)
+
+# helm =EC=A7=81=EC=A0=91 =EC=84=A4=EC=B9=98
+# helm 3.8.2 =EB=8B=A4=EC=9A=B4=EB=A1=9C=EB=93=9C - https://github.com/helm=
+/helm/releases
+=EC=9B=90=ED=95=98=EB=8A=94 =EB=B2=84=EC=A0=84=EC=9D=84 =EB=8B=A4=EC=9A=B4=
+=EB=A1=9C=EB=93=9C=ED=95=9C=EB=8B=A4.
+=EC=95=95=EC=B6=95=ED=95=B4=EC=A0=9C=ED=95=9C=EB=8B=A4. (tar -zxvf helm-v3.=
+0.0-linux-amd64.tar.gz)
+=EC=95=95=EC=B6=95=ED=95=B4=EC=A0=9C=EB=90=9C =EB=94=94=EB=A0=89=ED=86=A0=
+=EB=A6=AC=EC=97=90=EC=84=9C helm =EB=B0=94=EC=9D=B4=EB=84=88=EB=A6=AC=EB=A5=
+=BC =EC=B0=BE=EC=95=84=EC=84=9C, =EC=9B=90=ED=95=98=EB=8A=94 =EB=AA=A9=EC=
+=A0=81=EC=A7=80=EB=A1=9C =EC=9D=B4=EB=8F=99=EC=8B=9C=ED=82=A8=EB=8B=A4. (mv=
+ linux-amd64/helm /usr/local/bin/helm)
+
+$ helm list
+NAME                 =09NAMESPACE=09REVISION=09UPDATED                     =
+        =09STATUS  =09CHART                       =09APP VERSION
+kube-prometheus-stack=09default  =094       =092022-08-18 14:06:37.127432 +=
+0900 KST=09deployed=09kube-prometheus-stack-39.8.0=090.58.0     </pre>
+</div>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29633_2087614634.1790842109722--

@@ -1,0 +1,698 @@
+Date: Thu, 1 Oct 2026 18:02:31 +0900 (KST)
+Message-ID: <1341263141.29680.1790845351808@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29679_2136674323.1790845351804"
+
+------=_Part_29679_2136674323.1790845351804
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>202202 k8s rolling update 502 response</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>202202 k8s rolling update 502 response</h1>
+    <div class=3D"Section1">
+        <p>=EC=B0=B8=EC=A1=B0 -&nbsp;<a href=3D"/pages/viewpage.action?page=
+Id=3D412306015">202202 API =EC=84=9C=EB=B2=84 =EB=B0=B0=ED=8F=AC=EC=8B=9C 5=
+02 =EC=9D=91=EB=8B=B5 =ED=98=84=EC=83=81 =EB=B6=84=EC=84=9D =EB=B0=8F =EC=
+=A1=B0=EC=B9=98</a></p>
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1790845351763 {padding: 0px;}
+div.rbtoc1790845351763 ul {margin-left: 0px;}
+div.rbtoc1790845351763 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1790845351763">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202202k8srollingupdate502response-=EC=9B=90=EC=9D=B8=EB=
+=B6=84=EC=84=9D">=EC=9B=90=EC=9D=B8 =EB=B6=84=EC=84=9D</a></li>
+<li><a href=3D"#id-202202k8srollingupdate502response-Load=ED=85=8C=EC=8A=A4=
+=ED=8A=B8">Load =ED=85=8C=EC=8A=A4=ED=8A=B8</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202202k8srollingupdate502response-=EC=82=AC=EC=A0=84=EC=
+=A4=80=EB=B9=84">=EC=82=AC=EC=A0=84 =EC=A4=80=EB=B9=84</a></li>
+<li><a href=3D"#id-202202k8srollingupdate502response-Fortio">Fortio</a></li=
+>
+<li><a href=3D"#id-202202k8srollingupdate502response-Apacheabtest">Apache a=
+b test</a></li>
+</ul></li>
+<li><a href=3D"#id-202202k8srollingupdate502response-=EC=B6=94=EA=B0=80=EB=
+=82=B4=EC=9A=A9">=EC=B6=94=EA=B0=80 =EB=82=B4=EC=9A=A9</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-202202k8srollingupdate502response-ALBtopodrouting=EB=B0=
+=A9=EC=8B=9D">ALB to pod routing =EB=B0=A9=EC=8B=9D</a></li>
+<li><a href=3D"#id-202202k8srollingupdate502response-ALBtospringbootrouting=
+(bypassnginx)">ALB to spring boot routing (bypass nginx)</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"id-202202k8srollingupdate502response-=EC=9B=90=EC=9D=B8=EB=B6=84=
+=EC=84=9D">=EC=9B=90=EC=9D=B8 =EB=B6=84=EC=84=9D</h1>
+<ul>
+<li>Pod lifecycle
+<ul>
+<li><span style=3D"color: rgb(34,34,34);"><a href=3D"https://kubernetes.io/=
+docs/concepts/workloads/pods/pod-lifecycle/#pod-termination" class=3D"exter=
+nal-link" rel=3D"nofollow">https://kubernetes.io/docs/concepts/workloads/po=
+ds/pod-lifecycle/#pod-termination</a></span>
+<ul>
+<li><span style=3D"color: rgb(34,34,34);">At the same time as the kubelet i=
+s starting graceful shutdown, the control plane removes that shutting-down =
+Pod from Endpoints (and, if enabled, EndpointSlice) objects where these rep=
+resent a<span>&nbsp;</span></span><a href=3D"https://kubernetes.io/docs/con=
+cepts/services-networking/service/" style=3D"text-decoration: none;text-ali=
+gn: left;" class=3D"external-link" title=3D"" rel=3D"nofollow">Service</a><=
+span style=3D"color: rgb(34,34,34);"><span>&nbsp;</span>with a configured<s=
+pan>&nbsp;</span></span><a title=3D"" href=3D"https://kubernetes.io/docs/co=
+ncepts/overview/working-with-objects/labels/" class=3D"external-link" style=
+=3D"text-decoration: none;text-align: left;" rel=3D"nofollow">selector</a><=
+/li>
+</ul></li>
+</ul></li>
+<li>Zero down time rolling update&nbsp;&nbsp;
+<ul>
+<li><a href=3D"https://github.com/kubernetes-sigs/aws-load-balancer-control=
+ler/issues/1065" class=3D"external-link" rel=3D"nofollow">https://github.co=
+m/kubernetes-sigs/aws-load-balancer-controller/issues/1065</a></li>
+<li><a href=3D"https://github.com/kubernetes-sigs/aws-load-balancer-control=
+ler/issues/1064" class=3D"external-link" rel=3D"nofollow">https://github.co=
+m/kubernetes-sigs/aws-load-balancer-controller/issues/1064</a></li>
+<li><a href=3D"https://github.com/kubernetes-sigs/aws-load-balancer-control=
+ler/issues/2131" class=3D"external-link" rel=3D"nofollow">https://github.co=
+m/kubernetes-sigs/aws-load-balancer-controller/issues/2131</a></li>
+<li><a href=3D"https://waspro.tistory.com/682" class=3D"external-link" rel=
+=3D"nofollow">https://waspro.tistory.com/682</a></li>
+<li><a href=3D"https://aws.plainenglish.io/6-tips-to-improve-availability-w=
+ith-aws-load-balancers-and-kubernetes-ad8d4d1c0f61" class=3D"external-link"=
+ rel=3D"nofollow">https://aws.plainenglish.io/6-tips-to-improve-availabilit=
+y-with-aws-load-balancers-and-kubernetes-ad8d4d1c0f61</a></li>
+<li><a href=3D"https://www.driftrock.com/blog/kubernetes-zero-downtime-roll=
+ing-updates" class=3D"external-link" rel=3D"nofollow">https://www.driftrock=
+.com/blog/kubernetes-zero-downtime-rolling-updates</a></li>
+<li><a href=3D"https://github.com/Kong/kong/issues/6787" class=3D"external-=
+link" rel=3D"nofollow">https://github.com/Kong/kong/issues/6787</a>
+<ul>
+<li><p>After digging more it seems that issue exists because of underlying =
+nginx upstream keepalive settings for connection.<br>
+As I find out:</p>
+<blockquote>
+<p>An important detail here is that removing the iptables rules has no effe=
+ct on existing connections =E2=80=93 clients who=E2=80=99re already connect=
+ed to the pod can still send additional requests to the pod through those e=
+xisting connections.</p>
+</blockquote><p>I've checked that disabling upstream_keepalive on nginx fix=
+es the problem. Definitely it is not a solution, but this has nothing to do=
+ with kong, so I close the issue.</p></li>
+</ul></li>
+</ul></li>
+<li>K8s graceful shutdown
+<ul>
+<li><a href=3D"https://medium.com/flant-com/kubernetes-graceful-shutdown-ng=
+inx-php-fpm-d5ab266963c2" class=3D"external-link" rel=3D"nofollow">https://=
+medium.com/flant-com/kubernetes-graceful-shutdown-nginx-php-fpm-d5ab266963c=
+2</a></li>
+<li><a href=3D"https://ddcode.net/2019/06/23/gracefully-close-nginx-in-kube=
+rnetes/" class=3D"external-link" rel=3D"nofollow">https://ddcode.net/2019/0=
+6/23/gracefully-close-nginx-in-kubernetes/</a></li>
+</ul></li>
+<li>Spring data elasticsearch
+<ul>
+<li><a href=3D"https://www.baeldung.com/spring-data-elasticsearch-tutorial"=
+ class=3D"external-link" rel=3D"nofollow">https://www.baeldung.com/spring-d=
+ata-elasticsearch-tutorial</a></li>
+<li>Spring data, elasticsearch version&nbsp;
+<ul>
+<li><a href=3D"https://javas.tistory.com/12" class=3D"external-link" rel=3D=
+"nofollow">https://javas.tistory.com/12</a></li>
+<li><a href=3D"https://docs.spring.io/spring-data/elasticsearch/docs/curren=
+t/reference/html/#new-features" class=3D"external-link" rel=3D"nofollow">ht=
+tps://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html/=
+#new-features</a></li>
+</ul></li>
+</ul></li>
+<li>=EA=B2=B0=EB=A1=A0
+<ul>
+<li>nginx, spring boot=EC=97=90 =EB=8C=80=ED=95=B4 graceful shutdown =EC=A0=
+=81=EC=9A=A9=ED=95=98=EC=97=AC=EB=8F=84 5XX =EC=9D=91=EB=8B=B5=EC=9D=B4 =EC=
+=99=84=EC=A0=84=ED=9E=88 =EC=82=AC=EB=9D=BC=EC=A7=80=EC=A7=80 =EC=95=8A=EC=
+=9D=8C
+<ul>
+<li>ALB&nbsp;=E2=86=92 target group&nbsp;=E2=86=92 pod =EB=A1=9C =ED=8A=B8=
+=EB=9E=98=ED=94=BD =EC=A0=84=EB=8B=AC</li>
+<li>pod=EA=B0=80 terminating =EC=83=81=ED=83=9C=EB=A1=9C =EB=B3=80=EA=B2=BD=
+=EB=90=98=EB=A9=B0 =EB=8F=99=EC=8B=9C=EC=97=90 service=EC=97=90=EC=84=9C =
+=ED=95=B4=EB=8B=B9 pod=EC=9D=98 endpoint IP=EA=B0=80 =EC=82=AD=EC=A0=9C=EB=
+=90=A8</li>
+<li>=EC=9D=B4 =EB=95=8C ALB target group=EC=97=90=EC=84=9C =ED=95=B4=EB=8B=
+=B9 pod=EC=9D=98 endpint IP=EA=B0=80 draining =EC=83=81=ED=83=9C=EB=A1=9C =
+=EB=B3=80=EA=B2=BD=EB=90=98=EA=B8=B0=EA=B9=8C=EC=A7=80 =EC=95=BD=EA=B0=84 =
+=EC=8B=9C=EA=B0=84=EC=9D=B4 =EA=B1=B8=EB=A6=BC</li>
+<li>=EC=9D=B4 =EC=95=BD=EA=B0=84=EC=9D=98 =EC=8B=9C=EA=B0=84 =EB=8F=99=EC=
+=95=88 termining pod=EB=A1=9C =ED=8A=B8=EB=9E=98=ED=94=BD=EC=9D=B4 routing=
+=EB=90=A0 =EC=88=98 =EC=9E=88=EC=9C=BC=EB=A9=B0 =EC=9D=B4 =EB=95=8C pod=EB=
+=8A=94 graceful shutdown =EC=83=81=ED=83=9C=EC=9D=B4=EB=AF=80=EB=A1=9C conn=
+ection=EC=9D=84 =EB=B0=9B=EC=95=84=EC=A3=BC=EC=A7=80 =EC=95=8A=EC=9D=8C</li=
+>
+</ul></li>
+<li>ALB target group=EC=97=90=EC=84=9C pod=EC=9D=98 endpint IP=EA=B0=80 =EC=
+=82=AD=EC=A0=9C=EB=90=A0 =EC=88=98 =EC=9E=88=EB=8F=84=EB=A1=9D pod=EB=A5=BC=
+ =EC=95=84=EB=9E=98=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=B2=98=EB=A6=AC
+<ul>
+<li>pod terminating =EC=83=81=ED=83=9C=EB=A1=9C =EB=B3=80=EA=B2=BD=EC=8B=9C=
+ 15=EC=B4=88 =EB=8F=99=EC=95=88 =EB=8C=80=EA=B8=B0 (deployment=EC=9D=98 lif=
+ecycle preStop =EC=84=A4=EC=A0=95=EC=97=90=EC=84=9C 15=EC=B4=88 =EB=8F=99=
+=EC=95=88 sleep)</li>
+<li>=EC=9D=B4 =EB=95=8C 15=EC=B4=88 =EB=8F=99=EC=95=88 =ED=8A=B8=EB=9E=98=
+=ED=94=BD =EC=A0=95=EC=83=81 =EC=B2=98=EB=A6=AC</li>
+<li>15=EC=B4=88 =EA=B2=BD=EA=B3=BC=ED=9B=84 ALB target group=EC=97=90=EC=84=
+=9C pod=EC=9D=98 endpoint IP=EA=B0=80 =EC=82=AD=EC=A0=9C=EB=90=9C =EA=B2=83=
+=EC=9C=BC=EB=A1=9C =EA=B0=84=EC=A3=BC=ED=95=98=EA=B3=A0 pod shutdown =EC=8B=
+=9C=EC=9E=91</li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id=3D"id-202202k8srollingupdate502response-Load=ED=85=8C=EC=8A=A4=ED=8A=
+=B8">Load =ED=85=8C=EC=8A=A4=ED=8A=B8</h1>
+<h2 id=3D"id-202202k8srollingupdate502response-=EC=82=AC=EC=A0=84=EC=A4=80=
+=EB=B9=84">=EC=82=AC=EC=A0=84 =EC=A4=80=EB=B9=84</h2>
+<ul>
+<li>dev-search-api2 =EB=B3=84=EB=8F=84 =EA=B8=B0=EB=8F=99=ED=95=98=EC=97=AC=
+ =ED=85=8C=EC=8A=A4=ED=8A=B8
+<ul>
+<li>search-api-manifest
+<ul>
+<li>k kustomize overlays/dev &gt; out.yaml</li>
+<li>out-deployment.yaml =EC=B6=94=EC=B6=9C</li>
+<li>out-service.yaml =EC=B6=94=EC=B6=9C</li>
+</ul></li>
+<li>search-api-ingress-manifest
+<ul>
+<li>k kustomize overlays/dev &gt; out.yaml</li>
+<li>out-ingress-private.yaml =EC=B6=94=EC=B6=9C</li>
+</ul></li>
+</ul></li>
+<li>route53 =EB=93=B1=EB=A1=9D -&nbsp;<a href=3D"http://pri-api2.dev.srch.s=
+kplanetx.com" class=3D"external-link" rel=3D"nofollow">pri-api2.dev.srch.sk=
+planetx.com</a></li>
+</ul>
+<h2 id=3D"id-202202k8srollingupdate502response-Fortio">Fortio</h2>
+<ul>
+<li><a href=3D"https://github.com/fortio/fortio" class=3D"external-link" re=
+l=3D"nofollow">https://github.com/fortio/fortio</a></li>
+<li>=EC=8B=A4=ED=96=89 =EB=B0=8F =EC=A0=91=EA=B7=BC
+<ul>
+<li>fortio server</li>
+<li>=EC=A0=91=EC=86=8D -&nbsp;<a href=3D"http://localhost:8080/fortio" clas=
+s=3D"external-link" rel=3D"nofollow">http://localhost:8080/fortio</a></li>
+</ul></li>
+<li>=EC=84=A4=EC=A0=95</li>
+<ul>
+<li>URL -&nbsp;<a href=3D"http://pri-api2.dev.srch.skplanetx.com/api/ocb/2.=
+0/search/all52?q=3Dcoffee" class=3D"external-link" rel=3D"nofollow">http://=
+pri-api2.dev.srch.skplanetx.com/api/ocb/2.0/search/all52?q=3Dcoffee</a></li=
+>
+<li>QPS - 100</li>
+</ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Duration - 120s</li>
+<li>Timeout - 5000ms</li>
+</ul></li>
+<li>=EA=B2=B0=EA=B3=BC (Web UI)</li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Startin=
+g at 100 qps with 8 thread(s) [gomax 12] for 2m0s : 150 calls each (total 1=
+200)
+Ended after 2m0.07707236s : 1200 calls. qps=3D9.9936
+Sleep times : count 1192 avg 0.7271734 +/- 0.1743 min -1.497348664 max 0.78=
+4819448 sum 866.790692
+Aggregated Function Time : count 1200 avg 0.067173507 +/- 0.1465 min 0.0204=
+39515 max 2.297762551 sum 80.608208
+# range, mid point, percentile, count
+&gt;=3D 0.0204395 &lt;=3D 0.025 , 0.0227198 , 1.17, 14
+&gt; 0.025 &lt;=3D 0.03 , 0.0275 , 6.00, 58
+&gt; 0.03 &lt;=3D 0.035 , 0.0325 , 14.58, 103
+&gt; 0.035 &lt;=3D 0.04 , 0.0375 , 29.58, 180
+&gt; 0.04 &lt;=3D 0.045 , 0.0425 , 43.25, 164
+&gt; 0.045 &lt;=3D 0.05 , 0.0475 , 52.42, 110
+&gt; 0.05 &lt;=3D 0.06 , 0.055 , 67.58, 182
+&gt; 0.06 &lt;=3D 0.07 , 0.065 , 78.25, 128
+&gt; 0.07 &lt;=3D 0.08 , 0.075 , 86.50, 99
+&gt; 0.08 &lt;=3D 0.09 , 0.085 , 91.58, 61
+&gt; 0.09 &lt;=3D 0.1 , 0.095 , 92.92, 16
+&gt; 0.1 &lt;=3D 0.2 , 0.15 , 99.33, 77
+&gt; 1 &lt;=3D 2 , 1.5 , 99.83, 6
+&gt; 2 &lt;=3D 2.29776 , 2.14888 , 100.00, 2
+# target 50% 0.0486818
+# target 75% 0.0669531
+# target 90% 0.0868852
+# target 99% 0.194805
+# target 99.9% 2.11911
+Sockets used: 8 (for perfect keepalive, would be 8)
+Jitter: false
+Code 200 : 12000 (100.0 %)
+Response Header Sizes : count 1200 avg 167 +/- 0 min 167 max 167 sum 200400
+Response Body/Total Sizes : count 1200 avg 11718.482 +/- 2.579 min 11717 ma=
+x 11727 sum 14062178
+Saved result to data/2022-01-26-142209_9_Fortio.json (graph link)
+All done 1200 calls 67.174 ms avg, 10.0 qps</pre>
+</div>
+</div>
+<p><br></p>
+<h2 id=3D"id-202202k8srollingupdate502response-Apacheabtest">Apache ab test=
+</h2>
+<ul>
+<li>date; ab -t 120 -c 1 -r -l <a href=3D"http://pri-api.dev.srch.skplanetx=
+.com/api/ocb/2.0/search/all52?q=3D%EC%BB%A4%ED%94%BC" class=3D"external-lin=
+k" rel=3D"nofollow">http://pri-api.dev.srch.skplanetx.com/api/ocb/2.0/searc=
+h/all52?q=3D%EC%BB%A4%ED%94%BC</a>; date</li>
+</ul>
+<div id=3D"expander-1738251843" class=3D"expand-container">
+<div id=3D"expander-control-1738251843" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-1738251843" class=3D"expand-content">
+<p>2022=EB=85=84 1=EC=9B=94 14=EC=9D=BC =EA=B8=88=EC=9A=94=EC=9D=BC 13=EC=
+=8B=9C 54=EB=B6=84 02=EC=B4=88 KST<br>
+This is ApacheBench, Version 2.3 &lt;$Revision: 1879490 $&gt;<br>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, <a href=3D"http://www.zeust=
+ech.net/" class=3D"external-link" rel=3D"nofollow">http://www.zeustech.net/=
+</a><br>
+Licensed to The Apache Software Foundation, <a href=3D"http://www.apache.or=
+g/" class=3D"external-link" rel=3D"nofollow">http://www.apache.org/</a></p>
+<p>Benchmarking <a href=3D"http://pri-api.dev.srch.skplanetx.com" class=3D"=
+external-link" rel=3D"nofollow">pri-api.dev.srch.skplanetx.com</a> (be pati=
+ent)<br>
+Finished 2553 requests</p>
+<p><br>
+Server Software: nginx<br>
+Server Hostname: <a href=3D"http://pri-api.dev.srch.skplanetx.com" class=3D=
+"external-link" rel=3D"nofollow">pri-api.dev.srch.skplanetx.com</a><br>
+Server Port: 80</p>
+<p>Document Path: /api/ocb/2.0/search/all52?q=3D%EC%BB%A4%ED%94%BC<br>
+Document Length: Variable</p>
+<p>Concurrency Level: 1<br>
+Time taken for tests: 120.019 seconds<br>
+Complete requests: 2553<br>
+Failed requests: 0<br><span style=3D"color: rgb(255,0,0);">Non-2xx response=
+s: 1092</span><br>
+Total transferred: 18343339 bytes<br>
+HTML transferred: 17962325 bytes<br>
+Requests per second: 21.27 [#/sec] (mean)<br>
+Time per request: 47.011 [ms] (mean)<br>
+Time per request: 47.011 [ms] (mean, across all concurrent requests)<br>
+Transfer rate: 149.25 [Kbytes/sec] received</p>
+<p>Connection Times (ms)<br>
+min mean[+/-sd] median max<br>
+Connect: 9 18 42.2 12 1023<br>
+Processing: 11 29 150.7 20 3204<br>
+Waiting: 10 27 150.7 17 3201<br>
+Total: 20 47 157.0 33 3215</p>
+<p>Percentage of the requests served within a certain time (ms)<br>
+50% 33<br>
+66% 37<br>
+75% 40<br>
+80% 43<br>
+90% 55<br>
+95% 68<br>
+98% 96<br>
+99% 219<br>
+100% 3215 (longest request)<br>
+2022=EB=85=84 1=EC=9B=94 14=EC=9D=BC =EA=B8=88=EC=9A=94=EC=9D=BC 13=EC=8B=
+=9C 56=EB=B6=84 02=EC=B4=88 KST</p>
+</div>
+</div>
+<ul>
+<li>nginx graceful shutdown =EC=A0=81=EC=9A=A9=ED=9B=84 Non-2xx responses =
+=EA=B0=AF=EC=88=98 =EB=A7=8E=EC=9D=B4 =EC=A4=84=EC=96=B4=EB=93=AC</li>
+</ul>
+<div id=3D"expander-2015469597" class=3D"expand-container">
+<div id=3D"expander-control-2015469597" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text conf-macro-render">Click here =
+to expand...</span>
+</div>
+<div id=3D"expander-content-2015469597" class=3D"expand-content">
+<p>2022=EB=85=84 1=EC=9B=94 14=EC=9D=BC =EA=B8=88=EC=9A=94=EC=9D=BC 15=EC=
+=8B=9C 29=EB=B6=84 34=EC=B4=88 KST<br>
+This is ApacheBench, Version 2.3 &lt;$Revision: 1879490 $&gt;<br>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, <a href=3D"http://www.zeust=
+ech.net/" class=3D"external-link" rel=3D"nofollow">http://www.zeustech.net/=
+</a><br>
+Licensed to The Apache Software Foundation, <a href=3D"http://www.apache.or=
+g/" class=3D"external-link" rel=3D"nofollow">http://www.apache.org/</a></p>
+<p>Benchmarking <a href=3D"http://pri-api.dev.srch.skplanetx.com" class=3D"=
+external-link" rel=3D"nofollow">pri-api.dev.srch.skplanetx.com</a> (be pati=
+ent)<br>
+Finished 2072 requests</p>
+<p><br>
+Server Software: nginx<br>
+Server Hostname: <a href=3D"http://pri-api.dev.srch.skplanetx.com" class=3D=
+"external-link" rel=3D"nofollow">pri-api.dev.srch.skplanetx.com</a><br>
+Server Port: 80</p>
+<p>Document Path: /api/ocb/2.0/search/all52?q=3D%EC%BB%A4%ED%94%BC<br>
+Document Length: Variable</p>
+<p>Concurrency Level: 1<br>
+Time taken for tests: 120.015 seconds<br>
+Complete requests: 2072<br>
+Failed requests: 0<br><span style=3D"color: rgb(255,0,0);">Non-2xx response=
+s: 15</span><br>
+Total transferred: 25321757 bytes<br>
+HTML transferred: 25043874 bytes<br>
+Requests per second: 17.26 [#/sec] (mean)<br>
+Time per request: 57.923 [ms] (mean)<br>
+Time per request: 57.923 [ms] (mean, across all concurrent requests)<br>
+Transfer rate: 206.04 [Kbytes/sec] received</p>
+<p>Connection Times (ms)<br>
+min mean[+/-sd] median max<br>
+Connect: 9 20 66.9 13 1039<br>
+Processing: 12 38 320.4 23 10086<br>
+Waiting: 11 35 320.4 20 10084<br>
+Total: 23 58 327.1 37 10097</p>
+<p>Percentage of the requests served within a certain time (ms)<br>
+50% 37<br>
+66% 41<br>
+75% 44<br>
+80% 48<br>
+90% 59<br>
+95% 69<br>
+98% 94<br>
+99% 131<br>
+100% 10097 (longest request)<br>
+2022=EB=85=84 1=EC=9B=94 14=EC=9D=BC =EA=B8=88=EC=9A=94=EC=9D=BC 15=EC=8B=
+=9C 31=EB=B6=84 34=EC=B4=88 KST</p>
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"id-202202k8srollingupdate502response-=EC=B6=94=EA=B0=80=EB=82=B4=
+=EC=9A=A9">=EC=B6=94=EA=B0=80 =EB=82=B4=EC=9A=A9</h1>
+<h2 id=3D"id-202202k8srollingupdate502response-ALBtopodrouting=EB=B0=A9=EC=
+=8B=9D">ALB to pod routing =EB=B0=A9=EC=8B=9D</h2>
+<ul class=3D"ul1">
+<li class=3D"li1">Ingress ALB =EB=B0=A9=EC=8B=9D - AWS application load bal=
+ancer - target-type <span class=3D"s2">=EA=B0=92=EC=97=90</span> <span clas=
+s=3D"s2">=EB=94=B0=EB=9D=BC</span> routing <span class=3D"s2">=EB=B0=A9=EC=
+=8B=9D</span> <span class=3D"s2">=EB=8B=A4=EB=A6=84</span> - instance, ip (=
+instance<span class=3D"s2">=EB=A1=9C</span> <span class=3D"s2">=EC=84=A4=EC=
+=A0=95=EC=8B=9C</span> NodePort<span class=3D"s2">=EB=A1=9C</span> <span cl=
+ass=3D"s2">=EC=A0=91=EA=B7=BC</span>)<br>
+<ul>
+<li class=3D"li1">=ED=98=84=EC=9E=AC =EC=84=A4=EC=A0=95=EC=9D=80 terget-typ=
+e=3Dip=EB=A1=9C =EB=90=98=EC=96=B4 =EC=9E=88=EC=9D=8C</li>
+</ul></li>
+<li class=3D"li1">Service ALB <span class=3D"s2">=EB=B0=A9=EC=8B=9D</span> =
+- AWS classic load balancer -&nbsp;NodePort=EB=A1=9C =EC=A0=91=EA=B7=BC (=
+=EB=AA=A8=EB=93=A0 worker node=EB=A1=9C routing)</li>
+</ul>
+<h2 id=3D"id-202202k8srollingupdate502response-ALBtospringbootrouting(bypas=
+snginx)">ALB to spring boot routing (bypass nginx)</h2>
+<ul>
+<li>ALB target group health check =EC=84=A4=EC=A0=95 =EB=B3=80=EA=B2=BD - /=
+api/actuator/health
+<ul>
+<li>8080 port=EB=A1=9C "/" =EC=9A=94=EC=B2=AD=EC=8B=9C 404 =EC=9D=91=EB=8B=
+=B5=ED=95=98=EA=B8=B0 =EB=95=8C=EB=AC=B8</li>
+</ul></li>
+<li>worker node security group=EC=9D=98 inbound rule=EC=97=90 8080 port =EC=
+=B6=94=EA=B0=80 -&nbsp;<a href=3D"https://aws.amazon.com/premiumsupport/kno=
+wledge-center/ecs-fargate-health-check-failures/?nc1=3Dh_ls" class=3D"exter=
+nal-link" rel=3D"nofollow">https://aws.amazon.com/premiumsupport/knowledge-=
+center/ecs-fargate-health-check-failures/?nc1=3Dh_ls</a></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"># ALB2
+$ nslookup internal-k8s-server-devsearc-2746af2061-1023569644.ap-northeast-=
+2.elb.amazonaws.com
+Server:=09=0910.40.29.172
+Address:=0910.40.29.172#53
+
+Non-authoritative answer:
+Name:=09internal-k8s-server-devsearc-2746af2061-1023569644.ap-northeast-2.e=
+lb.amazonaws.com
+Address: 10.183.26.122
+Name:=09internal-k8s-server-devsearc-2746af2061-1023569644.ap-northeast-2.e=
+lb.amazonaws.com
+Address: 10.183.30.77
+Name:=09internal-k8s-server-devsearc-2746af2061-1023569644.ap-northeast-2.e=
+lb.amazonaws.com
+Address: 10.183.29.245
+
+# service2 - dev-search-api2
+$ k -n server describe service dev-search-api2
+Name:                     dev-search-api2
+Namespace:                server
+Labels:                   app.kubernetes.io/name=3Dsearch-api
+                          app.kubernetes.io/part-of=3Dsearch-api
+Annotations:              &lt;none&gt;
+Selector:                 app.kubernetes.io/name=3Dsearch-api,app.kubernete=
+s.io/part-of=3Dsearch-api
+Type:                     NodePort
+IP Families:              &lt;none&gt;
+IP:                       172.20.173.161
+IPs:                      &lt;none&gt;
+Port:                     &lt;unset&gt;  80/TCP
+TargetPort:               8080/TCP
+NodePort:                 &lt;unset&gt;  30900/TCP
+Endpoints:                10.183.26.185:8080
+Session Affinity:         None
+External Traffic Policy:  Cluster
+Events:                   &lt;none&gt;</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29679_2136674323.1790845351804--

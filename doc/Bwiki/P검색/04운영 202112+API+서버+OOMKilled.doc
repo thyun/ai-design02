@@ -1,0 +1,574 @@
+Date: Thu, 1 Oct 2026 17:57:00 +0900 (KST)
+Message-ID: <1181310835.29670.1790845020876@bkskp-wikipweb1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_29669_1580634896.1790845020873"
+
+------=_Part_29669_1580634896.1790845020873
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>202112 API =EC=84=9C=EB=B2=84 OOMKilled</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>202112 API =EC=84=9C=EB=B2=84 OOMKilled</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-202112API=EC=84=9C=EB=B2=84OOMKilled-502=EC=97=90=EB=
+=9F=AC=EB=B0=9C=EC=83=9D">502 =EC=97=90=EB=9F=AC =EB=B0=9C=EC=83=9D</h1>
+<p>V=EC=BB=AC=EB=9F=AC=EB=A7=81<span>&nbsp;</span>=EA=B2=80=EC=83=89<span>&=
+nbsp;</span>=EC=97=B0=EB=8F=99<span>&nbsp;</span>=EA=B4=80=EB=A0=A8<span>&n=
+bsp;</span>Bad Gateway(502)<span>&nbsp;</span>=EC=97=90=EB=9F=AC=EA=B0=80<s=
+pan>&nbsp;</span>=EA=B0=84=ED=97=90=EC=A0=81=EC=9C=BC=EB=A1=9C(=ED=95=98=EB=
+=A3=A8=EC=97=90<span>&nbsp;</span>4~8=EA=B1=B4)</p>
+<p>=EB=B0=9C=EC=83=9D=ED=95=98=EA=B3=A0<span>&nbsp;</span>=EC=9E=88=EB=8A=
+=94=EB=8D=B0=EC=9A=94.</p>
+<p>=EA=B2=80=EC=83=89<span>&nbsp;</span>API<span>&nbsp;</span>=EC=88=98=EC=
+=9A=A9<span>&nbsp;</span>=EA=B0=80=EB=8A=A5=ED=95=9C<span>&nbsp;</span>=ED=
+=8A=B8=EB=9E=98=ED=94=BD=EC=9D=B4<span>&nbsp;</span>=EC=96=B4=EB=8A=90<span=
+>&nbsp;</span>=EC=A0=95=EB=8F=84=EC=9D=B8=EC=A7=80<span>&nbsp;</span>=ED=99=
+=95=EC=9D=B8<span>&nbsp;</span>=EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=
+=88=EB=8B=A4.</p>
+<p>(2021-12-23 23:01 3=EA=B1=B4, 23:14 1=EA=B1=B4)</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p>[<a href=3D"https://pri-api.srch.skplanetx.co=
+m/api/vcoloring/1.0/search/all?q=3D%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%=
+8A%A4&amp;call_id=3D341625275&amp;client_code=3DAPP&amp;client_version=3D1.=
+5.2&amp;s=3D0&amp;n=3D20&amp;do_spell_checker=3Dtrue&amp;sort=3DcreateDate"=
+ class=3D"external-link" rel=3D"nofollow">https://pri-api.srch.skplanetx.co=
+m/api/vcoloring/1.0/search/all?q=3D%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%=
+8A%A4&amp;call_id=3D341625275&amp;client_code=3DAPP&amp;client_version=3D1.=
+5.2&amp;s=3D0&amp;n=3D20&amp;do_spell_checker=3Dtrue&amp;sort=3DcreateDate<=
+/a>] [DxpApi#search(String,String,String,String,Integer,Integer,Boolean,Str=
+ing,String)]: [&lt;html&gt;<br>
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;<br>
+&lt;hr&gt;&lt;center&gt;nginx&lt;/center&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+]</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h1 id=3D"id-202112API=EC=84=9C=EB=B2=84OOMKilled-=EC=9B=90=EC=9D=B8=EB=B6=
+=84=EC=84=9D">=EC=9B=90=EC=9D=B8 =EB=B6=84=EC=84=9D</h1>
+<ul>
+<li>pod restart =EC=A6=9D=EC=83=81. 10=EC=9D=BC =EB=8F=99=EC=95=88 =EA=B0=
+=81 pod 4=ED=9A=8C restart=EB=90=A8.</li>
+<li>pod memory =EB=B6=80=EC=A1=B1=EC=9C=BC=EB=A1=9C OOMKilled =EB=B0=9C=EC=
+=83=9D.</li>
+</ul>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">$ kubec=
+tl get pods -n server
+NAME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;READY &nbsp; STATUS &nbsp; &nbsp;RESTARTS=
+ &nbsp; AGE
+prod-search-api-97ddf8498-drkjm &nbsp; 2/2 &nbsp; &nbsp; Running &nbsp; 4 &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10d
+prod-search-api-97ddf8498-fl8w8 &nbsp; 2/2 &nbsp; &nbsp; Running &nbsp; 4 &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10d
+prod-search-api-97ddf8498-v87p8 &nbsp; 2/2 &nbsp; &nbsp; Running &nbsp; 4 &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10d
+
+$ kubectl describe pods -n server prod-search-api-97ddf8498-drkjm
+Name: &nbsp; &nbsp; &nbsp; &nbsp; prod-search-api-97ddf8498-drkjm
+Namespace: &nbsp; &nbsp;server
+Priority: &nbsp; &nbsp; 0
+Node: &nbsp; &nbsp; &nbsp; &nbsp; ip-10-181-15-38.ap-northeast-2.compute.in=
+ternal/10.181.15.38
+Start Time: &nbsp; Thu, 16 Dec 2021 15:03:04 +0900
+Labels: &nbsp; &nbsp; &nbsp; app.kubernetes.io/name=3Dsearch-api
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; app.kubernetes.io/part-of=
+=3Dsearch-api
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pod-template-hash=3D97ddf8=
+498
+Annotations: &nbsp;kubernetes.io/psp: eks.privileged
+Status: &nbsp; &nbsp; &nbsp; Running
+IP: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10.181.15.61
+IPs:
+&nbsp; IP: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10.181.15.61
+Controlled By: &nbsp;ReplicaSet/prod-search-api-97ddf8498
+Containers:
+&nbsp; app:
+&nbsp; &nbsp; Container ID: &nbsp; docker://08057d9919ba093fdf8487d28b97002=
+524b21330faca365057b381ef5de36a05
+&nbsp; &nbsp; Image: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;456350226269.dkr.ecr=
+.ap-northeast-2.amazonaws.com/prod-search-api/app:202112160552-fece4a9e
+&nbsp; &nbsp; Image ID: &nbsp; &nbsp; &nbsp; docker-pullable://456350226269=
+.dkr.ecr.ap-northeast-2.amazonaws.com/prod-search-api/app@sha256:0803a4fb29=
+34105237ac2cc8c60f0e94f4865ca11d996addfb2ab02b78cf851f
+&nbsp; &nbsp; Port: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8080/TCP
+&nbsp; &nbsp; Host Port: &nbsp; &nbsp; &nbsp;0/TCP
+&nbsp; &nbsp; State: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Running
+&nbsp; &nbsp; &nbsp; Started: &nbsp; &nbsp; &nbsp;Sun, 26 Dec 2021 19:18:47=
+ +0900
+&nbsp; &nbsp; Last State: &nbsp; &nbsp; Terminated
+&nbsp; &nbsp; &nbsp; Reason: &nbsp; &nbsp; &nbsp; OOMKilled
+&nbsp; &nbsp; &nbsp; Exit Code: &nbsp; &nbsp;137
+&nbsp; &nbsp; &nbsp; Started: &nbsp; &nbsp; &nbsp;Sat, 25 Dec 2021 12:14:17=
+ +0900
+&nbsp; &nbsp; &nbsp; Finished: &nbsp; &nbsp; Sun, 26 Dec 2021 19:18:46 +090=
+0
+&nbsp; &nbsp; Ready: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;True
+&nbsp; &nbsp; Restart Count: &nbsp;4
+&nbsp; &nbsp; Limits:
+&nbsp; &nbsp; &nbsp; cpu: &nbsp; &nbsp; 1
+&nbsp; &nbsp; &nbsp; memory: &nbsp;1280Mi
+&nbsp; &nbsp; Requests:
+&nbsp; &nbsp; &nbsp; cpu: &nbsp; &nbsp; &nbsp;500m
+&nbsp; &nbsp; &nbsp; memory: &nbsp; 500Mi
+&nbsp; &nbsp; Liveness: &nbsp; http-get&nbsp;http://:8080/api/actuator/info=
+&nbsp;delay=3D30s timeout=3D1s period=3D10s #success=3D1 #failure=3D3
+&nbsp; &nbsp; Readiness: &nbsp;http-get&nbsp;http://:8080/api/actuator/heal=
+th&nbsp;delay=3D30s timeout=3D1s period=3D10s #success=3D1 #failure=3D3
+&nbsp; &nbsp; Environment:
+&nbsp; &nbsp; &nbsp; JAVA_TOOL_OPTIONS: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;-Xms512m -Xmx1024m
+&nbsp; &nbsp; &nbsp; SPRING_PROFILES_ACTIVE: &nbsp; &nbsp; &nbsp; productio=
+n
+&nbsp; &nbsp; &nbsp; TZ: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Asia/Seoul
+&nbsp; &nbsp; &nbsp; AWS_ROLE_ARN: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; arn:aws:iam::456350226269:role/eksctl-prod-srch-eks-addon-i=
+amserviceaccount-Role1-1ICODQIXAOICW
+&nbsp; &nbsp; &nbsp; AWS_WEB_IDENTITY_TOKEN_FILE: &nbsp;/var/run/secrets/ek=
+s.amazonaws.com/serviceaccount/token
+&nbsp; &nbsp; Mounts:
+&nbsp; &nbsp; &nbsp; /etc/localtime from tz-seoul (rw)
+&nbsp; &nbsp; &nbsp; /var/run/secrets/eks.amazonaws.com/serviceaccount from=
+ aws-iam-token (ro)
+&nbsp; &nbsp; &nbsp; /var/run/secrets/kubernetes.io/serviceaccount from sea=
+rch-api-token-qswlt (ro)
+&nbsp; nginx:
+&nbsp; &nbsp; Container ID: &nbsp; docker://07b016ae02bf42a2a1357c7a43208dc=
+01cdc243ddb431cb95bcfb90e6a771f64
+&nbsp; &nbsp; Image: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;456350226269.dkr.ecr=
+.ap-northeast-2.amazonaws.com/prod-search-api/nginx:202112160552-fece4a9e
+&nbsp; &nbsp; Image ID: &nbsp; &nbsp; &nbsp; docker-pullable://456350226269=
+.dkr.ecr.ap-northeast-2.amazonaws.com/prod-search-api/nginx@sha256:92348f5e=
+b1407b5f254895a41d2b38b26aac985d7c6b57d6933dd900cbf9c0cb
+&nbsp; &nbsp; Port: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 80/TCP
+&nbsp; &nbsp; Host Port: &nbsp; &nbsp; &nbsp;0/TCP
+&nbsp; &nbsp; State: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Running
+&nbsp; &nbsp; &nbsp; Started: &nbsp; &nbsp; &nbsp;Thu, 16 Dec 2021 15:03:08=
+ +0900
+&nbsp; &nbsp; Ready: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;True
+&nbsp; &nbsp; Restart Count: &nbsp;0
+&nbsp; &nbsp; Limits:
+&nbsp; &nbsp; &nbsp; cpu: &nbsp; &nbsp; 500m
+&nbsp; &nbsp; &nbsp; memory: &nbsp;500Mi
+&nbsp; &nbsp; Requests:
+&nbsp; &nbsp; &nbsp; cpu: &nbsp; &nbsp; 250m
+&nbsp; &nbsp; &nbsp; memory: &nbsp;250Mi
+&nbsp; &nbsp; Environment:
+&nbsp; &nbsp; &nbsp; AWS_ROLE_ARN: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; arn:aws:iam::456350226269:role/eksctl-prod-srch-eks-addon-i=
+amserviceaccount-Role1-1ICODQIXAOICW
+&nbsp; &nbsp; &nbsp; AWS_WEB_IDENTITY_TOKEN_FILE: &nbsp;/var/run/secrets/ek=
+s.amazonaws.com/serviceaccount/token
+&nbsp; &nbsp; Mounts:
+&nbsp; &nbsp; &nbsp; /etc/localtime from tz-seoul (rw)
+&nbsp; &nbsp; &nbsp; /var/run/secrets/eks.amazonaws.com/serviceaccount from=
+ aws-iam-token (ro)
+&nbsp; &nbsp; &nbsp; /var/run/secrets/kubernetes.io/serviceaccount from sea=
+rch-api-token-qswlt (ro)
+Conditions:
+&nbsp; Type &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Status
+&nbsp; Initialized &nbsp; &nbsp; &nbsp; True&nbsp;
+&nbsp; Ready &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; True&nbsp;
+&nbsp; ContainersReady &nbsp; True&nbsp;
+&nbsp; PodScheduled &nbsp; &nbsp; &nbsp;True&nbsp;
+Volumes:
+&nbsp; aws-iam-token:
+&nbsp; &nbsp; Type: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp;Projected (a volume that contains injected data from multiple=
+ sources)
+&nbsp; &nbsp; TokenExpirationSeconds: &nbsp;86400
+&nbsp; tz-seoul:
+&nbsp; &nbsp; Type: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HostPath (bare host d=
+irectory volume)
+&nbsp; &nbsp; Path: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/usr/share/zoneinfo/A=
+sia/Seoul
+&nbsp; &nbsp; HostPathType: &nbsp;
+&nbsp; search-api-token-qswlt:
+&nbsp; &nbsp; Type: &nbsp; &nbsp; &nbsp; &nbsp;Secret (a volume populated b=
+y a Secret)
+&nbsp; &nbsp; SecretName: &nbsp;search-api-token-qswlt
+&nbsp; &nbsp; Optional: &nbsp; &nbsp;false
+QoS Class: &nbsp; &nbsp; &nbsp; Burstable
+Node-Selectors: &nbsp;role=3Dng-server
+Tolerations: &nbsp; &nbsp; node.kubernetes.io/not-ready:NoExecute op=3DExis=
+ts for 300s
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;node.kubernet=
+es.io/unreachable:NoExecute op=3DExists for 300s
+Events: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;none&gt;</pre>
+</div>
+</div>
+<p><br></p>
+<h2 class=3D"auto-cursor-target" id=3D"id-202112API=EC=84=9C=EB=B2=84OOMKil=
+led-yaml">yaml</h2>
+<ul>
+<li>-Xms512m -Xmx1024m - m=EC=9D=80 Mi, g=EB=8A=94 Gi =EC=9D=98=EB=AF=B8</l=
+i>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">apiVers=
+ion : apps/v1          =20
+kind : Deployment             =20
+metadata :
+  name : search-api
+spec:
+  replicas: 3                 =20
+  template:                   =20
+    metadata:                 =20
+      labels:
+        app.kubernetes.io/name: search-api
+        app.kubernetes.io/part-of: search-api
+    spec:
+      containers:
+      - name: app
+        image: search-api/app
+        imagePullPolicy: IfNotPresent  =20
+        env:
+        - name: JAVA_TOOL_OPTIONS      =20
+          value: "-Xms512m -Xmx1024m"   =20
+        - name: SPRING_PROFILES_ACTIVE =20
+          value: production
+        resources:
+          limits:
+            memory: "1.25Gi"
+            cpu: "1"
+          requests:
+            memory: "500Mi"
+            cpu: "500m"
+      - name: nginx
+        image: search-api/nginx
+        imagePullPolicy: IfNotPresent  =20
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "500m"
+          requests:
+            memory: "250Mi"
+            cpu: "250m"
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+status: {}</pre>
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"id-202112API=EC=84=9C=EB=B2=84OOMKilled-=EC=A1=B0=EC=B9=98=EB=82=
+=B4=EC=9A=A9">=EC=A1=B0=EC=B9=98 =EB=82=B4=EC=9A=A9</h1>
+<ul>
+<li>API&nbsp;server memory limit=EC=9D=84 2=EB=B0=B0=EB=A1=9C =EC=A6=9D=EA=
+=B0=80 (12/27=EC=9D=BC 14=EC=8B=9C =EB=B0=B0=ED=8F=AC)
+<ul>
+<li>requests: 500Mi -&gt; 1Gi</li>
+<li>limits: 1.25Gi -&gt; 2.25Gi</li>
+<li>JVM heap memory:&nbsp;-Xms512m -Xmx1024m -&gt;&nbsp;-Xms1024m -Xmx2048m=
+</li>
+</ul></li>
+</ul>
+<h1 id=3D"id-202112API=EC=84=9C=EB=B2=84OOMKilled-=EC=B6=94=EA=B0=80=EB=82=
+=B4=EC=9A=A9">=EC=B6=94=EA=B0=80 =EB=82=B4=EC=9A=A9</h1>
+<ul>
+<li>-Xmx2g,&nbsp;limits: 2Gi =EB=A1=9C&nbsp;=EB=8F=99=EC=9D=BC=ED=95=98=EA=
+=B2=8C =EC=84=A4=EC=A0=95?
+<ul>
+<li>OOMKilled =EB=B0=9C=EC=83=9D =EC=98=88=EC=83=81</li>
+</ul></li>
+<li>-Xmx1500m, limits: 2Gi =EB=A1=9C =EC=84=A4=EB=AA=85=ED=95=98=EB=A9=B4?
+<ul>
+<li>Liveness check fail =EB=B0=9C=EC=83=9D =EC=98=88=EC=83=81. Delay=EA=B0=
+=80 =EC=9E=88=EC=9C=BC=EB=AF=80=EB=A1=9C OOMKilled =EB=B0=9C=EC=83=9D=EC=8B=
+=9C=ED=82=A4=EB=8F=84=EB=A1=9D =ED=95=A8.&nbsp;</li>
+</ul></li>
+<li>Container memory =ED=99=95=EC=9D=B8
+<ul>
+<li>587Mi =3D 587*1024 =3D 601088 =3D 601m</li>
+</ul></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">$ k top=
+ pod -n server --containers
+W1227 14:43:26.365381   48482 top_pod.go:140] Using json format to get metr=
+ics. Next release will switch to protocol-buffers, switch early by passing =
+--use-protocol-buffers flag
+POD                                NAME    CPU(cores)   MEMORY(bytes)  =20
+prod-search-api-5d56844887-75bv2   app     18m          587Mi          =20
+prod-search-api-5d56844887-75bv2   nginx   1m           2Mi            =20
+prod-search-api-5d56844887-qh9ps   app     9m           585Mi          =20
+prod-search-api-5d56844887-qh9ps   nginx   1m           2Mi            =20
+prod-search-api-5d56844887-wms5z   app     9m           588Mi          =20
+prod-search-api-5d56844887-wms5z   nginx   1m           2Mi            =20
+
+$ k -n server exec -it prod-search-api-5d56844887-75bv2 /bin/sh
+kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future =
+version. Use kubectl exec [POD] -- [COMMAND] instead.
+Defaulted container "app" out of: app, nginx
+/ $ top (=EB=AA=85=EB=A0=B9=EC=96=B4 =EC=88=98=ED=96=89=ED=9B=84 S =EB=88=
+=8C=EB=9F=AC =EB=A9=94=EB=AA=A8=EB=A6=AC =ED=91=9C=EC=8B=9C)
+Mem total:7864968 anon:1709368 map:490076 free:1990808
+ slab:1109356 buf:2704 cache:2897448 dirty:260 write:1324
+Swap total:0 free:0
+  PID   VSZ^VSZRW^  RSS (SHR) DIRTY (SHR) STACK COMMAND
+    1 3623m 1355m  620m 19144  601m     0   132 java -cp app:app/lib/* com.=
+skplanetx.srch.api.SearchApiApplication
+  151  1600   228  1116   848   188     0   132 /bin/sh
+  157  1532   160   936   848    60     0   132 top</pre>
+</div>
+</div>
+<p><br></p>
+<ul>
+<li>-Xms1024m,&nbsp;requests=3D1Gi&nbsp;=EB=A1=9C =EC=84=A4=EC=A0=95 =EC=A0=
+=81=EC=9A=A9=ED=95=98=EC=98=80=EC=9C=BC=EB=82=98 =EC=8B=A4=EC=A0=9C=EB=A1=
+=9C =EC=9C=84=EC=99=80 =EA=B0=99=EC=9D=B4 601m =EC=82=AC=EC=9A=A9=EC=A4=91=
+=EC=9C=BC=EB=A1=9C =ED=91=9C=EC=8B=9C=EB=90=A8. =EC=B4=88=EA=B8=B0 heap mem=
+ory=3D1024m=EC=9C=BC=EB=A1=9C =EC=84=A4=EC=A0=95 =EC=95=88=EB=90=9C =EC=9D=
+=B4=EC=9C=A0?
+<ul>
+<li>requests=3D1.2Gi =EB=A1=9C 1024m =EB=B3=B4=EB=8B=A4 =ED=81=AC=EA=B2=8C =
+=EC=84=A4=EC=A0=95=ED=95=B4=EC=95=BC =ED=95=98=EB=82=98?</li>
+</ul></li>
+</ul>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_29669_1580634896.1790845020873--
